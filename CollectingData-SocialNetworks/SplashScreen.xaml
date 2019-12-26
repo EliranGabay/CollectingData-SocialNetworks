@@ -1,13 +1,13 @@
-﻿<Window x:Class="CollectingData_SocialNetworks.MainWindow"
+﻿<Window x:Class="CollectingData_SocialNetworks.SplashScreen"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CollectingData_SocialNetworks"
-        WindowStartupLocation="CenterScreen"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        ResizeMode="NoResize" WindowStyle="None" Background="SlateGray" WindowStartupLocation="CenterScreen"
+        Title="SplashScreen" Height="550" Width="1150">
+    <StackPanel VerticalAlignment="Center" >
+        <Image Source="/Icons/logo app.png"></Image>
+    </StackPanel>
 </Window>
