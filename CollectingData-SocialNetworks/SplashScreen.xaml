@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CollectingData_SocialNetworks"
         mc:Ignorable="d"
-        ResizeMode="NoResize" WindowStyle="None" Background="SlateGray" WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize" WindowStyle="None" Background="Transparent" AllowsTransparency="True" WindowStartupLocation="CenterScreen"
         Title="SplashScreen" Height="550" Width="1150">
     <StackPanel VerticalAlignment="Center" >
-        <Image Source="/Icons/logo app.png"></Image>
+        <Image Source="/Icons/logoS.png"></Image>
     </StackPanel>
 </Window>
