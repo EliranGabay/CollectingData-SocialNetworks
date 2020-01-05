@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace CollectingData_SocialNetworks
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for FaceSearch.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class FaceSearch : UserControl
     {
-        public MainWindow()
+        public FaceSearch()
         {
             InitializeComponent();
         }

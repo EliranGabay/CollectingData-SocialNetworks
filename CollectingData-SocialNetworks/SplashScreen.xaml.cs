@@ -25,13 +25,13 @@ namespace CollectingData_SocialNetworks
         {
             InitializeComponent();
             dT.Tick += new EventHandler(dt_Tick);
-            dT.Interval = new TimeSpan(0, 0, 5);
+            dT.Interval = new TimeSpan(0, 0, 1);
             dT.Start();
         }
 
         private void dt_Tick(object sender, EventArgs e)
         {
-            MainWindow main = new MainWindow();
+            Home main = new Home();
             main.Show();
             dT.Stop();
             this.Close();
