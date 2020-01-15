@@ -23,6 +23,13 @@ namespace CollectingData_SocialNetworks
         {
             InitializeComponent();
         }
+        private void Window_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                this.DragMove();
+            }
+        }
         private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
         {
             ButtonCloseMenu.Visibility = Visibility.Visible;
@@ -56,6 +63,11 @@ namespace CollectingData_SocialNetworks
         {
             WinMain.Content = null;
         }
-        
+        private void Help_Click(object sender, RoutedEventArgs e)
+        {
+            Help H = new Help();
+            WinMain.Content = null;
+            WinMain.Content = H;
+        }
     }
 }
