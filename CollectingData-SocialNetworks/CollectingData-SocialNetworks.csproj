@@ -63,8 +63,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="FaceSearch.xaml.cs">
-      <DependentUpon>FaceSearch.xaml</DependentUpon>
+    <Compile Include="FaceBookSearch.xaml.cs">
+      <DependentUpon>FaceBookSearch.xaml</DependentUpon>
     </Compile>
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
@@ -75,7 +75,7 @@
     <Compile Include="TwitterSearch.xaml.cs">
       <DependentUpon>TwitterSearch.xaml</DependentUpon>
     </Compile>
-    <Page Include="FaceSearch.xaml">
+    <Page Include="FaceBookSearch.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

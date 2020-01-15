@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace CollectingData_SocialNetworks
 {
     /// <summary>
-    /// Interaction logic for twitterScrarch.xaml
+    /// Interaction logic for FaceBookSearch.xaml
     /// </summary>
-    public partial class TwitterSearch : Page
+    public partial class FaceBookSearch : Page
     {
-        public TwitterSearch()
+        public FaceBookSearch()
         {
             InitializeComponent();
         }

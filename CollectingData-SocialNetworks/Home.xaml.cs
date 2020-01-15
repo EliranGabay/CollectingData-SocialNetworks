@@ -42,15 +42,20 @@ namespace CollectingData_SocialNetworks
 
         private void FaceS_Click(object sender, RoutedEventArgs e)
         {
-            FaceSearch F = new FaceSearch();
-            WinMain.Children.Clear();
-            WinMain.Children.Add(F);
+            FaceBookSearch F = new FaceBookSearch();
+            WinMain.Content = null;
+            WinMain.Content=F;
         }
         private void TwitterS_Click(object sender, RoutedEventArgs e)
         {
             TwitterSearch T = new TwitterSearch();
-            WinMain.Children.Clear();
-            WinMain.Children.Add(T);
+            WinMain.Content = null;
+            WinMain.Content = T;
         }
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+            WinMain.Content = null;
+        }
+        
     }
 }
