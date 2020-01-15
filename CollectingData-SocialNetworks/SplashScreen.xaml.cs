@@ -25,7 +25,7 @@ namespace CollectingData_SocialNetworks
         {
             InitializeComponent();
             dT.Tick += new EventHandler(dt_Tick);
-            dT.Interval = new TimeSpan(0, 0, 1);
+            dT.Interval = new TimeSpan(0, 0, 3);
             dT.Start();
         }
 

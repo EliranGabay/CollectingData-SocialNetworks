@@ -35,6 +35,12 @@ namespace CollectingData_SocialNetworks
             SelectAll(false);
         }
 
+        private void CheckBox_checkNotAll(object sender, RoutedEventArgs e)
+        {
+            if (all.IsChecked == true)
+                all.IsChecked = false;
+        }
+
         private void SelectAll(bool select)
         {
             if (select)
