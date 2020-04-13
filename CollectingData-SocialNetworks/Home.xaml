@@ -81,13 +81,13 @@
                     </ListViewItem>
                     <ListViewItem x:Name="ItemCreate" Height="60" MouseUp="FaceS_Click">
                         <StackPanel Orientation="Horizontal" MouseUp="FaceS_Click">
-                            <materialDesign:PackIcon Kind="FacebookBox" Height="25" Width="25" Margin="10" Foreground="#FFFAFAFA"/>
+                            <materialDesign:PackIcon Kind="Facebook" Height="25" Width="25" Margin="10" Foreground="#FFFAFAFA"/>
                             <TextBlock Text="Facebook Search" VerticalAlignment="Center" Margin="20 10" Foreground="White"/>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem Height="60" MouseUp="TwitterS_Click">
                         <StackPanel Orientation="Horizontal" MouseUp="TwitterS_Click">
-                            <materialDesign:PackIcon Kind="TwitterBox" Height="25" Width="25" Margin="10" Foreground="#FFFAFAFA"/>
+                            <materialDesign:PackIcon Kind="Twitter" Height="25" Width="25" Margin="10" Foreground="#FFFAFAFA"/>
                             <TextBlock Text="Twitter Search" VerticalAlignment="Center"  Margin="20 10" Foreground="#FFFAFAFA"/>
                         </StackPanel>
                     </ListViewItem>

@@ -1,5 +1,8 @@
-﻿using System;
+﻿using ScriptInterface;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -55,6 +58,12 @@ namespace CollectingData_SocialNetworks
                 posts.IsChecked = false;
                 friends.IsChecked = false;
             }
+        }
+
+        private void SearchF(object sender, RoutedEventArgs e)//run exe facbook scraper from ScriptInterface class
+        {
+            ScriptInterface.Program.Run();
+
         }
     }
 }
