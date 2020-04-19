@@ -74,7 +74,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ScriptRun.cs" />
     <Compile Include="FaceBookSearch.xaml.cs">
       <DependentUpon>FaceBookSearch.xaml</DependentUpon>
     </Compile>
