@@ -11,12 +11,18 @@ namespace ScriptInterface
 {
     class Program
     {
-        public static void Run()//run exe facbook scraper
+        public static void RunPy()
         {
-            Process p = new Process();
-            p.StartInfo = new ProcessStartInfo(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName+@"\Scrapers\Facebook\scraper.exe");
-            p.Start();
-            p.WaitForExit();
+            ProcessStartInfo pythonInfo = new ProcessStartInfo();
+            Process python;
+            pythonInfo.FileName = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\FacebookS\scraper.py";
+            //pythonInfo.Arguments = string.Format("{0} {1}", cmd, args);
+            pythonInfo.CreateNoWindow = false;
+            pythonInfo.UseShellExecute = true;
+
+            python = Process.Start(pythonInfo);
+            python.WaitForExit();
+            python.Close();
         }
     }
 }

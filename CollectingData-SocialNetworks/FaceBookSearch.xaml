@@ -27,7 +27,7 @@
               Kind="Magnify"
               Opacity=".56"/>
                 </Button>
-                <TextBox
+                <TextBox Name="search_bar"
             Grid.Column="1"
             Margin="8,4,0,3.8"
             materialDesign:HintAssist.Hint="Bibi Netanyahu"

@@ -10,6 +10,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -62,8 +63,27 @@ namespace CollectingData_SocialNetworks
 
         private void SearchF(object sender, RoutedEventArgs e)//run exe facbook scraper from ScriptInterface class
         {
-            ScriptInterface.Program.Run();
+            string name = search_bar.Text;
+            if (!name.Equals("") & CheckO())
+            {
+                ScriptInterface.Program.RunPy();
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("No Name entered or No Option selected", "Error Search",
+                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
 
+        private bool CheckO()
+        {
+            int flag = 0;
+            if (pictuers.IsChecked == true) flag = 1;
+            if (posts.IsChecked == true) flag = 1;
+            if (friends.IsChecked == true) flag = 1;
+            if (all.IsChecked == true) flag = 1;
+            if (flag != 0) return true;
+            else return false;
         }
     }
 }
