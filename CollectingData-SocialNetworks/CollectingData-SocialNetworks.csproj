@@ -161,6 +161,11 @@
     <Content Include="Scrapers\SearchApi\facebook_snooper\__init__.py" />
     <Content Include="Scrapers\SearchApi\facebook_snooper\__version__.py" />
     <Content Include="Scrapers\SearchApi\find_profile_image_Fid.py" />
+    <Resource Include="Scrapers\SearchApi\imagesP\100001363345663.jpg" />
+    <Resource Include="Scrapers\SearchApi\imagesP\100001620795397.jpg" />
+    <Resource Include="Scrapers\SearchApi\imagesP\100008484796371.jpg" />
+    <Resource Include="Scrapers\SearchApi\imagesP\1484007662.jpg" />
+    <Resource Include="Scrapers\SearchApi\input.txt" />
     <Content Include="Scrapers\SearchApi\Runing.py" />
     <Resource Include="Scrapers\FacebookS\input.txt" />
     <Content Include="Scrapers\FacebookS\Run.py" />

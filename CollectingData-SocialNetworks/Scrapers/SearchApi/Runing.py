@@ -16,7 +16,7 @@ if os.path.isdir(file_path+'/pages'):
     shutil.rmtree(file_path+'/pages')
 if os.path.isdir(file_path+'/imagesP'):
     shutil.rmtree(file_path+'/imagesP')
-
+print("Run New Search.......")
 
 def GoogleSerch(Name):
     nameA="Name"+"facebook"
@@ -64,6 +64,7 @@ for i in UrlGoogle:
 
 convert_url_to_text_file()
 find_idF_in_text()
+
 
 
 
