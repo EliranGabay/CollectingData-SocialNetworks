@@ -11,12 +11,25 @@ namespace ScriptInterface
 {
     class Program
     {
-        public static void RunPy()
+        public static void RunPy(string pathPy,string name)// run file py with argv
         {
             ProcessStartInfo pythonInfo = new ProcessStartInfo();
             Process python;
-            pythonInfo.FileName = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\FacebookS\scraper.py";
-            //pythonInfo.Arguments = string.Format("{0} {1}", cmd, args);//
+            pythonInfo.FileName = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + pathPy;
+            pythonInfo.Arguments = name;
+            pythonInfo.CreateNoWindow = false;
+            pythonInfo.UseShellExecute = true;
+
+            python = Process.Start(pythonInfo);
+            python.WaitForExit();
+            python.Close();
+        }
+
+        public static void RunPy(string pathPy)// run file py 
+        {
+            ProcessStartInfo pythonInfo = new ProcessStartInfo();
+            Process python;
+            pythonInfo.FileName = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + pathPy;
             pythonInfo.CreateNoWindow = false;
             pythonInfo.UseShellExecute = true;
 

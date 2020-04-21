@@ -14,9 +14,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
-#----------------Global------------------
-file_path=os.path.dirname(__file__)
-#----------------------------------------
+# ----------------Global------------------
+file_path = os.path.dirname(__file__)
+# ----------------------------------------
 
 
 def get_facebook_images_url(img_links):

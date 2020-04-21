@@ -152,15 +152,23 @@
     <Resource Include="Icons\logoS.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scrapers\SearchApi\facebook_snooper\core\exceptions.py" />
+    <Content Include="Scrapers\SearchApi\facebook_snooper\core\session.py" />
+    <Content Include="Scrapers\SearchApi\facebook_snooper\core\wrapper.py" />
+    <Content Include="Scrapers\SearchApi\facebook_snooper\core\_parser.py" />
+    <Content Include="Scrapers\SearchApi\facebook_snooper\core\__init__.py" />
+    <Content Include="Scrapers\SearchApi\facebook_snooper\dump.py" />
+    <Content Include="Scrapers\SearchApi\facebook_snooper\__init__.py" />
+    <Content Include="Scrapers\SearchApi\facebook_snooper\__version__.py" />
+    <Content Include="Scrapers\SearchApi\find_profile_image_Fid.py" />
+    <Content Include="Scrapers\SearchApi\Runing.py" />
     <Resource Include="Scrapers\FacebookS\input.txt" />
     <Content Include="Scrapers\FacebookS\Run.py" />
     <Content Include="Scrapers\FacebookS\scraper.py" />
     <Content Include="Scrapers\FacebookS\utils.py" />
     <Content Include="Scrapers\FacebookS\__main__.py" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Scrapers\SearchApi\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.3.1.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.3.1.0\build\MaterialDesignThemes.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

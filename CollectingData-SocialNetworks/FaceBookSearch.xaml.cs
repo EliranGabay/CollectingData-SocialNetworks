@@ -66,7 +66,7 @@ namespace CollectingData_SocialNetworks
             string name = search_bar.Text;
             if (!name.Equals("") & CheckO())
             {
-                ScriptInterface.Program.RunPy();
+                ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\Runing.py",name);
             }
             else
             {
