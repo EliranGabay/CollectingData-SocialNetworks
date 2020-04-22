@@ -68,6 +68,8 @@ namespace CollectingData_SocialNetworks
             if (!name.Equals("") & CheckO())
             {
                 ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\Runing.py",name);
+                var selectP = new SelectProfile();
+                selectP.Show();
             }
             else
             {
