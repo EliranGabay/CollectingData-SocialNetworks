@@ -24,6 +24,7 @@ namespace CollectingData_SocialNetworks
     /// </summary>
     public partial class FaceBookSearch : Page
     {
+
         public FaceBookSearch()
         {
             InitializeComponent();
