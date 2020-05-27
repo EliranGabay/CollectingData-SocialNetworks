@@ -68,8 +68,19 @@ namespace CollectingData_SocialNetworks
             if (!name.Equals("") & CheckO())
             {
                 ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\Runing.py",name);
-                var selectP = new SelectProfile();
-                selectP.Show();
+                if (Directory.Exists(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP"))
+                {
+                    var selectP = new SelectProfile();
+                    selectP.Show();
+                }
+                else {
+                    System.Windows.Forms.MessageBox.Show("No profiles found!", "Error Search",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                }
+
+                this.NavigationService.Refresh();
+
             }
             else
             {

@@ -27,15 +27,17 @@ namespace CollectingData_SocialNetworks
             InitializeComponent();
             int SumOfResult = 0;
             string[] lineName = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\pages").Select(System.IO.Path.GetFileName).ToArray();
-            string[] lineJPG = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP");
-            SumOfResult = lineName.Length;
+
+            if (Directory.Exists(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP")) { 
+                string[] lineJPG = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP");
+            SumOfResult = lineJPG.Length;
 
             for (int i = 0; i < SumOfResult; i++)
             {
                 ImageList.Add(new Picture() { Name = lineName[i], Image = lineJPG[i] });
             }
             ListViewImag.ItemsSource = ImageList;
-
+        }
         }
 
 
