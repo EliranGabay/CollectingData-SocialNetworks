@@ -37,7 +37,7 @@ UrlGoogle=GoogleSerch(NameRecev)
 UrlFacebook = FacebookSerch(NameRecev)
 UrlGoogle.extend(UrlFacebook)
 print(UrlGoogle)
-words = ['public', 'notes', 'louder', 'groups', 'posts','pages','people','help']
+words = ['public', 'notes', 'louder', 'groups', 'posts','pages','people','help','about','photos']
 
 open(file_path+'/input.txt','w+')
 
