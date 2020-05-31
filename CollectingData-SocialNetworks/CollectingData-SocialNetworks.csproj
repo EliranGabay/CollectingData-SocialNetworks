@@ -172,7 +172,6 @@
     <Resource Include="Scrapers\SearchApi\input.txt" />
     <Content Include="Scrapers\SearchApi\Runing.py" />
     <Resource Include="Scrapers\FacebookS\input.txt" />
-    <Content Include="Scrapers\FacebookS\Run.py" />
     <Content Include="Scrapers\FacebookS\scraper.py" />
     <Content Include="Scrapers\FacebookS\utils.py" />
     <Content Include="Scrapers\FacebookS\__main__.py" />
