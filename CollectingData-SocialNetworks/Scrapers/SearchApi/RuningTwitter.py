@@ -43,6 +43,6 @@ for i in UrlGoogle:
     if "twitter.com" in i:
         print(i)
         list_urls.append(i)
-
+input("1")
 #get_users_in_lists(list_urls)
 #print(list_urls)
