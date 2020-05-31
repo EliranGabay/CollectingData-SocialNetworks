@@ -11,6 +11,11 @@
         <TextBlock Text="Facebook" FontSize="72" FontWeight="Bold" HorizontalAlignment="Center" Foreground="#FFFAFAFA" Margin="160,81,160,268.2" />
         <StackPanel>
             <Grid Background="White" Width="400" HorizontalAlignment="Center" Margin="160,185,160,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="11*"/>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="16*"/>
+                </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition
               Width="Auto" />
@@ -22,19 +27,19 @@
               Width="Auto" />
                 </Grid.ColumnDefinitions>
                 <Button Click="SearchF"
-            Style="{DynamicResource MaterialDesignToolButton}" Height="Auto" Margin="0,0,0,-0.2">
+            Style="{DynamicResource MaterialDesignToolButton}" Height="Auto" Margin="0,0,0,0.667" Grid.RowSpan="3">
                     <materialDesign:PackIcon
               Kind="Magnify"
               Opacity=".56"/>
                 </Button>
                 <TextBox Name="search_bar"
             Grid.Column="1"
-            Margin="8,4,0,3.8"
-            materialDesign:HintAssist.Hint="Bibi Netanyahu"
+            Margin="8,4,0,4.667"
+            materialDesign:HintAssist.Hint=""
             materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
             BorderThickness="0"
             MinWidth="200"
-            VerticalAlignment="Center" Grid.ColumnSpan="3" Height="24" Background="Transparent" />
+            VerticalAlignment="Center" Height="24" Background="Transparent" Grid.RowSpan="3" />
             </Grid>
             <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,200,0">
                 <CheckBox

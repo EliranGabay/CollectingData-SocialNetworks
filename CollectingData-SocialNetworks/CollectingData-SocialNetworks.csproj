@@ -170,6 +170,7 @@
     <Content Include="Scrapers\SearchApi\facebook_snooper\__version__.py" />
     <Content Include="Scrapers\SearchApi\find_profile_image_Fid.py" />
     <Resource Include="Scrapers\SearchApi\input.txt" />
+    <Content Include="Scrapers\SearchApi\RuningTwitter.py" />
     <Content Include="Scrapers\SearchApi\Runing.py" />
     <Resource Include="Scrapers\FacebookS\input.txt" />
     <Content Include="Scrapers\FacebookS\Run.py" />

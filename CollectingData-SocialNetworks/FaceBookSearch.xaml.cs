@@ -79,7 +79,6 @@ namespace CollectingData_SocialNetworks
 
                 }
 
-                this.NavigationService.Refresh();
 
             }
             else

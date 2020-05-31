@@ -19,16 +19,15 @@
                     <ColumnDefinition
               Width="Auto" />
                 </Grid.ColumnDefinitions>
-                <Button
-            Style="{DynamicResource MaterialDesignToolButton}" Height="Auto" Margin="0,0,0,-0.2">
+                <Button Click="SearchF"
+            Style="{DynamicResource MaterialDesignToolButton}" Height="32" Margin="0,0,0,0.333" VerticalAlignment="Bottom">
                     <materialDesign:PackIcon
               Kind="Magnify"
               Opacity=".56" />
                 </Button>
-                <TextBox
+                <TextBox Name="search_bar"
             Grid.Column="1"
             Margin="8,4,0,3.8"
-            materialDesign:HintAssist.Hint="Bibi Netanyahu"
             materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
             BorderThickness="0"
             MinWidth="200"

@@ -19,7 +19,7 @@ if os.path.isdir(file_path+'/imagesP'):
 print("Run New Search.......")
 
 def GoogleSerch(Name):
-    nameA="Name"+"facebook"
+    nameA=Name+" facebook"
     LURL=[]
     for url in search(nameA , stop=20):
         LURL.append(url)
@@ -36,6 +36,7 @@ NameRecev=' '.join(sys.argv[1:]) #get name from argv(user)
 UrlGoogle=GoogleSerch(NameRecev)
 UrlFacebook = FacebookSerch(NameRecev)
 UrlGoogle.extend(UrlFacebook)
+print(UrlGoogle)
 words = ['public', 'notes', 'louder', 'groups', 'posts','pages','people','help']
 
 open(file_path+'/input.txt','w+')
@@ -47,8 +48,6 @@ for i in UrlGoogle:
         name = name[1]
         for word in words:
             if word in name.split("/"):
-                flag = 1
-            if len(i) > 65:
                 flag = 1
         if(flag == 0):
             with open(file_path+'/input.txt') as f:
