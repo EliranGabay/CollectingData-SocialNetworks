@@ -30,8 +30,8 @@ def find_idF_in_text_twitter():
                         idT += str(line[i])
                         i += 1
                     try:
-                        if not os.path.isdir(file_path+'/pagesTwitter'):
-                            os.mkdir(file_path+'/pagesTwitter')
+                        if not os.path.isdir(file_path+'/imagesTwitter'):
+                            os.mkdir(file_path+'/imagesTwitter')
                         profile = Profile(idT)
                         url_image=profile.profile_photo
                         urllib.request.urlretrieve(url_image, file_path+"/imagesTwitter/"+profile.username+'.jpg')

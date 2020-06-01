@@ -32,6 +32,7 @@ def FacebookSerch(Name):
     ID=dump_search(results, pretty=True)
     return ID
 
+#-------------------Main--------------------------------------
 NameRecev=' '.join(sys.argv[1:]) #get name from argv(user)
 UrlGoogle=GoogleSerch(NameRecev)
 UrlFacebook = FacebookSerch(NameRecev)
@@ -63,7 +64,7 @@ for i in UrlGoogle:
 
 convert_url_to_text_file()
 find_idF_in_text()
-
+#-------------------------------------------------------------
 
 
 
