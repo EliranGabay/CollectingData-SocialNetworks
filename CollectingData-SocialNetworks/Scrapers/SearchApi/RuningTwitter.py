@@ -19,12 +19,12 @@ print("Run New Search.......")
 words=['status','followers']
 
 def get_users_in_lists(list_urls):
-     users_list = []   
      f = open(file_path+"/inputTwitter.txt", "a")
      for tw_list in list_urls: 
         if not os.path.isdir(file_path+'/imagesTwitter'):
             os.mkdir(file_path+'/imagesTwitter')
         flag=0
+        check=0
         for word in words:
             if word in tw_list.split("/"):
                 flag = 1
@@ -32,11 +32,16 @@ def get_users_in_lists(list_urls):
             userName= tw_list.split('twitter.com/')[1]
             try :
                 profile = Profile(userName)
-                url_image=profile.profile_photo
-                urllib.request.urlretrieve(url_image, file_path+"/imagesTwitter/"+profile.username+'.jpg')
+                if NameRecev in profile.name :
+                    for file in os.listdir(file_path+'/imagesTwitter'):
+                        if profile.username in file:
+                            check=1
+                        if check==0:    
+                            url_image=profile.profile_photo
+                            urllib.request.urlretrieve(url_image, file_path+"/imagesTwitter/"+profile.username+'.jpg')
             except:
                 pass
-
+     f.close()
 
 def GoogleSerch(Name):
     nameA=Name+" Twitter"
@@ -51,7 +56,7 @@ UrlGoogle=GoogleSerch(NameRecev)
 
 list_urls = []
 for i in UrlGoogle:
-    if "twitter.com" in i:
+    if "twitter.com" in i: 
         list_urls.append(i)
 
 convert_url_to_text_file_twitter(str(NameRecev).split(" ")[0],str(NameRecev).split(" ")[1])
