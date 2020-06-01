@@ -4,27 +4,38 @@ from googlesearch import search
 import urllib.request
 import shutil
 import sys
+from twitter_scraper import Profile
+from find_profile_image_Fid import convert_url_to_text_file_twitter,find_idF_in_text_twitter
 
 # ----------------Global------------------
 file_path = os.path.dirname(__file__)
 # ----------------------------------------
-if os.path.isdir(file_path+'/pagesTwitter'):
-    shutil.rmtree(file_path+'/pagesTwitter')
+
 if os.path.isdir(file_path+'/imagesTwitter'):
     shutil.rmtree(file_path+'/imagesTwitter')
 print("Run New Search.......")
+words=['status','followers']
 
 def get_users_in_lists(list_urls):
      users_list = []   
+     f = open(file_path+"/inputTwitter.txt", "a")
      for tw_list in list_urls: 
-        user = tw_list.split('/')[1]
-        list_name = tw_list.split('/')[3]
-        list_members_output = api.list_members(user, list_name)
-        f = open(file_path+"/inputTwitter.txt", "a")
-        for user_id in list_members_output:
-            f.write('twitter.com/'+user)
-
-
+        print(tw_list)
+        if not os.path.isdir(file_path+'/imagesTwitter'):
+            os.mkdir(file_path+'/imagesTwitter')
+        flag=0
+        for word in words:
+            if word in tw_list.split("/"):
+                flag = 1
+        if(flag == 0):
+            userName= tw_list.split('twitter.com/')[1]
+            print(userName)
+            try :
+                profile = Profile(userName)
+                url_image=profile.profile_photo
+                urllib.request.urlretrieve(url_image, file_path+"/imagesTwitter/"+profile.username+'.jpg')
+            except:
+                pass
 
 
 def GoogleSerch(Name):
@@ -43,6 +54,10 @@ for i in UrlGoogle:
     if "twitter.com" in i:
         print(i)
         list_urls.append(i)
-input("1")
-#get_users_in_lists(list_urls)
-#print(list_urls)
+convert_url_to_text_file_twitter(str(NameRecev).split(" ")[0],str(NameRecev).split(" ")[1])
+find_idF_in_text_twitter()
+get_users_in_lists(list_urls)
+
+
+
+

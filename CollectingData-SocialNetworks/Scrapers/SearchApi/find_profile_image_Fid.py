@@ -1,10 +1,42 @@
 import urllib.request
 import os
+from twitter_scraper import Profile
+
 # serach rid= to get id from facebook
 
 # ----------------Global------------------
 file_path = os.path.dirname(__file__)
 # ----------------------------------------
+
+
+
+def convert_url_to_text_file_twitter(Fname,Lname):
+    if not os.path.isdir(file_path+'/pagesTwitter'):
+        os.mkdir(file_path+'/pagesTwitter')
+    url_path = "https://mobile.twitter.com/search?q={}%20{}&src=typed_query&f=user".format(Fname,Lname)
+    urllib.request.urlretrieve(
+        (url_path), file_path+"/pagesTwitter/"+"searchTwitter.txt")
+
+
+def find_idF_in_text_twitter():
+    for file in os.listdir(file_path+'/pagesTwitter'):
+        with open(file_path+"/pagesTwitter/"+file, encoding="utf8") as fp:
+            for line in fp.readlines():
+                result = line.find('<span class="username"><span>@</span>')
+                if not result == -1:
+                    idT = ""
+                    i = result+37
+                    while not(line[i] == '<'):
+                        idT += str(line[i])
+                        i += 1
+                    try:
+                        if not os.path.isdir(file_path+'/pagesTwitter'):
+                            os.mkdir(file_path+'/pagesTwitter')
+                        profile = Profile(idT)
+                        url_image=profile.profile_photo
+                        urllib.request.urlretrieve(url_image, file_path+"/imagesTwitter/"+profile.username+'.jpg')
+                    except:
+                        pass
 
 
 def convert_url_to_text_file():

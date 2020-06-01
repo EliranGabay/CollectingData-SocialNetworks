@@ -22,24 +22,43 @@ namespace CollectingData_SocialNetworks
     {
         private List<Picture> ImageList = new List<Picture>();
 
+        public SelectProfile(String DirName)
+        {
+            InitializeComponent();
+            int SumOfResult = 0;
+            string[] lineName = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\"+DirName).Select(System.IO.Path.GetFileName).ToArray();
+
+            if (Directory.Exists(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\"+DirName))
+            {
+                string[] lineJPG = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\" + DirName);
+                SumOfResult = lineJPG.Length;
+
+                for (int i = 0; i < SumOfResult; i++)
+                {
+                    ImageList.Add(new Picture() { Name = lineName[i], Image = lineJPG[i] });
+                }
+                ListViewImag.ItemsSource = ImageList;
+            }
+
+
+        }
         public SelectProfile()
         {
             InitializeComponent();
             int SumOfResult = 0;
             string[] lineName = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\pages").Select(System.IO.Path.GetFileName).ToArray();
 
-            if (Directory.Exists(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP")) { 
-                string[] lineJPG = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP");
-            SumOfResult = lineJPG.Length;
-
-            for (int i = 0; i < SumOfResult; i++)
+            if (Directory.Exists(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP"))
             {
-                ImageList.Add(new Picture() { Name = lineName[i], Image = lineJPG[i] });
+                string[] lineJPG = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP");
+                SumOfResult = lineJPG.Length;
+
+                for (int i = 0; i < SumOfResult; i++)
+                {
+                    ImageList.Add(new Picture() { Name = lineName[i], Image = lineJPG[i] });
+                }
+                ListViewImag.ItemsSource = ImageList;
             }
-            ListViewImag.ItemsSource = ImageList;
         }
-        }
-
-
     }
 }

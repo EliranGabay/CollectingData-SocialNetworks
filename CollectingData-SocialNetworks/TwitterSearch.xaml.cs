@@ -69,7 +69,7 @@ namespace CollectingData_SocialNetworks
                 ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\RuningTwitter.py", name);
                 if (Directory.Exists(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesTwitter"))
                 {
-                    var selectP = new SelectProfile();
+                    var selectP = new SelectProfile("imagesTwitter");
                     selectP.Show();
                 }
                 else
