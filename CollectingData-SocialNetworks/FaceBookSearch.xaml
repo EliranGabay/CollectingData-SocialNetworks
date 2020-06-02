@@ -28,18 +28,18 @@
                 </Grid.ColumnDefinitions>
                 <Button Click="SearchF"
             Style="{DynamicResource MaterialDesignToolButton}" Height="Auto" Margin="0,0,0,0.667" Grid.RowSpan="3">
-                    <materialDesign:PackIcon
+                    <materialDesign:PackIcon 
               Kind="Magnify"
               Opacity=".56"/>
                 </Button>
-                <TextBox Name="search_bar"
+                <TextBox Name="search_bar" 
             Grid.Column="1"
             Margin="8,4,0,4.667"
             materialDesign:HintAssist.Hint=""
             materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
             BorderThickness="0"
             MinWidth="200"
-            VerticalAlignment="Center" Height="24" Background="Transparent" Grid.RowSpan="3" />
+            VerticalAlignment="Center" Height="24" Background="Transparent" Grid.RowSpan="3"  />
             </Grid>
             <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,200,0">
                 <CheckBox

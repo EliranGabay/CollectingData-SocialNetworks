@@ -20,7 +20,7 @@
               Width="Auto" />
                 </Grid.ColumnDefinitions>
                 <Button Click="SearchF"
-            Style="{DynamicResource MaterialDesignToolButton}" Height="32" Margin="0,0,0,0.333" VerticalAlignment="Bottom">
+                    Style="{DynamicResource MaterialDesignToolButton}" Height="32" Margin="0,0,0,0.333" VerticalAlignment="Bottom">
                     <materialDesign:PackIcon
               Kind="Magnify"
               Opacity=".56" />
@@ -31,7 +31,7 @@
             materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
             BorderThickness="0"
             MinWidth="200"
-            VerticalAlignment="Center" Grid.ColumnSpan="3" Height="24" />
+            VerticalAlignment="Center" Grid.ColumnSpan="3" Height="24"  />
 
             </Grid>
             <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,200,0">
@@ -62,7 +62,9 @@
                     <TextBlock Text="All" Margin="0,20,10,20"
              FontFamily="Yu Gothic UI" FontSize="18" FontWeight="Bold"
              Foreground="White" Grid.Row="0"/>
+
                 </CheckBox>
+
             </Grid>
         </StackPanel>
     </Grid>

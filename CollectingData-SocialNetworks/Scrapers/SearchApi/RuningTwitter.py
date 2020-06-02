@@ -51,6 +51,7 @@ def GoogleSerch(Name):
     return LURL
 
 #-------------------Main--------------------------------------
+
 NameRecev=' '.join(sys.argv[1:]) #get name from argv(user)
 UrlGoogle=GoogleSerch(NameRecev)
 

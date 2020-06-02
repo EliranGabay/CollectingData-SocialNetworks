@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CollectingData_SocialNetworks"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         
-        mc:Ignorable="d" Height="800" Width="1280" Foreground="White" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+        mc:Ignorable="d" Height="800" Width="1280" Foreground="White" ResizeMode="CanResizeWithGrip"  WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow">
     <Window.Resources>
         <Storyboard x:Key="OpenMenu">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">

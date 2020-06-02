@@ -61,26 +61,52 @@ namespace CollectingData_SocialNetworks
                 friends.IsChecked = false;
             }
         }
-
-        private void SearchF(object sender, RoutedEventArgs e)//run exe facbook scraper from ScriptInterface class
+        private bool checkCharacters()
         {
+            int len = search_bar.Text.Length;
+            int countSpace = 0;
+            for (int i = 0; i < len; i++)
+            {
+
+                if (search_bar.Text[i] == ' ')
+                    countSpace += 1;
+                if ((Char.IsLetter(search_bar.Text[i]) == false) && (search_bar.Text[i] != ' '))
+                    return false;
+            }
+            if (countSpace >= 1)
+                return true;
+            return false;
+
+        }
+        private void SearchF(object sender, RoutedEventArgs e)//run exe facbook scraper from ScriptInterface class
+            {
             string name = search_bar.Text;
             if (!name.Equals("") & CheckO())
             {
-                ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\Runing.py",name);
-                if (Directory.Exists(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP"))
+                if (checkCharacters())
                 {
-                    var selectP = new SelectProfile();
-                    selectP.Show();
+                    ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\Runing.py", name);
+                    if (Directory.Exists(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP"))
+                    {
+                        var selectP = new SelectProfile();
+                        selectP.Show();
+                    }
+                    else
+                    {
+                        System.Windows.Forms.MessageBox.Show("No profiles found!", "Error Search",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                    }
+
                 }
                 else {
-                    System.Windows.Forms.MessageBox.Show("No profiles found!", "Error Search",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
+                    System.Windows.Forms.MessageBox.Show("You need to enter a full name andcontains only letters!!", "Error Search",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
 
-
-            }
+            }      
+            
             else
             {
                 System.Windows.Forms.MessageBox.Show("No Name entered or No Option selected", "Error Search",
