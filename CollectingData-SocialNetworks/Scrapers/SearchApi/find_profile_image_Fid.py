@@ -9,7 +9,7 @@ file_path = os.path.dirname(__file__)
 # ----------------------------------------
 
 
-
+#----------------------------Twitter----------------------------------------
 def convert_url_to_text_file_twitter(Fname,Lname):
     if not os.path.isdir(file_path+'/pagesTwitter'):
         os.mkdir(file_path+'/pagesTwitter')
@@ -38,7 +38,7 @@ def find_idF_in_text_twitter():
                     except:
                         pass
 
-
+#----------------------------Facebook----------------------------------------
 def convert_url_to_text_file():
     if not os.path.isdir(file_path+'/pages'):
         os.mkdir(file_path+'/pages')
@@ -93,8 +93,3 @@ def find_idF_in_text():
                             i += 1
                         get_image_from_idF(idF)
 
-
-# id="pagelet_timeline_app_collection_ ------: #to find id in www
-# -----------Run-----------------
-#convert_url_to_text_file()
-#find_idF_in_text()

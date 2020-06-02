@@ -11,13 +11,16 @@ import sys
 
 # ----------------Global------------------
 file_path = os.path.dirname(__file__)
+words = ['public', 'notes', 'louder', 'groups', 'posts','pages','people','help','about','photos']
 # ----------------------------------------
+
+#----------------ClearDirs----------------
 if os.path.isdir(file_path+'/pages'):
     shutil.rmtree(file_path+'/pages')
 if os.path.isdir(file_path+'/imagesP'):
     shutil.rmtree(file_path+'/imagesP')
-print("Run New Search.......")
 
+#---------------Functions-----------------
 def GoogleSerch(Name):
     nameA=Name+" facebook"
     LURL=[]
@@ -33,12 +36,13 @@ def FacebookSerch(Name):
     return ID
 
 #-------------------Main--------------------------------------
+print("Run New Search.......")
 NameRecev=' '.join(sys.argv[1:]) #get name from argv(user)
 UrlGoogle=GoogleSerch(NameRecev)
 UrlFacebook = FacebookSerch(NameRecev)
 UrlGoogle.extend(UrlFacebook)
 print(UrlGoogle)
-words = ['public', 'notes', 'louder', 'groups', 'posts','pages','people','help','about','photos']
+
 
 open(file_path+'/input.txt','w+')
 

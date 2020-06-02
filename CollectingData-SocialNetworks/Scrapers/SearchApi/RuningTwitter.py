@@ -9,15 +9,16 @@ from find_profile_image_Fid import convert_url_to_text_file_twitter,find_idF_in_
 
 # ----------------Global------------------
 file_path = os.path.dirname(__file__)
+words=['status','followers']
 # ----------------------------------------
 
+#----------------ClearDirs----------------
 if os.path.isdir(file_path+'/imagesTwitter'):
     shutil.rmtree(file_path+'/imagesTwitter')
 if os.path.isdir(file_path+'/pagesTwitter'):
     shutil.rmtree(file_path+'/pagesTwitter')
-print("Run New Search.......")
-words=['status','followers']
 
+#---------------Functions-----------------
 def get_users_in_lists(list_urls):
      f = open(file_path+"/inputTwitter.txt", "a")
      for tw_list in list_urls: 
@@ -51,6 +52,7 @@ def GoogleSerch(Name):
     return LURL
 
 #-------------------Main--------------------------------------
+print("Run New Search.......")
 NameRecev=' '.join(sys.argv[1:]) #get name from argv(user)
 UrlGoogle=GoogleSerch(NameRecev)
 
