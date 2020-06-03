@@ -42,7 +42,7 @@
 
                 <materialDesign:PopupBox PlacementMode="BottomAndAlignRightEdges" StaysOpen="False" Margin="10">
                     <StackPanel Width="150">
-                        <Button Content="Settings"/>
+                        <Button Content="Settings" Click="Setting_Click"/>
                         <Button Content="Help" Click="Help_Click"/>
                         <Separator/>
                         <Button Content="Exit" Click="ButtonExit_Click"/>

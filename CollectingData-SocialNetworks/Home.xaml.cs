@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -69,5 +70,15 @@ namespace CollectingData_SocialNetworks
             WinMain.Content = null;
             WinMain.Content = H;
         }
+        private void Setting_Click(object sender, RoutedEventArgs e)
+        {
+            setting S = new setting();
+            WinMain.Content = null;
+            WinMain.Content = S;
+        }
+
+        
+        
+
     }
 }

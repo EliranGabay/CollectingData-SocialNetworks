@@ -88,6 +88,9 @@
     <Compile Include="SelectProfile.xaml.cs">
       <DependentUpon>SelectProfile.xaml</DependentUpon>
     </Compile>
+    <Compile Include="setting.xaml.cs">
+      <DependentUpon>setting.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SplashScreen.xaml.cs">
       <DependentUpon>SplashScreen.xaml</DependentUpon>
     </Compile>
@@ -111,6 +114,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="SelectProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="setting.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
