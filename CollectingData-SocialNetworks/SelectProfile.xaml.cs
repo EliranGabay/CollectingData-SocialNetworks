@@ -2,16 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace CollectingData_SocialNetworks
 {
@@ -21,7 +14,7 @@ namespace CollectingData_SocialNetworks
     public partial class SelectProfile : Window
     {
         private List<Picture> ImageList = new List<Picture>();
-
+        private int flag;//flag for select search
         public SelectProfile(String DirName)
         {
             InitializeComponent();
@@ -39,7 +32,7 @@ namespace CollectingData_SocialNetworks
                 }
                 ListViewImag.ItemsSource = ImageList;
             }
-
+            flag = 1;
 
         }
         public SelectProfile()
@@ -59,6 +52,23 @@ namespace CollectingData_SocialNetworks
                 }
                 ListViewImag.ItemsSource = ImageList;
             }
+            flag = 0;
+        }
+
+        private void ButtonProfile_Click(object sender, RoutedEventArgs e)
+        {
+            string name= Regex.Split(((System.Windows.Controls.ContentControl)sender).Content.ToString(),".jpg")[0];
+            if (name.Contains("@.txt")) { name = name.Split('@')[0]; }
+            else if (name.Contains("$.txt")) { name = name.Split('$')[0]; }
+            else { name = Regex.Split(name, ".txt")[0]; }
+            if (flag == 0) {
+                string path = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\FacebookS\input.txt";
+                System.IO.File.WriteAllText(path, @"https://www.facebook.com/" + name);
+            }
+            else {
+                //twitter write to file
+            }
+            this.Hide();
         }
     }
 }

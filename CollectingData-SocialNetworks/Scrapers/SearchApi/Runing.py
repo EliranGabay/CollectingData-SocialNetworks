@@ -16,7 +16,6 @@ if os.path.isdir(file_path+'/pages'):
     shutil.rmtree(file_path+'/pages')
 if os.path.isdir(file_path+'/imagesP'):
     shutil.rmtree(file_path+'/imagesP')
-print("Run New Search.......")
 
 def GoogleSerch(Name):
     nameA=Name+" facebook"
@@ -34,12 +33,14 @@ def FacebookSerch(Name):
 
 #-------------------Main--------------------------------------
 NameRecev=' '.join(sys.argv[1:]) #get name from argv(user)
+print("Run New Search....\n"+"Searching( "+NameRecev+" )....")
+print("----------------------------------------------------------")
+print("Searching in Google Search......")
 UrlGoogle=GoogleSerch(NameRecev)
+print("Searching in Facebook Search......")
 UrlFacebook = FacebookSerch(NameRecev)
 UrlGoogle.extend(UrlFacebook)
-print(UrlGoogle)
 words = ['public', 'notes', 'louder', 'groups', 'posts','pages','people','help','about','photos']
-
 open(file_path+'/input.txt','w+')
 
 for i in UrlGoogle:

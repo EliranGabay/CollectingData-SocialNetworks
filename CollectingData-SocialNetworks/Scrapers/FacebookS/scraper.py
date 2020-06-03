@@ -562,7 +562,11 @@ def scrap_profile():
         os.chdir("../..")
         return
 
-    to_scrap = ["Friends", "Photos", "Videos", "About", "Posts"]
+    to_scrap = ["Photos", "Videos", "About"]
+    if scrap_friends:
+        to_scrap.append("Friends")
+    if scrap_post:
+        to_scrap.append("Posts")
     for item in to_scrap:
         print("----------------------------------------")
         print("Scraping {}..".format(item))
@@ -862,22 +866,22 @@ if __name__ == "__main__":
         "-dup",
         "--uploaded_photos",
         help="download users' uploaded photos?",
-        default=True,
+        default=False,
     )
     ap.add_argument(
-        "-dfp", "--friends_photos", help="download users' photos?", default=True
+        "-dfp", "--friends_photos", help="download users' photos?", default=False
     )
     ap.add_argument(
         "-fss",
         "--friends_small_size",
         help="Download friends pictures in small size?",
-        default=True,
+        default=False,
     )
     ap.add_argument(
         "-pss",
         "--photos_small_size",
         help="Download photos in small size?",
-        default=True,
+        default=False,
     )
     ap.add_argument(
         "-ts",
@@ -888,7 +892,18 @@ if __name__ == "__main__":
     ap.add_argument(
         "-st", "--scroll_time", help="How much time should I take to scroll?", default=8
     )
-
+    ap.add_argument(
+        "-fs",
+        "--friends_scrap",
+        help="To scrap friends?",
+        default=False
+    )
+    ap.add_argument(
+        "-pt",
+        "--post_scrap",
+        help="To scrap post?",
+        default=False
+    )
     args = vars(ap.parse_args())
     print(args)
     # ---------------------------------------------------------
@@ -904,6 +919,9 @@ if __name__ == "__main__":
     # and it will take much more time
     friends_small_size = utils.to_bool(args["friends_small_size"])
     photos_small_size = utils.to_bool(args["photos_small_size"])
+
+    scrap_friends = utils.to_bool(args["friends_scrap"])
+    scrap_post = utils.to_bool(args["post_scrap"])
 
     total_scrolls = int(args["total_scrolls"])
     scroll_time = int(args["scroll_time"])

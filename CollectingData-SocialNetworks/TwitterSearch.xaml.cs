@@ -89,7 +89,8 @@ namespace CollectingData_SocialNetworks
                     {
 
                         var selectP = new SelectProfile("imagesTwitter");
-                        selectP.Show();
+                        selectP.ShowDialog();
+                        //run scraper
                     }
                     else
                     {

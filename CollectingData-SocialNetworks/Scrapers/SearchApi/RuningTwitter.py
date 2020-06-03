@@ -15,7 +15,6 @@ if os.path.isdir(file_path+'/imagesTwitter'):
     shutil.rmtree(file_path+'/imagesTwitter')
 if os.path.isdir(file_path+'/pagesTwitter'):
     shutil.rmtree(file_path+'/pagesTwitter')
-print("Run New Search.......")
 words=['status','followers']
 
 def get_users_in_lists(list_urls):
@@ -51,15 +50,17 @@ def GoogleSerch(Name):
     return LURL
 
 #-------------------Main--------------------------------------
-
 NameRecev=' '.join(sys.argv[1:]) #get name from argv(user)
+print("Run New Search....\n"+"Searching( "+NameRecev+" )....")
+print("----------------------------------------------------------")
+print("Searching in Google Search......")
 UrlGoogle=GoogleSerch(NameRecev)
 
 list_urls = []
 for i in UrlGoogle:
     if "twitter.com" in i: 
         list_urls.append(i)
-
+print("Searching in Twitter Search......")
 convert_url_to_text_file_twitter(str(NameRecev).split(" ")[0],str(NameRecev).split(" ")[1])
 find_idF_in_text_twitter()
 get_users_in_lists(list_urls)
