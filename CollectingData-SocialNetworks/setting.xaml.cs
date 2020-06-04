@@ -25,6 +25,7 @@ namespace CollectingData_SocialNetworks
         public setting()
         {
             InitializeComponent();
+            textPath.Text = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName;
         }
  
         private void Select_Loction(object sender, RoutedEventArgs e)
@@ -37,7 +38,7 @@ namespace CollectingData_SocialNetworks
                 if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
                 {
 
-                    System.Windows.Forms.MessageBox.Show(fbd.SelectedPath, "Message");
+                    textPath.Text=fbd.SelectedPath;
                 }
             }
 

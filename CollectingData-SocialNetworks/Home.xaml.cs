@@ -20,9 +20,13 @@ namespace CollectingData_SocialNetworks
     /// </summary>
     public partial class Home : Window
     {
+        setting S = new setting();
+        Help H = new Help();
+
         public Home()
         {
             InitializeComponent();
+            
         }
         private void Window_MouseMove(object sender, MouseEventArgs e)
         {
@@ -66,13 +70,12 @@ namespace CollectingData_SocialNetworks
         }
         private void Help_Click(object sender, RoutedEventArgs e)
         {
-            Help H = new Help();
+            
             WinMain.Content = null;
             WinMain.Content = H;
         }
         private void Setting_Click(object sender, RoutedEventArgs e)
         {
-            setting S = new setting();
             WinMain.Content = null;
             WinMain.Content = S;
         }

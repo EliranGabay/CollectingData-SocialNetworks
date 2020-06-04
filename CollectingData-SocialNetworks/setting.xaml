@@ -11,8 +11,8 @@
     <Grid Background="AliceBlue">
         <TextBlock Text="Setting" FontSize="50" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Purple" Margin="300,63,323,309" Width="177" />
         <TextBlock HorizontalAlignment="Left" FontWeight="Bold" Margin="23,171,0,0" TextWrapping="Wrap" Text="Location of information retention:" VerticalAlignment="Top" Width="271" Height="32"/>
-        <Button Content="change" Click="Select_Loction" HorizontalAlignment="Left" Margin="619,162,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="0.344,-0.25"/>
-        <TextBlock HorizontalAlignment="Left" Margin="294,171,0,0" TextWrapping="Wrap" Text="pathhhhhhhhhh" VerticalAlignment="Top" Width="293" Height="32"/>
+        <Button Content="change" Click="Select_Loction" HorizontalAlignment="Left" Margin="706,163,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="0.344,-0.25"/>
+        <TextBlock Name="textPath" HorizontalAlignment="Left" Margin="223,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="478" Height="35"/>
 
     </Grid>
 </Page>
