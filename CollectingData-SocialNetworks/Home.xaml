@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CollectingData_SocialNetworks"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         
-        mc:Ignorable="d" Height="800" Width="1280" Foreground="White" ResizeMode="CanResizeWithGrip"  WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow">
+        mc:Ignorable="d" Height="600" Width="1080" Foreground="White" ResizeMode="NoResize"  WindowStartupLocation="CenterScreen" WindowStyle="None">
     <Window.Resources>
         <Storyboard x:Key="OpenMenu">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
@@ -31,8 +31,7 @@
         </EventTrigger>
     </Window.Triggers>
     <Grid Background="#FFDEDEDE">
-        <Frame x:Name="WinMain" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="740" Width="1210" NavigationUIVisibility="Hidden">
-
+        <Frame x:Name="WinMain" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="Auto" Width="Auto" NavigationUIVisibility="Hidden" >
         </Frame>
         <Grid Height="60" VerticalAlignment="Top" Background="#FF292626" MouseMove="Window_MouseMove">
             <Grid.Effect>

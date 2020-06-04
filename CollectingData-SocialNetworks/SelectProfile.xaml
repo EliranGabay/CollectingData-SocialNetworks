@@ -5,11 +5,12 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CollectingData_SocialNetworks"
+        Background="#FF292626"
         mc:Ignorable="d"
-        Title="SelectProfile" Height="450" Width="800">
+        Title="SelectProfile" Height="450" Width="800" WindowStartupLocation="CenterScreen">
 
     <Grid>
-        <ScrollViewer Grid.Column="1" Grid.Row="1" Background="#FFF1F1F1">
+        <ScrollViewer Grid.Column="1" Grid.Row="1" Background="#FFDEDEDE">
             <StackPanel>
                 <TextBlock Text="Profile pictures" TextAlignment="center" FontSize="22" FontWeight="Medium"/>
                 <StackPanel Margin="20 0">

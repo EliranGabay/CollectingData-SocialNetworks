@@ -36,6 +36,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo_6hQ_icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="MaterialDesignColors, Version=1.2.6.1513, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.1.2.6\lib\net45\MaterialDesignColors.dll</HintPath>
@@ -167,6 +170,8 @@
     <Resource Include="Icons\logoS.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Icons\logo_6hQ_icon.ico" />
+    <Resource Include="logo_6hQ_icon.ico" />
     <Content Include="Scrapers\SearchApi\facebook_snooper\core\exceptions.py" />
     <Content Include="Scrapers\SearchApi\facebook_snooper\core\session.py" />
     <Content Include="Scrapers\SearchApi\facebook_snooper\core\wrapper.py" />

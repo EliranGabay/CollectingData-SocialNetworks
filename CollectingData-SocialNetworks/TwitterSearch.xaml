@@ -5,9 +5,8 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:CollectingData_SocialNetworks"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="#1DA1F2" RenderTransformOrigin="0.575,0.488">
+      Height="Auto" Width="Auto" Background="#1DA1F2">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
         <TextBlock Text="Twitter" FontSize="72" FontWeight="Bold" HorizontalAlignment="Center" Foreground="#FFFAFAFA" Margin="160,81,160,268.2" />
         <StackPanel>
             <Grid Background="White" Width="400" HorizontalAlignment="Center" Margin="160,185,160,0">
