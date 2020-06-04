@@ -22,10 +22,12 @@ namespace CollectingData_SocialNetworks
     /// </summary>
     public partial class setting : Page
     {
+
         public setting()
         {
             InitializeComponent();
             textPath.Text = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName;
+            App.DownloadPath = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName; ;
         }
  
         private void Select_Loction(object sender, RoutedEventArgs e)
@@ -39,6 +41,7 @@ namespace CollectingData_SocialNetworks
                 {
 
                     textPath.Text=fbd.SelectedPath;
+                    App.DownloadPath = fbd.SelectedPath;
                 }
             }
 

@@ -58,12 +58,12 @@ def convert_url_to_text_file():
     fp.close()
 
 
-def get_image_from_idF(idf):
+def get_image_from_idF(idf,name):
     if not os.path.isdir(file_path+'/imagesP'):
         os.mkdir(file_path+'/imagesP')
     url_image = "http://graph.facebook.com/"+str(idf)+"/picture?type=large"
     try:
-        urllib.request.urlretrieve(url_image, file_path+"/imagesP/"+idf+'.jpg')
+        urllib.request.urlretrieve(url_image, file_path+"/imagesP/"+name+'.jpg')
     except:
         pass
 
@@ -73,25 +73,29 @@ def find_idF_in_text():
         with open(file_path+"/pages/"+file, encoding="utf8") as fp:
             for line in fp.readlines():
                 idF = ""
+                name=""
                 if '@' in file:  # type url is https://www.facebook.com/profile.php?id=
                     idF = file.split('@.txt')[0]
-                    get_image_from_idF(idF)
+                    name=idF
+                    get_image_from_idF(idF,name)
                 elif '$' in file:  # type url is www.facebook.com
+                    name=file.split('$.txt')[0]
                     result = line.find('id="pagelet_timeline_app_collection_')
                     if not result == -1:
                         i = result+36
                         while not(line[i] == ':'):
                             idF += str(line[i])
                             i += 1
-                        get_image_from_idF(idF)
+                        get_image_from_idF(idF,name)
                 else:  # type url is m.facebook.com
+                    name=file.split('.txt')[0]
                     result = line.find(';rid=')
                     if not result == -1:
                         i = result+5
                         while not(line[i] == '&'):
                             idF += str(line[i])
                             i += 1
-                        get_image_from_idF(idF)
+                        get_image_from_idF(idF,name)
 
 
 # id="pagelet_timeline_app_collection_ ------: #to find id in www

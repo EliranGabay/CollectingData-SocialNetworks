@@ -79,6 +79,18 @@ namespace CollectingData_SocialNetworks
                         var selectP = new SelectProfile();
                         selectP.ShowDialog();
                         //run scraper
+                        string arg="";
+                        string path = " -dl " + App.DownloadPath;
+
+                        if (pictuers.IsChecked == true) arg += " -dup True";
+                        if (posts.IsChecked == true) arg += " -pt True";
+                        if (friends.IsChecked == true && pictuers.IsChecked == true) arg += " -dfp True";
+                        else if (friends.IsChecked == true) arg += " -fs True";
+                        arg += path;
+
+                        ScriptInterface.Program.RunPy(@"\Scrapers\FacebookS\scraper.py", arg);
+                        System.Windows.Forms.MessageBox.Show("Search Successfully Completed", "Search",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {

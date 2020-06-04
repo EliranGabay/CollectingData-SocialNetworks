@@ -64,9 +64,9 @@ def image_downloader(img_links, folder_name):
     img_names = []
 
     try:
-        parent = os.getcwd()
+        parent = downloadPath
         try:
-            folder = os.path.join(os.getcwd(), folder_name)
+            folder = os.path.join(downloadPath, folder_name)
             utils.create_folder(folder)
             os.chdir(folder)
         except Exception:
@@ -297,7 +297,9 @@ def save_to_file(name, elements, status, current_section):
             # download friends' photos
             try:
                 if download_friends_photos:
+                    print("download_friends_photos "+download_friends_photos)
                     if friends_small_size:
+                        print("friends_small_size "+friends_small_size)
                         img_links = [
                             x.find_element_by_css_selector(
                                 "img").get_attribute("src")
@@ -365,7 +367,9 @@ def save_to_file(name, elements, status, current_section):
 
             try:
                 if download_uploaded_photos:
+                    print("download_uploaded_photos "+download_uploaded_photos)
                     if photos_small_size:
+                        print("photos_small_size "+photos_small_size)
                         background_img_links = driver.find_elements_by_xpath(
                             selectors.get("background_img_links")
                         )
@@ -471,7 +475,6 @@ def save_to_file(name, elements, status, current_section):
 def scrape_data(url, scan_list, section, elements_path, save_status, file_names):
     """Given some parameters, this function can scrap friends/photos/videos/about/posts(statuses) of a profile"""
     page = []
-
     if save_status == 4 or save_status == 5:
         page.append(url)
 
@@ -543,7 +546,7 @@ def create_original_link(url):
 
 
 def scrap_profile():
-    data_folder = os.path.join(os.getcwd(), "data")
+    data_folder = os.path.join(downloadPath, "data")
     utils.create_folder(data_folder)
     os.chdir(data_folder)
 
@@ -562,9 +565,7 @@ def scrap_profile():
         os.chdir("../..")
         return
 
-    to_scrap = ["Photos", "Videos", "About"]
-    if scrap_friends:
-        to_scrap.append("Friends")
+    to_scrap = ["Friends", "Photos", "Videos", "About"]
     if scrap_post:
         to_scrap.append("Posts")
     for item in to_scrap:
@@ -675,7 +676,7 @@ def create_folders():
     Changes current dir to target_dir
     :return: target_dir or None in case of failure
     """
-    folder = os.path.join(os.getcwd(), "data")
+    folder = os.path.join(downloadPath, "data")
     utils.create_folder(folder)
     os.chdir(folder)
     try:
@@ -853,6 +854,7 @@ def scraper(**kwargs):
         driver.close()
     else:
         print("Input file is empty.")
+    return
 
 
 # -------------------------------------------------------------
@@ -875,13 +877,13 @@ if __name__ == "__main__":
         "-fss",
         "--friends_small_size",
         help="Download friends pictures in small size?",
-        default=False,
+        default=True,
     )
     ap.add_argument(
         "-pss",
         "--photos_small_size",
         help="Download photos in small size?",
-        default=False,
+        default=True,
     )
     ap.add_argument(
         "-ts",
@@ -893,16 +895,16 @@ if __name__ == "__main__":
         "-st", "--scroll_time", help="How much time should I take to scroll?", default=8
     )
     ap.add_argument(
-        "-fs",
-        "--friends_scrap",
-        help="To scrap friends?",
-        default=False
-    )
-    ap.add_argument(
         "-pt",
         "--post_scrap",
         help="To scrap post?",
         default=False
+    )
+    ap.add_argument(
+        "-dl",
+        "--download",
+        help="Path to save files?",
+        default=os.getcwd()
     )
     args = vars(ap.parse_args())
     print(args)
@@ -920,8 +922,9 @@ if __name__ == "__main__":
     friends_small_size = utils.to_bool(args["friends_small_size"])
     photos_small_size = utils.to_bool(args["photos_small_size"])
 
-    scrap_friends = utils.to_bool(args["friends_scrap"])
     scrap_post = utils.to_bool(args["post_scrap"])
+
+    downloadPath = str(args["download"])
 
     total_scrolls = int(args["total_scrolls"])
     scroll_time = int(args["scroll_time"])
