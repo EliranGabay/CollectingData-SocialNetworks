@@ -26,6 +26,7 @@ namespace CollectingData_SocialNetworks
             InitializeComponent();
             userName.Text = App.nameProfile;
             string[] listJPG = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP");
+
             int SumOfLIstJPJ = listJPG.Length;
             for (int i = 0; i < SumOfLIstJPJ; i++)
             {
@@ -37,10 +38,32 @@ namespace CollectingData_SocialNetworks
                     profileImage.Source = bitmap;
                     break;
                 }
+
             }
+            UpdateList();
 
         }
+        private void UpdateList()
+        {
+            TextBlock[] textB = { BasicInfo, Places, F_R, DAbout, W_E };
+            string[] textF = { "Contact and Basic Info", "Places Lived", "Family and Relationships", "Details About", "Work and Education" };
+            for (int i = 0; i < textB.Length; i++)
+            {
+                string filePath = @"C:\Users\dolev\Desktop\down\data\100000494830078" + @"\" + textF[i] + ".txt";
+                string[] lines = System.IO.File.ReadAllLines(filePath);
+                string info = "";
+                for (int j = 0; j < lines.Length; j++)
+                {
+                    info += lines[j]+"\n";
 
+                }
+                textB[i].Text = info;
+
+            }
+          
+            
+
+        }
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 

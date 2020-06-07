@@ -82,7 +82,7 @@ namespace CollectingData_SocialNetworks
 
         private void SearchAll_Click(object sender, RoutedEventArgs e)
         {
-            App.nameProfile = "eliran.gabay.92";
+            App.nameProfile = "100000494830078";
             var userProfilw = new showProfileF();
             userProfilw.ShowDialog();
         }
