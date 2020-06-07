@@ -24,21 +24,25 @@ namespace CollectingData_SocialNetworks
         public showProfileF()
         {
             InitializeComponent();
-            int SumOfLIstJPJ = 0;
             userName.Text = App.nameProfile;
             string[] listJPG = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP");
-            SumOfLIstJPJ = listJPG.Length;
+            int SumOfLIstJPJ = listJPG.Length;
             for (int i = 0; i < SumOfLIstJPJ; i++)
             {
-                if (App.nameProfile+".JPG" == listJPG[i]){
+                if (listJPG[i].Contains(App.nameProfile+".jpg")){
                     BitmapImage bitmap = new BitmapImage();
                     bitmap.BeginInit();
                     bitmap.UriSource = new Uri(listJPG[i]);
                     bitmap.EndInit();
                     profileImage.Source = bitmap;
-
+                    break;
                 }
             }
+
+        }
+
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
 
         }
     }

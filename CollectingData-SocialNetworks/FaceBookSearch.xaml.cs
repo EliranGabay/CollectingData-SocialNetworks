@@ -69,7 +69,7 @@ namespace CollectingData_SocialNetworks
         private void SearchF(object sender, RoutedEventArgs e)//run exe facbook scraper from ScriptInterface class
             {
             string name = search_bar.Text;
-            if (!name.Equals("") & CheckO())
+            if (!name.Equals(""))
             {
                 if (checkCharacters())
                 {
@@ -91,6 +91,8 @@ namespace CollectingData_SocialNetworks
                         ScriptInterface.Program.RunPy(@"\Scrapers\FacebookS\scraper.py", arg);
                         System.Windows.Forms.MessageBox.Show("Search Successfully Completed", "Search",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        var userProfilw = new showProfileF();
+                        userProfilw.ShowDialog();
                     }
                     else
                     {

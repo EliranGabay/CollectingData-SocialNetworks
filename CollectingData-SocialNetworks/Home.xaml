@@ -90,8 +90,8 @@
                             <TextBlock Text="Twitter Search" VerticalAlignment="Center"  Margin="20 10" Foreground="#FFFAFAFA"/>
                         </StackPanel>
                     </ListViewItem>
-                    <ListViewItem Height="60">
-                        <StackPanel Orientation="Horizontal">
+                    <ListViewItem Height="60" MouseUp="SearchAll_Click">
+                        <StackPanel Orientation="Horizontal" MouseUp="SearchAll_Click">
                             <materialDesign:PackIcon Kind="UserSearch" Height="25" Width="25" Margin="10" Foreground="#FFFAFAFA"/>
                             <TextBlock Text="Search All" VerticalAlignment="Center"  Margin="20 10" Foreground="White"/>
                         </StackPanel>

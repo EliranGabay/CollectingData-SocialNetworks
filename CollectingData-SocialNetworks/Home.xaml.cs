@@ -80,8 +80,15 @@ namespace CollectingData_SocialNetworks
             WinMain.Content = S;
         }
 
-        
-        
+        private void SearchAll_Click(object sender, RoutedEventArgs e)
+        {
+            App.nameProfile = "eliran.gabay.92";
+            var userProfilw = new showProfileF();
+            userProfilw.ShowDialog();
+        }
+
+
+
 
     }
 }
