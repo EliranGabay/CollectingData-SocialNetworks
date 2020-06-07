@@ -94,6 +94,9 @@
     <Compile Include="setting.xaml.cs">
       <DependentUpon>setting.xaml</DependentUpon>
     </Compile>
+    <Compile Include="showProfileF.xaml.cs">
+      <DependentUpon>showProfileF.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SplashScreen.xaml.cs">
       <DependentUpon>SplashScreen.xaml</DependentUpon>
     </Compile>
@@ -121,6 +124,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="setting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="showProfileF.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

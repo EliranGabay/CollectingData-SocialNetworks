@@ -15,5 +15,7 @@ namespace CollectingData_SocialNetworks
     public partial class App : Application
     {
         public static string DownloadPath { get; set; }
+        public static string nameProfile { get; set; }
+
     }
 }

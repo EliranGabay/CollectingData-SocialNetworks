@@ -64,6 +64,9 @@ namespace CollectingData_SocialNetworks
             if (flag == 0) {
                 string path = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\FacebookS\input.txt";
                 System.IO.File.WriteAllText(path, @"https://www.facebook.com/" + name);
+                App.nameProfile = name;
+                var userProfilw = new showProfileF();
+                userProfilw.ShowDialog();
             }
             else {
                 //twitter write to file
