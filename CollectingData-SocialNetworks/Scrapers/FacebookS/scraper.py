@@ -297,9 +297,7 @@ def save_to_file(name, elements, status, current_section):
             # download friends' photos
             try:
                 if download_friends_photos:
-                    print("download_friends_photos "+download_friends_photos)
                     if friends_small_size:
-                        print("friends_small_size "+friends_small_size)
                         img_links = [
                             x.find_element_by_css_selector(
                                 "img").get_attribute("src")
@@ -367,9 +365,7 @@ def save_to_file(name, elements, status, current_section):
 
             try:
                 if download_uploaded_photos:
-                    print("download_uploaded_photos "+download_uploaded_photos)
                     if photos_small_size:
-                        print("photos_small_size "+photos_small_size)
                         background_img_links = driver.find_elements_by_xpath(
                             selectors.get("background_img_links")
                         )

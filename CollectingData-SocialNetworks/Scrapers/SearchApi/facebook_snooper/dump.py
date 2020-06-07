@@ -19,11 +19,8 @@ def dump_search(data, pretty=False):
 
 
 def dump_info(data, pretty=False):
-    name, image_link, texts = data
-    image_link_ = _shorten(image_link, 70) if pretty else image_link
-    print(f'{name}\nImage: {image_link_}')
-    for type_, descs in texts:
-        print(f'  {type_} {descs}')
+    name = data
+    print(f'{name}\n')
     
 
 def _shorten(text, max_len):
