@@ -10,6 +10,7 @@ from find_profile_image_Fid import convert_url_to_text_file_twitter,find_idF_in_
 # ----------------Global------------------
 file_path = os.path.dirname(__file__)
 # ----------------------------------------
+input()
 
 if os.path.isdir(file_path+'/imagesTwitter'):
     shutil.rmtree(file_path+'/imagesTwitter')

@@ -80,7 +80,7 @@ namespace CollectingData_SocialNetworks
         private void SearchF(object sender, RoutedEventArgs e)//run exe facbook scraper from ScriptInterface class
         {
             string name = search_bar.Text;
-            if (!name.Equals("") & CheckO())
+            if (!name.Equals(""))
             {
                 if (checkCharacters())
                 {
@@ -91,6 +91,8 @@ namespace CollectingData_SocialNetworks
                         var selectP = new SelectProfile("imagesTwitter");
                         selectP.ShowDialog();
                         //run scraper
+                        string arg = App.nameProfile+" "+App.DownloadPath;
+                        ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\twitter_scraper\scraperTwitter.py", arg);
                     }
                     else
                     {

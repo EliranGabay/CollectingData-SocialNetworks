@@ -61,13 +61,13 @@ namespace CollectingData_SocialNetworks
             if (name.Contains("@.txt")) { name = name.Split('@')[0]; }
             else if (name.Contains("$.txt")) { name = name.Split('$')[0]; }
             else { name = Regex.Split(name, ".txt")[0]; }
-            if (flag == 0) {
+            if (flag == 0) {//Facebook
                 string path = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\FacebookS\input.txt";
                 System.IO.File.WriteAllText(path, @"https://www.facebook.com/" + name);
                 App.nameProfile = name;
             }
-            else {
-                //twitter write to file
+            else {//Twitter
+                App.nameProfile = name;
             }
             this.Hide();
         }
