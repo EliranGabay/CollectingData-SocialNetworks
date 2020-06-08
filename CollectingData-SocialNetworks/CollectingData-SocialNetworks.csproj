@@ -184,6 +184,7 @@
     <Resource Include="Icons\logoS.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scrapers\SearchApi\twitter_scraper\scraperTwitter.py" />
     <Resource Include="Icons\logo_6hQ_icon.ico" />
     <Resource Include="logo_6hQ_icon.ico" />
     <Content Include="Scrapers\SearchApi\facebook_snooper\core\exceptions.py" />
