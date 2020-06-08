@@ -1,0 +1,35 @@
+﻿<Window x:Class="CollectingData_SocialNetworks.showProfileT"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollectingData_SocialNetworks"
+        mc:Ignorable="d"
+        Title="Profile" Height="600" Width="800" ResizeMode="NoResize"  WindowStartupLocation="CenterScreen" >
+    <Grid Width="800" Height="600" Background="#FFDEDEDE" VerticalAlignment="Top">
+        <TextBlock Text="About Profile" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Foreground="#FF292626"/>
+        <Image Name="profileImage" Height="120"  Width="120" Stretch="Fill" VerticalAlignment="Top" Margin="650,20,39,15" ></Image>
+        <TextBlock Text="User name:" FontSize="15" FontWeight="Bold" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" Margin="8,127,630,0"/>
+        <TextBlock Name="userName"  FontSize="15" FontWeight="Bold" Height="20" VerticalAlignment="Top" Margin="91,127,334,0"  />
+        <Separator Height="10" Margin="0,147,0,443"/>
+        <ScrollViewer VerticalAlignment="Bottom">
+            <ListView Height="410" VerticalAlignment="Bottom" Margin="0,0,0,34" SelectionChanged="ListView_SelectionChanged" Width="790" >
+                <TextBlock HorizontalAlignment="Left" FontWeight="Bold" TextWrapping="Wrap" Text="Contact and Basic Info:" VerticalAlignment="Top" Width="150" Height="16" Foreground="Black"/>
+                <TextBlock Name="BasicInfo" Width="750" FontSize="10" Foreground="Black"></TextBlock>
+                <Separator VerticalAlignment="Top" Height="10" Foreground="Black"/>
+                <TextBlock HorizontalAlignment="Left" FontWeight="Bold" TextWrapping="Wrap" Text="Places Lived:" VerticalAlignment="Top" Width="80" Height="16" Foreground="Black"/>
+                <TextBlock Name="Places" Width="750" FontSize="10" Foreground="Black"></TextBlock>
+                <Separator VerticalAlignment="Top" Height="10" Foreground="Black"/>
+                <TextBlock HorizontalAlignment="Left" FontWeight="Bold" TextWrapping="Wrap" Text="Family and Relationships:" VerticalAlignment="Top" Width="160" Height="16" Foreground="Black"/>
+                <TextBlock Name="F_R" Width="750" FontSize="10" Foreground="Black"></TextBlock>
+                <Separator VerticalAlignment="Top" Height="10" Foreground="Black"/>
+                <TextBlock HorizontalAlignment="Left" FontWeight="Bold" TextWrapping="Wrap" Text="Bilography:" VerticalAlignment="Top" Width="90" Height="16" Foreground="Black"/>
+                <TextBlock Name="DAbout" Width="750" FontSize="10" Foreground="Black"></TextBlock>
+                <Separator VerticalAlignment="Top" Height="10" Foreground="Black"/>
+                <TextBlock HorizontalAlignment="Left" FontWeight="Bold" TextWrapping="Wrap" Text="Account :" VerticalAlignment="Top" Width="130" Height="16" Foreground="Black"/>
+                <TextBlock Name="W_E" Width="750" FontSize="10" Foreground="Black"></TextBlock>
+                <Separator VerticalAlignment="Top" Height="10" Foreground="Black"/>
+            </ListView>
+        </ScrollViewer>
+    </Grid>
+</Window>
