@@ -49,7 +49,7 @@ namespace CollectingData_SocialNetworks
             string[] textF = { "Contact and Basic Info", "Places Lived", "Family and Relationships", "Details About", "Work and Education" };
             for (int i = 0; i < textB.Length; i++)
             {
-                string filePath = @"C:\Users\dolev\Desktop\down\data\100000494830078" + @"\" + textF[i] + ".txt";
+                string filePath = App.DownloadPath + @"\data\" + App.nameProfile + @"\" + textF[i] + ".txt"; 
                 string[] lines = System.IO.File.ReadAllLines(filePath);
                 string info = "";
                 for (int j = 0; j < lines.Length; j++)

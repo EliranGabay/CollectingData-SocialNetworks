@@ -102,7 +102,8 @@ namespace CollectingData_SocialNetworks
                     }
 
                     this.NavigationService.Refresh();
-
+                    var userProfile = new showProfileT();
+                    userProfile.ShowDialog();
                 }
                 else
                 {
