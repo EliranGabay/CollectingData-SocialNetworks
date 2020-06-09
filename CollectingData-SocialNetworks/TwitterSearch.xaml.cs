@@ -93,6 +93,18 @@ namespace CollectingData_SocialNetworks
                         //run scraper
                         string arg = App.nameProfile+" "+App.DownloadPath;
                         ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\twitter_scraper\scraperTwitter.py", arg);
+                        if (posts.IsChecked == true)
+                        {
+                            arg = App.nameProfile;
+                            ScriptInterface.Program.RunShell(@"\Scrapers\SearchApi\twitter_scraper\TweetScraper", @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetSRun.sh", arg);
+                            string filePathMove = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\data\tweet\"+ App.nameProfile+".txt";
+                            string filePathDest = App.DownloadPath + @"\data\"+App.nameProfile+@"\tweet\" + App.nameProfile + ".txt";
+                            System.IO.File.Move(filePathMove, filePathDest);
+                        }
+                        System.Windows.Forms.MessageBox.Show("Scraping Data Successfully Completed", "Scraper",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        var userProfile = new showProfileT();
+                        userProfile.ShowDialog();
                     }
                     else
                     {
@@ -101,9 +113,6 @@ namespace CollectingData_SocialNetworks
 
                     }
 
-                    this.NavigationService.Refresh();
-                    var userProfile = new showProfileT();
-                    userProfile.ShowDialog();
                 }
                 else
                 {
