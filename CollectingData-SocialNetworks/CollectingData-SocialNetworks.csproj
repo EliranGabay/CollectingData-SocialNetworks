@@ -88,8 +88,14 @@
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SearchAll.xaml.cs">
+      <DependentUpon>SearchAll.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SelectProfile.xaml.cs">
       <DependentUpon>SelectProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SelectProfileAll.xaml.cs">
+      <DependentUpon>SelectProfileAll.xaml</DependentUpon>
     </Compile>
     <Compile Include="setting.xaml.cs">
       <DependentUpon>setting.xaml</DependentUpon>
@@ -122,7 +128,15 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SearchAll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SelectProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SelectProfileAll.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

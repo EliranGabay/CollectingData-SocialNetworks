@@ -64,7 +64,14 @@ namespace CollectingData_SocialNetworks
             WinMain.Content = null;
             WinMain.Content = T;
         }
-        private void Home_Click(object sender, RoutedEventArgs e)
+    
+        private void SearchA_Click(object sender, RoutedEventArgs e)
+        {
+            SearchAll A = new SearchAll();
+            WinMain.Content = null;
+            WinMain.Content = A;
+        }
+    private void Home_Click(object sender, RoutedEventArgs e)
         {
             WinMain.Content = null;
         }
@@ -80,12 +87,7 @@ namespace CollectingData_SocialNetworks
             WinMain.Content = S;
         }
 
-        private void SearchAll_Click(object sender, RoutedEventArgs e)
-        {
-            App.nameProfile = "100000494830078";
-            var userProfilw = new showProfileF();
-            userProfilw.ShowDialog();
-        }
+
 
 
 

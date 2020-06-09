@@ -51,12 +51,19 @@ namespace CollectingData_SocialNetworks
                 Basic += lines[j] + "\n";
 
             }
+            if (Basic.Length == 1)
+                Basic = "No results";
+
             BasicInfo.Text = Basic;
             string place = "";
             for (int j =7; j < 8; j++)
             {
                 place += lines[j] + "\n";
 
+            }
+            if (place.Length==1)
+            {
+                place = "No results";
             }
             Places.Text = place;
             int i = 9;
@@ -67,15 +74,25 @@ namespace CollectingData_SocialNetworks
                i++;
 
             }
+            if (bio.Length == 1)
+            {
+                bio = "No results";
+            }
             BIOGRAPHY.Text= bio;
             string Accou = "";
 
             while ( i < SumOfLins)
             {
+
                 Accou+=lines[i] + "\n";
                 i++;
             }
-            ACCOUNT.Text = Accou;
+            string after = Accou.Replace("TWEETSC:", "Tweets Account");
+            string After = after.Replace("FOLLOWERSC:", "Followers Account");
+            string AFter = After.Replace("FOLLOWINGC:", "Following Account");
+            string AFTer = AFter.Replace("FOLLOWINGC:", "Following Account");
+
+            ACCOUNT.Text = AFTer;
 
         }
 

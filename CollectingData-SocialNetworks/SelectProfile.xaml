@@ -10,7 +10,7 @@
         Title="SelectProfile" Height="450" Width="800" WindowStartupLocation="CenterScreen">
 
     <Grid>
-        <ScrollViewer Grid.Column="1" Grid.Row="1" Background="#FFDEDEDE">
+        <ScrollViewer Background="#FFDEDEDE" Height="421" Margin="0,0,0.333,-0.333" VerticalAlignment="Bottom">
             <StackPanel>
                 <TextBlock Text="Profile pictures" TextAlignment="center" FontSize="22" FontWeight="Medium"/>
                 <StackPanel Margin="20 0">
