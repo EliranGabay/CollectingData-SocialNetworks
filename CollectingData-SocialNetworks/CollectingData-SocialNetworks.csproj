@@ -173,6 +173,15 @@
     <None Include="Scrapers\FacebookS\credentials.yaml" />
     <None Include="Scrapers\FacebookS\params.json" />
     <None Include="Scrapers\FacebookS\selectors.json" />
+    <None Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\scrapy.cfg" />
+    <None Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\spider\__pycache__\TweetCrawler.cpython-38.pyc" />
+    <None Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\spider\__pycache__\__init__.cpython-38.pyc" />
+    <None Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\__pycache__\items.cpython-38.pyc" />
+    <None Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\__pycache__\pipelines.cpython-38.pyc" />
+    <None Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\__pycache__\settings.cpython-38.pyc" />
+    <None Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\__pycache__\utils.cpython-38.pyc" />
+    <None Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\__pycache__\__init__.cpython-38.pyc" />
+    <None Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetSRun.sh" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -185,6 +194,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scrapers\SearchApi\twitter_scraper\scraperTwitter.py" />
+    <Content Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\items.py" />
+    <Content Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\pipelines.py" />
+    <Content Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\settings.py" />
+    <Content Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\spider\TweetCrawler.py" />
+    <Content Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\utils.py" />
     <Resource Include="Icons\logo_6hQ_icon.ico" />
     <Resource Include="logo_6hQ_icon.ico" />
     <Content Include="Scrapers\SearchApi\facebook_snooper\core\exceptions.py" />

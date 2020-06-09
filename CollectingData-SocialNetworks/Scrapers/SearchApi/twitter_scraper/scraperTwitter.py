@@ -12,7 +12,8 @@ file_path+='/data'
 if not os.path.isdir(file_path+'/'+userName):
     os.mkdir(file_path+'/'+userName)
 file_path+='/'+userName
-
+if not os.path.isdir(file_path+'/tweet'):
+    os.mkdir(file_path+'/tweet')
 #scrap data from user twitter
 profile = Profile(userName)
 

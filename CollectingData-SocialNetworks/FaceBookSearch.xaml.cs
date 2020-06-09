@@ -89,7 +89,7 @@ namespace CollectingData_SocialNetworks
                         arg += path;
 
                         ScriptInterface.Program.RunPy(@"\Scrapers\FacebookS\scraper.py", arg);
-                        System.Windows.Forms.MessageBox.Show("Search Successfully Completed", "Search",
+                        System.Windows.Forms.MessageBox.Show("Scraping Data Successfully Completed", "Scraper",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
                         var userProfilw = new showProfileF();
                         userProfilw.ShowDialog();
