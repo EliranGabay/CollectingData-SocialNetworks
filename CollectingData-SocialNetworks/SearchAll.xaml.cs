@@ -86,25 +86,36 @@ namespace CollectingData_SocialNetworks
                     ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\RuningTwitter.py", name);
                     if (Directory.Exists(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP")|| (Directory.Exists(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesTwitter")))
                     {
-                        var selectP = new SelectProfileAll();//Kליצור דף חדש ולשים את זה במקום
+                        var selectP = new SelectProfileAll();
                         selectP.ShowDialog();
-                        //run scraper
-                        
-                        
-                      //  string arg = "";
-                      //  string path = " -dl " + App.DownloadPath;
 
-                      //  if (pictuers.IsChecked == true) arg += " -dup True";
-                      //  if (posts.IsChecked == true) arg += " -pt True";
-                       // if (friends.IsChecked == true && pictuers.IsChecked == true) arg += " -dfp True";
-                      //  else if (friends.IsChecked == true) arg += " -fs True";
-                        //arg += path;
+                        //run scraper Facebook
+                        string arg = "";
+                        string path = " -dl " + App.DownloadPath;
 
-                        //ScriptInterface.Program.RunPy(@"\Scrapers\FacebookS\scraper.py", arg);
-                        //System.Windows.Forms.MessageBox.Show("Search Successfully Completed", "Search",
-                        //MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        //var userProfilw = new showProfileF();
-                        //userProfilw.ShowDialog();
+                        if (pictuers.IsChecked == true) arg += " -dup True";
+                        if (posts.IsChecked == true) arg += " -pt True";
+                        if (friends.IsChecked == true && pictuers.IsChecked == true) arg += " -dfp True";
+                        else if (friends.IsChecked == true) arg += " -fs True";
+                        arg += path;
+
+                        ScriptInterface.Program.RunPy(@"\Scrapers\FacebookS\scraper.py", arg);
+
+                        //run scraper Twitter
+                        arg = App.nameProfile + " " + App.DownloadPath;
+                        ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\twitter_scraper\scraperTwitter.py", arg);
+                        if (posts.IsChecked == true)
+                        {
+                            arg = App.nameProfile;
+                            ScriptInterface.Program.RunShell(@"\Scrapers\SearchApi\twitter_scraper\TweetScraper", @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetSRun.sh", arg);
+                            string filePathMove = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\data\tweet\" + App.nameProfile + ".txt";
+                            string filePathDest = App.DownloadPath + @"\data\" + App.nameProfile + @"\tweet\" + App.nameProfile + ".txt";
+                            System.IO.File.Move(filePathMove, filePathDest);
+                        }
+                        System.Windows.Forms.MessageBox.Show("Scraping Data Successfully Completed", "Search",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        var userProfilw = new showProfileF();
+                        userProfilw.ShowDialog();
 
                     }
                     else

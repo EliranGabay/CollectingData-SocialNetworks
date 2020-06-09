@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -22,7 +23,8 @@ namespace CollectingData_SocialNetworks
     {
         private List<Picture> ImageListF = new List<Picture>();
         private List<Picture> ImageListT = new List<Picture>();
-
+        private bool flagF = false;
+        private bool flagT = false;
 
         public SelectProfileAll()
         {
@@ -54,8 +56,29 @@ namespace CollectingData_SocialNetworks
                 }
                 ListViewTwitter.ItemsSource = ImageListT;
             }
-
-
+        }
+        private void ButtonProfileF_Click(object sender, RoutedEventArgs e)
+        {
+            string name = Regex.Split(((System.Windows.Controls.ContentControl)sender).Content.ToString(), ".jpg")[0];
+            if (name.Contains("@.txt")) { name = name.Split('@')[0]; }
+            else if (name.Contains("$.txt")) { name = name.Split('$')[0]; }
+            else { name = Regex.Split(name, ".txt")[0]; }
+            //Facebook
+            string path = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\FacebookS\input.txt";
+            System.IO.File.WriteAllText(path, @"https://www.facebook.com/" + name);
+            flagF=true;
+            if(flagF&&flagT) this.Hide();
+        }
+        private void ButtonProfileT_Click(object sender, RoutedEventArgs e)
+        {
+            string name = Regex.Split(((System.Windows.Controls.ContentControl)sender).Content.ToString(), ".jpg")[0];
+            if (name.Contains("@.txt")) { name = name.Split('@')[0]; }
+            else if (name.Contains("$.txt")) { name = name.Split('$')[0]; }
+            else { name = Regex.Split(name, ".txt")[0]; }
+            //Twitter
+            App.nameProfile = name;
+            flagT = true;
+            if (flagF && flagT) this.Hide();
         }
     }
 }

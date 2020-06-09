@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:CollectingData_SocialNetworks"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-      Height="Auto" Width="Auto" Background="gray">
+      Height="Auto" Width="Auto" Background="Gray">
     <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
         <TextBlock Text="Search All" FontSize="72" FontWeight="Bold" HorizontalAlignment="Center"  Foreground="#FFFAFAFA" Margin="160,81,160,268.2" />
         <StackPanel>
