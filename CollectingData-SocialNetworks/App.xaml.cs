@@ -16,6 +16,5 @@ namespace CollectingData_SocialNetworks
     {
         public static string DownloadPath { get; set; }
         public static string nameProfile { get; set; }
-
     }
 }
