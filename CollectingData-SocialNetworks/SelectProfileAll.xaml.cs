@@ -25,6 +25,9 @@ namespace CollectingData_SocialNetworks
         private List<Picture> ImageListT = new List<Picture>();
         private bool flagF = false;
         private bool flagT = false;
+        private bool resultF = false;
+        private bool resultT = false;
+
 
         public SelectProfileAll()
         {
@@ -33,6 +36,7 @@ namespace CollectingData_SocialNetworks
 
             if (Directory.Exists(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP"))
             {
+                resultF = true;
                 string[] lineJPG = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP");
                 int SumOfResultF = lineJPG.Length;
 
@@ -42,11 +46,13 @@ namespace CollectingData_SocialNetworks
                 }
                 ListViewFacebook.ItemsSource = ImageListF;
             }
+
             int SumOfResult = 0;
-            string[] lineNameT = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesTwitter").Select(System.IO.Path.GetFileName).ToArray();
 
             if (Directory.Exists(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesTwitter"))
             {
+                resultT = true;
+                string[] lineNameT = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesTwitter").Select(System.IO.Path.GetFileName).ToArray();
                 string[] lineJPG = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesTwitter");
                 SumOfResult = lineJPG.Length;
 
@@ -56,6 +62,8 @@ namespace CollectingData_SocialNetworks
                 }
                 ListViewTwitter.ItemsSource = ImageListT;
             }
+            if (!resultT) flagT = true;
+            if (!resultF) flagF = true;
         }
         private void ButtonProfileF_Click(object sender, RoutedEventArgs e)
         {
