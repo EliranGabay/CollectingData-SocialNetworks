@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CollectingData_SocialNetworks"
         mc:Ignorable="d"
-        Title="showProfile" Height="450" Width="800">
+        Title="Profile" Height="600" Width="800" ResizeMode="NoResize"  WindowStartupLocation="CenterScreen">
     <Grid Width="800" Height="600" Background="#FFDEDEDE" VerticalAlignment="Top">
         <TextBlock Text="About Profile" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Foreground="#FF292626"/>
         <Image Name="profileImageT" Height="120" Stretch="Fill" VerticalAlignment="Top" Margin="645,20,30,0" />
-        <Image Name="profileImageF" Height="120"  Width="120" Stretch="Fill" VerticalAlignment="Top" Margin="515,20,155,0" ></Image>
+        <Image Name="profileImageF" Height="120"  Width="120" Stretch="Fill" VerticalAlignment="Top" Margin="516,20,164,0" ></Image>
         <TextBlock Text="UserName:" FontSize="15" FontWeight="Bold" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" Margin="8,127,630,0"/>
         <TextBlock Name="UserName"  FontSize="15" FontWeight="Bold" Height="20" VerticalAlignment="Top" Margin="91,127,334,0"  />
         <Separator Height="10" Margin="0,147,0,443"/>

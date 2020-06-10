@@ -26,7 +26,8 @@ namespace CollectingData_SocialNetworks
             InitializeComponent();
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\FacebookS\input.txt";
             string[] line = System.IO.File.ReadAllLines(path);
-            UserName.Text = Regex.Split(Regex.Split(line[0], @"https://www.facebook.com/")[1],".txt")[0]+", "+App.nameProfile;
+            string UserNameFace = Regex.Split(Regex.Split(line[0], @"https://www.facebook.com/")[1], ".txt")[0];
+            UserName.Text = UserNameFace + ", "+App.nameProfile;
             string[] listJPGT = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesTwitter");
             int SumOfLIstJPJT = listJPGT.Length;
             for (int i = 0; i < SumOfLIstJPJT; i++)
@@ -47,7 +48,7 @@ namespace CollectingData_SocialNetworks
             int SumOfLIstJPJF = listJPGF.Length;
             for (int i = 0; i < SumOfLIstJPJF; i++)
             {
-                if (listJPGF[i].Contains(App.nameProfile + ".jpg"))
+                if (listJPGF[i].Contains(UserNameFace + ".jpg"))
                 {
                     BitmapImage BitmapF = new BitmapImage();
                     BitmapF.BeginInit();

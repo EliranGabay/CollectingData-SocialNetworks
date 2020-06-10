@@ -114,7 +114,7 @@ namespace CollectingData_SocialNetworks
                         }
                         System.Windows.Forms.MessageBox.Show("Scraping Data Successfully Completed", "Search",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        var userProfilw = new showProfileF();
+                        var userProfilw = new showProfileAll();
                         userProfilw.ShowDialog();
 
                     }
