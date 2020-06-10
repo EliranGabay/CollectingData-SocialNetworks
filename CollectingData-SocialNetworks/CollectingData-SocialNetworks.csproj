@@ -100,6 +100,9 @@
     <Compile Include="setting.xaml.cs">
       <DependentUpon>setting.xaml</DependentUpon>
     </Compile>
+    <Compile Include="showProfileAll.xaml.cs">
+      <DependentUpon>showProfileAll.xaml</DependentUpon>
+    </Compile>
     <Compile Include="showProfileF.xaml.cs">
       <DependentUpon>showProfileF.xaml</DependentUpon>
     </Compile>
@@ -141,6 +144,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="setting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="showProfileAll.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
