@@ -4,11 +4,11 @@
   <head>
         <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-    <link rel="canonical" href="https://twitter.com/search?q=eliran%20gabay">
-    <meta name="twitter-redirect-url" content="twitter://search?query=eliran%20gabay"/>
+    <link rel="canonical" href="https://twitter.com/search?q=dolev%20dadon">
+    <meta name="twitter-redirect-url" content="twitter://search?query=dolev%20dadon"/>
     <meta name="twitter-redirect-srcs" content="{&quot;pwreset-iphone&quot;:true,&quot;android&quot;:true,&quot;email&quot;:true}"/>
     <link href="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/favicon.ico" rel="icon" type="image/x-icon" />
-    <title>Search Twitter - eliran gabay</title>
+    <title>Search Twitter - dolev dadon</title>
       <link href="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/assets/a.css" inline="false" media="screen" rel="stylesheet" type="text/css" />
     <script src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/javascripts/framebust.js" type="text/javascript"></script>
     <script src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/javascripts/serviceworker.js" type="text/javascript" async defer></script>
@@ -59,7 +59,7 @@
         </td>
 
         <td class="r">
-            <a href="/search?q=eliran%20gabay&amp;prev_cursor=thGAVUV0VFVBYBFoDAutnXwZnSIBIYNBJjwusAAAH0P4BiTdLxqfwAAAAEDqiUbaxUwAEQUjMGvZdQAAbuvktkAjAADzTi6oRVAAAVAhUAFQAlAFUAFQAA"> Refresh </a>
+            <a href="/search?q=dolev%20dadon&amp;prev_cursor=thGAVUV0VFVBaAwLylqPa9iRwWgMC8paj2vYkcEhgcEmPC6wAAAfQ_gGJN0vGp_AAAAAEOCXvZQleQABUAFQAVACUAVQAVAAA%3D"> Refresh </a>
         </td>
       </tr>
       </table>
@@ -69,7 +69,7 @@
     <form action="/search" class="search-input" method="get">
     <table>
       <tr>
-        <td class="value" id="search"><div><input id="q" name="q" type="text" value="eliran gabay"/></div></td>
+        <td class="value" id="search"><div><input id="q" name="q" type="text" value="dolev dadon"/></div></td>
         <td class="button">
           <input type="hidden" name="s" value="typd" />
           <input type="image" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/magnifying_glass.gif" alt="Search"/>
@@ -83,20 +83,20 @@
 
     <div class="timeline">
           <table class="tweet  "
-       href="/SabanLiron/status/1095750106228260864?p=v">
+       href="/BergenYJCC/status/1011475764372541440?p=v">
   
 <tr class="tweet-header ">
         <td class="avatar" rowspan="3">
-    <a href="/SabanLiron?p=i">
-      <img alt="liron saban" src="https://pbs.twimg.com/profile_images/1206085956413071362/P_hUEzc8_normal.jpg" />
+    <a href="/BergenYJCC?p=i">
+      <img alt="Bergen County YJCC" src="https://pbs.twimg.com/profile_images/378800000102467270/74352467adf9eecf4ea02bf50e5bfd70_normal.jpeg" />
     </a>
   </td>
 
       <td class="user-info">
-  <a href="/SabanLiron?p=s">
-    <strong class="fullname">liron saban</strong>
+  <a href="/BergenYJCC?p=s">
+    <strong class="fullname">Bergen County YJCC</strong>
     <div class="username">
-      <span>@</span>SabanLiron
+      <span>@</span>BergenYJCC
     </div>
     
   </a>
@@ -104,7 +104,7 @@
 
 
   <td class="timestamp">
-    <a name="tweet_1095750106228260864" href="/SabanLiron/status/1095750106228260864?p=p">13 Feb 19</a>
+    <a name="tweet_1011475764372541440" href="/BergenYJCC/status/1011475764372541440?p=p">25 Jun 18</a>
   </td>
 
 </tr>
@@ -113,8 +113,8 @@
   <td colspan="2" class="tweet-content">
 
 
-    <div class="tweet-text" data-id="1095750106228260864">
-      <div class="dir-ltr" dir="ltr">  aditadmor <span class="twitter-hit-highlight">eliran</span>.<span class="twitter-hit-highlight">gabay</span> <a href="https://t.co/l7laQSLUmj"rel="nofollow noopener"dir="ltr"data-expanded-url="https://www.instagram.com/p/Bt1Obw8g5Hj3K3IbcLF49K6vc0HAemF_Dw2Ny80/?utm_source=ig_twitter_share&amp;igshid=1feblin9ziufm"data-url="https://www.instagram.com/p/Bt1Obw8g5Hj3K3IbcLF49K6vc0HAemF_Dw2Ny80/?utm_source=ig_twitter_share&amp;igshid=1feblin9ziufm"class="twitter_external_link dir-ltr tco-link"target="_blank"title="https://www.instagram.com/p/Bt1Obw8g5Hj3K3IbcLF49K6vc0HAemF_Dw2Ny80/?utm_source=ig_twitter_share&amp;igshid=1feblin9ziufm">instagram.com/p/Bt1Obw8g5Hj3…</a>
+    <div class="tweet-text" data-id="1011475764372541440">
+      <div class="dir-ltr" dir="ltr">  Thanks to our Open Hearts Open Home teens from the past few years - Linoy <span class="twitter-hit-highlight">Dadon</span>, Michal, Ella, Ofry, Harel, Lior, Yannai, Shiri, <span class="twitter-hit-highlight">Dolev</span>, Omer and Shira for providing video clips of the facts and feelings about the... <a href="https://t.co/DwbchSJdsB"rel="nofollow noopener"dir="ltr"data-expanded-url="https://www.facebook.com/JCCNorthernNJ/posts/1163081510500813"data-url="https://www.facebook.com/JCCNorthernNJ/posts/1163081510500813"class="twitter_external_link dir-ltr tco-link"target="_blank"title="https://www.facebook.com/JCCNorthernNJ/posts/1163081510500813">facebook.com/JCCNorthernNJ/…</a>
 </div>
     </div>
 
@@ -126,247 +126,24 @@
     <td colspan="2" class="meta-and-actions">
 
         <span class="metadata">
-          <a href="/SabanLiron/status/1095750106228260864?p=v">View details</a>
+          <a href="/BergenYJCC/status/1011475764372541440?p=v">View details</a>
           <span class="middot">&middot;</span>
         </span>
 
           <span class="tweet-actions">
-            <a href="/SabanLiron/reply/1095750106228260864?p=r" class="first">
+            <a href="/BergenYJCC/reply/1011475764372541440?p=r" class="first">
                 <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
 
             </a>
-              <a href="/statuses/1095750106228260864/retweet?p=t">
+              <a href="/statuses/1011475764372541440/retweet?p=t">
                     <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
 
               </a>
-            <a href="/statuses/1095750106228260864/favorite?p=f&amp;authenticity_token=c57069e48bb1759caa525c55c7a899f56104fc12" class="favorite">
+            <a href="/statuses/1011475764372541440/favorite?p=f&amp;authenticity_token=21930b33a8ac050e7a327492ac9c244acd7dcc80" class="favorite">
                   <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
 
             </a>
-            <a href="/SabanLiron/status/1095750106228260864/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/SabanLiron/status/1056257311381962753?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/SabanLiron?p=i">
-      <img alt="liron saban" src="https://pbs.twimg.com/profile_images/1206085956413071362/P_hUEzc8_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/SabanLiron?p=s">
-    <strong class="fullname">liron saban</strong>
-    <div class="username">
-      <span>@</span>SabanLiron
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1056257311381962753" href="/SabanLiron/status/1056257311381962753?p=p">27 Oct 18</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1056257311381962753">
-      <div class="dir-rtl" dir="rtl">  גאה בכם ושמח שהעבודה הקשה שלכם באה לידי ביטוי במגרש!!!😍⚽️💪♥️😊 aditadmor  <span class="twitter-hit-highlight">eliran</span>.<span class="twitter-hit-highlight">gabay</span> <a href="https://t.co/ECXySx4ZmN"rel="nofollow noopener"dir="ltr"data-expanded-url="https://www.instagram.com/p/BpcoEcmHm60eOXf1dAnGLANekMcORAj6Gi89TQ0/?utm_source=ig_twitter_share&amp;igshid=1fus0ba22m918"data-url="https://www.instagram.com/p/BpcoEcmHm60eOXf1dAnGLANekMcORAj6Gi89TQ0/?utm_source=ig_twitter_share&amp;igshid=1fus0ba22m918"class="twitter_external_link dir-ltr tco-link"target="_blank"title="https://www.instagram.com/p/BpcoEcmHm60eOXf1dAnGLANekMcORAj6Gi89TQ0/?utm_source=ig_twitter_share&amp;igshid=1fus0ba22m918">instagram.com/p/BpcoEcmHm60e…</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-
-        <span class="metadata">
-          <a href="/SabanLiron/status/1056257311381962753?p=v">View details</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/SabanLiron/reply/1056257311381962753?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1056257311381962753/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1056257311381962753/favorite?p=f&amp;authenticity_token=c57069e48bb1759caa525c55c7a899f56104fc12" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/SabanLiron/status/1056257311381962753/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/VicoGuadarrama/status/499545839694393344?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/VicoGuadarrama?p=i">
-      <img alt="Victor guadarrama" src="https://pbs.twimg.com/profile_images/1197535327872790529/S_YZbbLU_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/VicoGuadarrama?p=s">
-    <strong class="fullname">Victor guadarrama</strong>
-    <div class="username">
-      <span>@</span>VicoGuadarrama
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_499545839694393344" href="/VicoGuadarrama/status/499545839694393344?p=p">13 Aug 14</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="499545839694393344">
-      <div class="dir-ltr" dir="ltr">  regevalankry <span class="twitter-hit-highlight">eliran</span>_<span class="twitter-hit-highlight">gabay</span> listos para la playa <a href="http://t.co/wOwWgGfvhc"rel="nofollow noopener"dir="ltr"data-expanded-url="http://instagram.com/p/ro9At7FWZA/"data-url="http://instagram.com/p/ro9At7FWZA/"class="twitter_external_link dir-ltr tco-link"target="_blank"title="http://instagram.com/p/ro9At7FWZA/">instagram.com/p/ro9At7FWZA/</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-
-        <span class="metadata">
-          <a href="/VicoGuadarrama/status/499545839694393344?p=v">View details</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/VicoGuadarrama/reply/499545839694393344?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/499545839694393344/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/499545839694393344/favorite?p=f&amp;authenticity_token=c57069e48bb1759caa525c55c7a899f56104fc12" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/VicoGuadarrama/status/499545839694393344/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/eliran_gabay/status/1176058556740751360?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/eliran_gabay?p=i">
-      <img alt="eliran gabay" src="https://pbs.twimg.com/profile_images/1161290154289639429/Vi0Xcyv5_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/eliran_gabay?p=s">
-    <strong class="fullname">eliran gabay</strong>
-    <div class="username">
-      <span>@</span>eliran_gabay
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1176058556740751360" href="/eliran_gabay/status/1176058556740751360?p=p">Sep 23</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-      <div class="tweet-reply-context username">
-                Replying to
-          <a href="/aviiiv">@aviiiv</a>
-
-          <a href="/ErelSegal">@ErelSegal</a>
-
-        
-
-      </div>
-
-    <div class="tweet-text" data-id="1176058556740751360">
-      <div class="dir-ltr" dir="ltr">  ם <a href="https://t.co/T3vTS23s9Z"data-pre-embedded="true"rel="nofollow"data-entity-id="1176058547815243776"dir="ltr"data-url="https://twitter.com/eliran_gabay/status/1176058556740751360/photo/1"data-tco-id="T3vTS23s9Z"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/eliran_gabay/status/1176058556740751360/photo/1">pic.twitter.com/T3vTS23s9Z</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/tweet_video_thumb/EFIzBKmW4AAg9xA.jpg:small" width="150"  height="150"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/eliran_gabay/status/1176058556740751360?p=v">View conversation</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/eliran_gabay/reply/1176058556740751360?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1176058556740751360/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1176058556740751360/favorite?p=f&amp;authenticity_token=c57069e48bb1759caa525c55c7a899f56104fc12" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/eliran_gabay/status/1176058556740751360/actions" class="last"></a>
+            <a href="/BergenYJCC/status/1011475764372541440/actions" class="last"></a>
           </span>
     </td>
   </tr>
@@ -379,19 +156,19 @@
 
   <tr>
       <td rowspan="2" class="avatar">
-        <img class="profile-image" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="eliran gabay" />
+        <img class="profile-image" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="Dolev Dadon" />
       </td>
     <td class="info fifty screenname">
-      <a name="elirangabay2"/>
-        <a href="/elirangabay2?p=s" data-scribe-action="profile_click"><strong class="fullname">eliran gabay</strong></a>
+      <a name="DadonDolev"/>
+        <a href="/DadonDolev?p=s" data-scribe-action="profile_click"><strong class="fullname">Dolev Dadon</strong></a>
 
       
     </td>
 
     <td class="follow-button-container right fifty" rowspan="2">
-          <form action="/i/guest/follow/elirangabay2" method="post">
+          <form action="/i/guest/follow/DadonDolev" method="post">
       <span class="m2-auth-token">
-    <input name="authenticity_token" type="hidden" value="c57069e48bb1759caa525c55c7a899f56104fc12"/>
+    <input name="authenticity_token" type="hidden" value="21930b33a8ac050e7a327492ac9c244acd7dcc80"/>
   </span>
     
       <span class="w-button-common w-button-follow">
@@ -405,7 +182,7 @@
 
   <tr>
     <td class="info">
-        <a href="/elirangabay2?p=s"><span class="username"><span>@</span>elirangabay2</span></a>
+        <a href="/DadonDolev?p=s"><span class="username"><span>@</span>DadonDolev</span></a>
 
 
     </td>
@@ -416,19 +193,19 @@
 
   <tr>
       <td rowspan="2" class="avatar">
-        <img class="profile-image" src="https://pbs.twimg.com/profile_images/452894860157390848/SMw11KNa_normal.jpeg" alt="אלירן גבאי" />
+        <img class="profile-image" src="https://pbs.twimg.com/profile_images/908042046316990464/2mQH5SB0_normal.jpg" alt="Dolev Dadon" />
       </td>
     <td class="info fifty screenname">
-      <a name="elirangabay23"/>
-        <a href="/elirangabay23?p=s" data-scribe-action="profile_click"><strong class="fullname">אלירן גבאי</strong></a>
+      <a name="DolevDadon"/>
+        <a href="/DolevDadon?p=s" data-scribe-action="profile_click"><strong class="fullname">Dolev Dadon</strong></a>
 
       
     </td>
 
     <td class="follow-button-container right fifty" rowspan="2">
-          <form action="/i/guest/follow/elirangabay23" method="post">
+          <form action="/i/guest/follow/DolevDadon" method="post">
       <span class="m2-auth-token">
-    <input name="authenticity_token" type="hidden" value="c57069e48bb1759caa525c55c7a899f56104fc12"/>
+    <input name="authenticity_token" type="hidden" value="21930b33a8ac050e7a327492ac9c244acd7dcc80"/>
   </span>
     
       <span class="w-button-common w-button-follow">
@@ -442,44 +219,7 @@
 
   <tr>
     <td class="info">
-        <a href="/elirangabay23?p=s"><span class="username"><span>@</span>elirangabay23</span></a>
-
-
-    </td>
-  </tr>
-</table>
-
-              <table class="user-item">
-
-  <tr>
-      <td rowspan="2" class="avatar">
-        <img class="profile-image" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="Eliran Gabay" />
-      </td>
-    <td class="info fifty screenname">
-      <a name="EliranGabay3"/>
-        <a href="/EliranGabay3?p=s" data-scribe-action="profile_click"><strong class="fullname">Eliran Gabay</strong></a>
-
-      
-    </td>
-
-    <td class="follow-button-container right fifty" rowspan="2">
-          <form action="/i/guest/follow/EliranGabay3" method="post">
-      <span class="m2-auth-token">
-    <input name="authenticity_token" type="hidden" value="c57069e48bb1759caa525c55c7a899f56104fc12"/>
-  </span>
-    
-      <span class="w-button-common w-button-follow">
-        <input alt="Follow" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/followplus.gif" type="image" />
-      </span>
-  </form>
-
-    </td>
-
-  </tr>
-
-  <tr>
-    <td class="info">
-        <a href="/EliranGabay3?p=s"><span class="username"><span>@</span>EliranGabay3</span></a>
+        <a href="/DolevDadon?p=s"><span class="username"><span>@</span>DolevDadon</span></a>
 
 
     </td>
@@ -488,11 +228,11 @@
 
           </div>
           <div class='user-list-more'>
-            <a href="/search/users?q=eliran%20gabay"> View more people </a>
+            <a href="/search/users?q=dolev%20dadon"> View more people </a>
           </div>
     </div>
       <div class="w-button-more">
-        <a href="/search?q=eliran%20gabay&amp;next_cursor=thGAVUV0VFVBYBFoDAutnXwZnSIBIYNBJjwusAAAH0P4BiTdLxqfwAAAAEDqiUbaxUwAEQUjMGvZdQAAbuvktkAjAADzTi6oRVAAAVAhUAFQAlAFUAFQAA"> Load older Tweets </a>
+        <a href="/search?q=dolev%20dadon&amp;next_cursor=thGAVUV0VFVBaAwLylqPa9iRwWgMC8paj2vYkcEhgcEmPC6wAAAfQ_gGJN0vGp_AAAAAEOCXvZQleQABUAFQAVACUAVQAVAAA%3D"> Load older Tweets </a>
       </div>
 </div>
 

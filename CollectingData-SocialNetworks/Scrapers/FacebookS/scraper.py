@@ -587,7 +587,6 @@ def scrap_profile():
 
     print("Finished Scraping Profile " + str(user_id) + ".")
     os.chdir("../..")
-
     return
 
 
@@ -850,7 +849,6 @@ def scraper(**kwargs):
         driver.close()
     else:
         print("Input file is empty.")
-    return
 
 
 # -------------------------------------------------------------

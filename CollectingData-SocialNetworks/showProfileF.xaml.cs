@@ -24,13 +24,13 @@ namespace CollectingData_SocialNetworks
         public showProfileF()
         {
             InitializeComponent();
-            userName.Text = App.nameProfile;
+            userName.Text = App.nameProfileF;
             string[] listJPG = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesP");
 
             int SumOfLIstJPJ = listJPG.Length;
             for (int i = 0; i < SumOfLIstJPJ; i++)
             {
-                if (listJPG[i].Contains(App.nameProfile+".jpg")){
+                if (listJPG[i].Contains(App.nameProfileF+".jpg")){
                     BitmapImage bitmap = new BitmapImage();
                     bitmap.BeginInit();
                     bitmap.UriSource = new Uri(listJPG[i]);
@@ -49,7 +49,7 @@ namespace CollectingData_SocialNetworks
             string[] textF = { "Contact and Basic Info", "Places Lived", "Family and Relationships", "Details About", "Work and Education" };
             for (int i = 0; i < textB.Length; i++)
             {
-                string filePath = App.DownloadPath + @"\data\" + App.nameProfile + @"\" + textF[i] + ".txt"; 
+                string filePath = App.DownloadPath + @"\data\" + App.nameProfileF + @"\" + textF[i] + ".txt"; 
                 string[] lines = System.IO.File.ReadAllLines(filePath);
                 string info = "";
                 for (int j = 0; j < lines.Length; j++)
@@ -60,9 +60,6 @@ namespace CollectingData_SocialNetworks
                 textB[i].Text = info;
 
             }
-          
-            
-
         }
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

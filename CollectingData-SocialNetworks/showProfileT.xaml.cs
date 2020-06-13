@@ -23,12 +23,12 @@ namespace CollectingData_SocialNetworks
         public showProfileT()
         {
             InitializeComponent();
-            userName.Text = App.nameProfile;
+            userName.Text = App.nameProfileT;
             string[] listJPGT = Directory.GetFiles(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Scrapers\\SearchApi\\imagesTwitter");
             int SumOfLIstJPJT = listJPGT.Length;
             for (int i = 0; i < SumOfLIstJPJT; i++)
             {
-                if (listJPGT[i].Contains(App.nameProfile + ".jpg"))
+                if (listJPGT[i].Contains(App.nameProfileT + ".jpg"))
                 {
                     BitmapImage bitmap = new BitmapImage();
                     bitmap.BeginInit();
@@ -42,7 +42,7 @@ namespace CollectingData_SocialNetworks
             UpdateListT();
         }
         private void UpdateListT() {
-            string filePath = App.DownloadPath + @"\data\" + App.nameProfile+ @"\"+ App.nameProfile + @".txt";
+            string filePath = App.DownloadPath + @"\data\" + App.nameProfileT+ @"\"+ App.nameProfileT + @".txt";
             string[] lines = System.IO.File.ReadAllLines(filePath);
             int SumOfLins = lines.Length;
             string Basic = "";

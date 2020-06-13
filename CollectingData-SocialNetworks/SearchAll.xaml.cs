@@ -102,14 +102,14 @@ namespace CollectingData_SocialNetworks
                         ScriptInterface.Program.RunPy(@"\Scrapers\FacebookS\scraper.py", arg);
 
                         //run scraper Twitter
-                        arg = App.nameProfile + " " + App.DownloadPath;
+                        arg = App.nameProfileT + " " + App.DownloadPath;
                         ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\twitter_scraper\scraperTwitter.py", arg);
                         if (posts.IsChecked == true)
                         {
-                            arg = App.nameProfile;
+                            arg = App.nameProfileT;
                             ScriptInterface.Program.RunShell(@"\Scrapers\SearchApi\twitter_scraper\TweetScraper", @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetSRun.sh", arg);
-                            string filePathMove = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\data\tweet\" + App.nameProfile + ".txt";
-                            string filePathDest = App.DownloadPath + @"\data\" + App.nameProfile + @"\tweet\" + App.nameProfile + ".txt";
+                            string filePathMove = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\data\tweet\" + App.nameProfileT + ".txt";
+                            string filePathDest = App.DownloadPath + @"\data\" + App.nameProfileT + @"\tweet\" + App.nameProfileT + ".txt";
                             System.IO.File.Move(filePathMove, filePathDest);
                         }
                         System.Windows.Forms.MessageBox.Show("Scraping Data Successfully Completed", "Search",

@@ -74,6 +74,7 @@ namespace CollectingData_SocialNetworks
             //Facebook
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\FacebookS\input.txt";
             System.IO.File.WriteAllText(path, @"https://www.facebook.com/" + name);
+            App.nameProfileF = name;
             flagF=true;
             if(flagF&&flagT) this.Hide();
         }
@@ -84,7 +85,7 @@ namespace CollectingData_SocialNetworks
             else if (name.Contains("$.txt")) { name = name.Split('$')[0]; }
             else { name = Regex.Split(name, ".txt")[0]; }
             //Twitter
-            App.nameProfile = name;
+            App.nameProfileT = name;
             flagT = true;
             if (flagF && flagT) this.Hide();
         }

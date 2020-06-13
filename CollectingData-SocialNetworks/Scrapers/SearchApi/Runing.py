@@ -34,7 +34,7 @@ def FacebookSerch(Name):
 
 #-------------------Main--------------------------------------
 NameRecev=' '.join(sys.argv[1:]) #get name from argv(user)
-print("Run New Search....\n"+"Searching( "+NameRecev+" )....")
+print("Run New Search ( Facebook )....\n"+"Searching( "+NameRecev+" )....")
 print("----------------------------------------------------------")
 print("Searching in Google Search......")
 UrlGoogle=GoogleSerch(NameRecev)
