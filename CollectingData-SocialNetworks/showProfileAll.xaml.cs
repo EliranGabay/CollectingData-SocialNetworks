@@ -135,6 +135,15 @@ namespace CollectingData_SocialNetworks
             if (ACCOUNT.Text.Length == 1)
                 ACCOUNT.Text = "None";
         }
+        private void Open_Folder(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo()
+            {
+                FileName = App.DownloadPath,
+                UseShellExecute = true,
+                Verb = "open"
+            });
+        }
 
     }
 }

@@ -41,7 +41,8 @@ namespace CollectingData_SocialNetworks
             }
             UpdateListT();
         }
-        private void UpdateListT() {
+        private void UpdateListT() 
+        {
             string filePath = App.DownloadPath + @"\data\" + App.nameProfileT+ @"\"+ App.nameProfileT + @".txt";
             string[] lines = System.IO.File.ReadAllLines(filePath);
             int SumOfLins = lines.Length;
@@ -95,7 +96,15 @@ namespace CollectingData_SocialNetworks
             ACCOUNT.Text = AFTer;
 
         }
-
+        private void Open_Folder(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo()
+            {
+                FileName = App.DownloadPath,
+                UseShellExecute = true,
+                Verb = "open"
+            });
+        }
 
 
     }

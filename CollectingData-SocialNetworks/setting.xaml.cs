@@ -44,9 +44,6 @@ namespace CollectingData_SocialNetworks
                     App.DownloadPath = fbd.SelectedPath;
                 }
             }
-
-
-
         }
     }
 }

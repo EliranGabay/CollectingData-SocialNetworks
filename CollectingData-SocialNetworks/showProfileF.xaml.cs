@@ -61,6 +61,15 @@ namespace CollectingData_SocialNetworks
 
             }
         }
+        private void Open_Folder(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo()
+            {
+                FileName = App.DownloadPath,
+                UseShellExecute = true,
+                Verb = "open"
+            });
+        }
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 

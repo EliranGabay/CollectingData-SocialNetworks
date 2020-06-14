@@ -3,11 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CollectingData_SocialNetworks"
+        xmlns:local="clr-namespace:CollectingData_SocialNetworks" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="Profile" Height="600" Width="800" ResizeMode="NoResize"  WindowStartupLocation="CenterScreen" >
     <Grid Width="800" Height="600" Background="#FFDEDEDE" VerticalAlignment="Top">
         <TextBlock Text="About Profile" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Foreground="#FF292626"/>
+        <Button Content="{materialDesign:PackIcon FolderOpen}" ToolTip="Icon" Width="50"  Background="Black" BorderBrush="#FF292626" Click="Open_Folder" VerticalAlignment="Top" Margin="26,20,724,0" />
+        <TextBlock Text="Save Folder" Margin="20,52,670,509"></TextBlock>
         <Image Name="profileImageT" Height="120"  Width="120" Stretch="Fill" VerticalAlignment="Top" Margin="650,20,39,15" ></Image>
         <TextBlock Text="User name:" FontSize="15" FontWeight="Bold" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" Margin="8,127,630,0"/>
         <TextBlock Name="userName"  FontSize="15" FontWeight="Bold" Height="20" VerticalAlignment="Top" Margin="91,127,334,0"  />
