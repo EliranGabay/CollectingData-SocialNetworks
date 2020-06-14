@@ -76,7 +76,8 @@ namespace CollectingData_SocialNetworks
             System.IO.File.WriteAllText(path, @"https://www.facebook.com/" + name);
             App.nameProfileF = name;
             flagF=true;
-            if(flagF&&flagT) this.Hide();
+            App.flagRunFacebook = true;
+            if (flagF&&flagT) this.Hide();
         }
         private void ButtonProfileT_Click(object sender, RoutedEventArgs e)
         {
@@ -87,6 +88,19 @@ namespace CollectingData_SocialNetworks
             //Twitter
             App.nameProfileT = name;
             flagT = true;
+            App.flagRunTwitter = true;
+            if (flagF && flagT) this.Hide();
+        }
+        private void ProFacebookNotF(object sender, RoutedEventArgs e)
+        {
+            flagF = true;
+            App.flagRunFacebook = false;
+            if (flagF && flagT) this.Hide();
+        }
+        private void ProTwitterNotF(object sender, RoutedEventArgs e)
+        {
+            flagT = true;
+            App.flagRunTwitter = false;
             if (flagF && flagT) this.Hide();
         }
     }

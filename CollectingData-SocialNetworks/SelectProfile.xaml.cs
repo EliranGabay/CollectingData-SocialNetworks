@@ -65,10 +65,17 @@ namespace CollectingData_SocialNetworks
                 string path = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\FacebookS\input.txt";
                 System.IO.File.WriteAllText(path, @"https://www.facebook.com/" + name);
                 App.nameProfileF = name;
+                App.flagRun = true;
             }
             else {//Twitter
                 App.nameProfileT = name;
+                App.flagRun = true;
             }
+            this.Hide();
+        }
+        private void StopSearch(object sender, RoutedEventArgs e)
+        {
+            App.flagRun = false;
             this.Hide();
         }
     }

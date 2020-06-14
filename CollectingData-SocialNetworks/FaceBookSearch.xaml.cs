@@ -78,21 +78,29 @@ namespace CollectingData_SocialNetworks
                     {
                         var selectP = new SelectProfile();
                         selectP.ShowDialog();
-                        //run scraper
-                        string arg="";
-                        string path = " -dl " + App.DownloadPath;
+                        if (App.flagRun)
+                        {
+                            //run scraper
+                            string arg = "";
+                            string path = " -dl " + App.DownloadPath;
 
-                        if (pictuers.IsChecked == true) arg += " -dup True";
-                        if (posts.IsChecked == true) arg += " -pt True";
-                        if (friends.IsChecked == true && pictuers.IsChecked == true) arg += " -dfp True";
-                        else if (friends.IsChecked == true) arg += " -fs True";
-                        arg += path;
+                            if (pictuers.IsChecked == true) arg += " -dup True";
+                            if (posts.IsChecked == true) arg += " -pt True";
+                            if (friends.IsChecked == true && pictuers.IsChecked == true) arg += " -dfp True";
+                            else if (friends.IsChecked == true) arg += " -fs True";
+                            arg += path;
 
-                        ScriptInterface.Program.RunPy(@"\Scrapers\FacebookS\scraper.py", arg);
-                        System.Windows.Forms.MessageBox.Show("Scraping Data Successfully Completed", "Scraper",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        var userProfilw = new showProfileF();
-                        userProfilw.ShowDialog();
+                            ScriptInterface.Program.RunPy(@"\Scrapers\FacebookS\scraper.py", arg);
+                            System.Windows.Forms.MessageBox.Show("Scraping Data Successfully Completed", "Scraper",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            var userProfilw = new showProfileF();
+                            userProfilw.ShowDialog();
+                        }
+                        else
+                        {
+                            System.Windows.Forms.MessageBox.Show("The search is Stop", "Stop search",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
                     }
                     else
                     {

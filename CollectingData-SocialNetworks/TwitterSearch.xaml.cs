@@ -90,21 +90,29 @@ namespace CollectingData_SocialNetworks
 
                         var selectP = new SelectProfile("imagesTwitter");
                         selectP.ShowDialog();
-                        //run scraper
-                        string arg = App.nameProfileT+" "+App.DownloadPath;
-                        ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\twitter_scraper\scraperTwitter.py", arg);
-                        if (posts.IsChecked == true)
+                        if (App.flagRun)
                         {
-                            arg = App.nameProfileT;
-                            ScriptInterface.Program.RunShell(@"\Scrapers\SearchApi\twitter_scraper\TweetScraper", @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetSRun.sh", arg);
-                            string filePathMove = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\data\tweet\"+ App.nameProfileT+".txt";
-                            string filePathDest = App.DownloadPath + @"\data\"+App.nameProfileT+@"\tweet\" + App.nameProfileT + ".txt";
-                            System.IO.File.Move(filePathMove, filePathDest);
+                            //run scraper
+                            string arg = App.nameProfileT + " " + App.DownloadPath;
+                            ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\twitter_scraper\scraperTwitter.py", arg);
+                            if (posts.IsChecked == true)
+                            {
+                                arg = App.nameProfileT;
+                                ScriptInterface.Program.RunShell(@"\Scrapers\SearchApi\twitter_scraper\TweetScraper", @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetSRun.sh", arg);
+                                string filePathMove = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\data\tweet\" + App.nameProfileT + ".txt";
+                                string filePathDest = App.DownloadPath + @"\data\" + App.nameProfileT + @"\tweet\" + App.nameProfileT + ".txt";
+                                System.IO.File.Move(filePathMove, filePathDest);
+                            }
+                            System.Windows.Forms.MessageBox.Show("Scraping Data Successfully Completed", "Scraper",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            var userProfile = new showProfileT();
+                            userProfile.ShowDialog();
                         }
-                        System.Windows.Forms.MessageBox.Show("Scraping Data Successfully Completed", "Scraper",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        var userProfile = new showProfileT();
-                        userProfile.ShowDialog();
+                        else
+                        {
+                            System.Windows.Forms.MessageBox.Show("The search is Stop", "Stop search",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
                     }
                     else
                     {

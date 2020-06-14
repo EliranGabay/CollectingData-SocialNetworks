@@ -65,7 +65,7 @@ namespace CollectingData_SocialNetworks
         {
             System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo()
             {
-                FileName = App.DownloadPath,
+                FileName = App.DownloadPath + @"\data\" + App.nameProfileF,
                 UseShellExecute = true,
                 Verb = "open"
             });

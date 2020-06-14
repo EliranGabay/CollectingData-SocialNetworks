@@ -7,12 +7,12 @@
         xmlns:local="clr-namespace:CollectingData_SocialNetworks"
         Background="#FF292626"
         mc:Ignorable="d"
-        Title="SelectProfile" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+        Title="SelectProfile" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
 
-    <Grid>
-        <ScrollViewer Background="#FFDEDEDE" Height="421" Margin="0,0,0.333,-0.333" VerticalAlignment="Bottom">
+    <Grid Background="#FFDEDEDE">
+        <TextBlock Text="Please select the profile you want to search on..." TextAlignment="center" FontSize="18" FontWeight="Medium" Margin="0,5,0,-5"/>
+        <ScrollViewer Background="#FFDEDEDE" Height="346" VerticalAlignment="Bottom" Margin="0,0,0,32">
             <StackPanel>
-                <TextBlock Text="Profile pictures" TextAlignment="center" FontSize="22" FontWeight="Medium"/>
                 <StackPanel Margin="20 0">
                     <ItemsControl x:Name="ListViewImag" ItemsSource="{Binding picture}">
                         <ItemsControl.ItemTemplate>
@@ -41,6 +41,7 @@
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>
+        <Button Style="{StaticResource MaterialDesignRaisedLightButton}" Foreground="DarkRed" BorderBrush="#FFDEDEDE" VerticalAlignment="Bottom" FontSize="15" FontWeight="Medium" Click="StopSearch" Background="#FFDEDEDE">If the profile is not found, click here...</Button>
     </Grid>
 
 </Window>

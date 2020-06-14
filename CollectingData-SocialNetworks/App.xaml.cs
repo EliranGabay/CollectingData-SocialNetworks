@@ -17,5 +17,9 @@ namespace CollectingData_SocialNetworks
         public static string DownloadPath { get; set; }
         public static string nameProfileF { get; set; }
         public static string nameProfileT { get; set; }
+        public static bool flagRun { get; set; }
+
+        public static bool flagRunFacebook { get; set; }
+        public static bool flagRunTwitter { get; set; }
     }
 }

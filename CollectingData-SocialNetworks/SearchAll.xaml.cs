@@ -88,34 +88,57 @@ namespace CollectingData_SocialNetworks
                     {
                         var selectP = new SelectProfileAll();
                         selectP.ShowDialog();
-
-                        //run scraper Facebook
-                        string arg = "";
-                        string path = " -dl " + App.DownloadPath;
-
-                        if (pictuers.IsChecked == true) arg += " -dup True";
-                        if (posts.IsChecked == true) arg += " -pt True";
-                        if (friends.IsChecked == true && pictuers.IsChecked == true) arg += " -dfp True";
-                        else if (friends.IsChecked == true) arg += " -fs True";
-                        arg += path;
-
-                        ScriptInterface.Program.RunPy(@"\Scrapers\FacebookS\scraper.py", arg);
-
-                        //run scraper Twitter
-                        arg = App.nameProfileT + " " + App.DownloadPath;
-                        ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\twitter_scraper\scraperTwitter.py", arg);
-                        if (posts.IsChecked == true)
+                        if (App.flagRunFacebook)
                         {
-                            arg = App.nameProfileT;
-                            ScriptInterface.Program.RunShell(@"\Scrapers\SearchApi\twitter_scraper\TweetScraper", @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetSRun.sh", arg);
-                            string filePathMove = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\data\tweet\" + App.nameProfileT + ".txt";
-                            string filePathDest = App.DownloadPath + @"\data\" + App.nameProfileT + @"\tweet\" + App.nameProfileT + ".txt";
-                            System.IO.File.Move(filePathMove, filePathDest);
+                            //run scraper Facebook
+                            string arg = "";
+                            string path = " -dl " + App.DownloadPath;
+
+                            if (pictuers.IsChecked == true) arg += " -dup True";
+                            if (posts.IsChecked == true) arg += " -pt True";
+                            if (friends.IsChecked == true && pictuers.IsChecked == true) arg += " -dfp True";
+                            else if (friends.IsChecked == true) arg += " -fs True";
+                            arg += path;
+
+                            ScriptInterface.Program.RunPy(@"\Scrapers\FacebookS\scraper.py", arg);
                         }
-                        System.Windows.Forms.MessageBox.Show("Scraping Data Successfully Completed", "Search",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        var userProfilw = new showProfileAll();
-                        userProfilw.ShowDialog();
+                        if (App.flagRunTwitter)
+                        {
+                            //run scraper Twitter
+                            string arg = App.nameProfileT + " " + App.DownloadPath;
+                            ScriptInterface.Program.RunPy(@"\Scrapers\SearchApi\twitter_scraper\scraperTwitter.py", arg);
+                            if (posts.IsChecked == true)
+                            {
+                                arg = App.nameProfileT;
+                                ScriptInterface.Program.RunShell(@"\Scrapers\SearchApi\twitter_scraper\TweetScraper", @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetSRun.sh", arg);
+                                string filePathMove = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\data\tweet\" + App.nameProfileT + ".txt";
+                                string filePathDest = App.DownloadPath + @"\data\" + App.nameProfileT + @"\tweet\" + App.nameProfileT + ".txt";
+                                System.IO.File.Move(filePathMove, filePathDest);
+                            }
+                            System.Windows.Forms.MessageBox.Show("Scraping Data Successfully Completed", "Search",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            
+                        }
+                        if(App.flagRunFacebook && App.flagRunTwitter)
+                        {
+                            var userProfilw = new showProfileAll();
+                            userProfilw.ShowDialog();
+                        }
+                        else if(App.flagRunFacebook)
+                        {
+                            var userProfilw = new showProfileF();
+                            userProfilw.ShowDialog();
+                        }
+                        else if (App.flagRunTwitter)
+                        {
+                            var userProfilw = new showProfileT();
+                            userProfilw.ShowDialog();
+                        }
+                        else
+                        {
+                            System.Windows.Forms.MessageBox.Show("The search is Stop", "Stop search",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
 
                     }
                     else
