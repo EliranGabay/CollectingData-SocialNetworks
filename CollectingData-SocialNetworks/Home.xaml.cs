@@ -64,7 +64,7 @@ namespace CollectingData_SocialNetworks
             WinMain.Content = null;
             WinMain.Content = T;
         }
-    
+
         private void SearchA_Click(object sender, RoutedEventArgs e)
         {
             SearchAll A = new SearchAll();
@@ -73,7 +73,10 @@ namespace CollectingData_SocialNetworks
         }
     private void Home_Click(object sender, RoutedEventArgs e)
         {
+
+            HomePage HomeP = new HomePage();
             WinMain.Content = null;
+            WinMain.Content = HomeP;
         }
         private void Help_Click(object sender, RoutedEventArgs e)
         {
