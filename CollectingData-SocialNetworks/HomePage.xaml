@@ -1,0 +1,26 @@
+﻿<Page x:Class="CollectingData_SocialNetworks.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CollectingData_SocialNetworks"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HomePage" Background="#847C83">
+
+    <Grid>
+        <Image Source="Icons\Facebook-1.png" Margin="-33,-31,455,139" RenderTransformOrigin="0.569,2.451" />
+        <Rectangle Fill="White" Opacity="0.5"/>
+        <Image Source="Icons\Twitter_bird_logo.svg.png" Margin="382,229,-140,10" />
+        <Rectangle Fill="White" Opacity="0.5"/>
+
+
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Height="60" Margin="210,115,190,275" TextWrapping="Wrap" Text="Welcom" VerticalAlignment="Center" Width="400" FontWeight="Bold" FontSize="34" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Height="22" Margin="210,289,190,139" TextWrapping="Wrap"
+                   Text="Create by Dolev Dadon and Eliran Gabay" VerticalAlignment="Center" Width="400" FontSize="16" TextAlignment="Center" FontWeight="Bold" TextDecorations="{x:Null}"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Center" Height="96" Margin="127,171,104,183" TextWrapping="Wrap"
+                   Text="The concept of social media describes various platforms and enables the creation of social connections and information sharing by the user.
+In this system we will collect information information found on social networks Facebook and Twitter using a web crawler and scraper." VerticalAlignment="Center" Width="569" TextAlignment="Center" FontSize="18"/>
+
+    </Grid>
+</Page>

@@ -77,6 +77,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Picture.cs" />
     <Compile Include="ScriptRun.cs" />
     <Compile Include="FaceBookSearch.xaml.cs">
@@ -131,6 +134,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="HomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SearchAll.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -214,6 +221,8 @@
     <Resource Include="Icons\logoS.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Icons\Facebook-1.png" />
+    <Resource Include="Icons\Twitter_bird_logo.svg.png" />
     <Content Include="Scrapers\SearchApi\twitter_scraper\scraperTwitter.py" />
     <Content Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\items.py" />
     <Content Include="Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetScraper\pipelines.py" />
@@ -232,10 +241,8 @@
     <Content Include="Scrapers\SearchApi\facebook_snooper\__version__.py" />
     <Content Include="Scrapers\SearchApi\find_profile_image_Fid.py" />
     <Content Include="Scrapers\SearchApi\twitter_scraper\profile.py" />
-    <Resource Include="Scrapers\SearchApi\input.txt" />
     <Content Include="Scrapers\SearchApi\RuningTwitter.py" />
     <Content Include="Scrapers\SearchApi\Runing.py" />
-    <Resource Include="Scrapers\FacebookS\input.txt" />
     <Content Include="Scrapers\FacebookS\scraper.py" />
     <Content Include="Scrapers\FacebookS\utils.py" />
     <Content Include="Scrapers\FacebookS\__main__.py" />
