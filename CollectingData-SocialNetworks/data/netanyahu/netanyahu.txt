@@ -1,0 +1,16 @@
+USERNAME:
+netanyahu
+NAME:
+Benjamin Netanyahu
+BIRTHDAY:
+None
+LOCATION:
+Israel
+BIOGRAPHY:
+ראש ממשלת ישראל ויו''ר הליכוד • Prime Minister of Israel, Chairman of the Likud Party
+Tweets Amount:
+6677
+Followers Amount:
+1829104
+Following Amount:
+35

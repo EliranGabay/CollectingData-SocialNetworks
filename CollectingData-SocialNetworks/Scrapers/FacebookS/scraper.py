@@ -14,10 +14,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
-# ----------------Global------------------
-file_path = os.path.dirname(__file__)
-# ----------------------------------------
-
 
 def get_facebook_images_url(img_links):
     urls = []
@@ -62,11 +58,9 @@ def image_downloader(img_links, folder_name):
     :return: list of image names downloaded
     """
     img_names = []
-
     try:
-        parent = downloadPath
         try:
-            folder = os.path.join(downloadPath, folder_name)
+            folder = os.path.join(DOWN_PATH, folder_name)
             utils.create_folder(folder)
             os.chdir(folder)
         except Exception:
@@ -89,7 +83,7 @@ def image_downloader(img_links, folder_name):
 
             img_names.append(img_name)
 
-        os.chdir(parent)
+        os.chdir(DOWN_PATH)
     except Exception:
         print("Exception (image_downloader):", sys.exc_info()[0])
     return img_names
@@ -542,14 +536,16 @@ def create_original_link(url):
 
 
 def scrap_profile():
+    global DOWN_PATH
     data_folder = os.path.join(downloadPath, "data")
     utils.create_folder(data_folder)
     os.chdir(data_folder)
-
     # execute for all profiles given in input.txt file
     url = driver.current_url
     user_id = create_original_link(url)
-
+    file_path = os.path.dirname(__file__)
+    DOWN_PATH = str(os.path.join(os.path.join(
+        downloadPath, "data"), user_id.split("/")[-1]))
     print("\nScraping:", user_id)
 
     try:
@@ -671,7 +667,7 @@ def create_folders():
     Changes current dir to target_dir
     :return: target_dir or None in case of failure
     """
-    folder = os.path.join(downloadPath, "data")
+    folder = DOWN_PATH
     utils.create_folder(folder)
     os.chdir(folder)
     try:
@@ -904,8 +900,9 @@ if __name__ == "__main__":
     print(args)
     # ---------------------------------------------------------
     # Global Variables
-    # ---------------------------------------------------------
-
+    file_path = os.path.dirname(__file__)
+    DOWN_PATH = ""
+    #----------------------------------------------------------
     # whether to download photos or not
     download_uploaded_photos = utils.to_bool(args["uploaded_photos"])
     download_friends_photos = utils.to_bool(args["friends_photos"])
