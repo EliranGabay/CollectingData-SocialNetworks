@@ -95,6 +95,8 @@ namespace CollectingData_SocialNetworks
                             MessageBoxButtons.OK, MessageBoxIcon.Information);
                             var userProfilw = new showProfileF();
                             userProfilw.ShowDialog();
+                            System.Windows.Forms.Application.Restart();
+                            System.Windows.Application.Current.Shutdown();
                         }
                         else
                         {

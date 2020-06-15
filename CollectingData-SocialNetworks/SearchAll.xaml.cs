@@ -139,7 +139,8 @@ namespace CollectingData_SocialNetworks
                             System.Windows.Forms.MessageBox.Show("The search is Stop", "Stop search",
                         MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
-
+                        System.Windows.Forms.Application.Restart();
+                        System.Windows.Application.Current.Shutdown();
                     }
                     else
                     {
