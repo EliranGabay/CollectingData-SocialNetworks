@@ -95,14 +95,15 @@ namespace CollectingData_SocialNetworks
                             MessageBoxButtons.OK, MessageBoxIcon.Information);
                             var userProfilw = new showProfileF();
                             userProfilw.ShowDialog();
-                            System.Windows.Forms.Application.Restart();
-                            System.Windows.Application.Current.Shutdown();
                         }
                         else
                         {
                             System.Windows.Forms.MessageBox.Show("The search is Stop", "Stop search",
                         MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
                         }
+                        System.Windows.Forms.Application.Restart();
+                        System.Windows.Application.Current.Shutdown();
                     }
                     else
                     {

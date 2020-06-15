@@ -22,11 +22,14 @@ namespace CollectingData_SocialNetworks
     {
         setting S = new setting();
         Help H = new Help();
+        HomePage HomeP = new HomePage();
 
         public Home()
         {
             InitializeComponent();
-            
+            WinMain.Content = null;
+            WinMain.Content = HomeP;
+
         }
         private void Window_MouseMove(object sender, MouseEventArgs e)
         {
@@ -73,8 +76,6 @@ namespace CollectingData_SocialNetworks
         }
     private void Home_Click(object sender, RoutedEventArgs e)
         {
-
-            HomePage HomeP = new HomePage();
             WinMain.Content = null;
             WinMain.Content = HomeP;
         }
