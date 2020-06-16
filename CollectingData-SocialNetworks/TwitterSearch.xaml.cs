@@ -98,10 +98,13 @@ namespace CollectingData_SocialNetworks
                             if (posts.IsChecked == true)
                             {
                                 arg = App.nameProfileT;
-                                ScriptInterface.Program.RunShell(@"\Scrapers\SearchApi\twitter_scraper\TweetScraper", @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetSRun.sh", arg);
                                 string filePathMove = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\data\tweet\" + App.nameProfileT + ".txt";
                                 string filePathDest = App.DownloadPath + @"\data\" + App.nameProfileT + @"\tweet\" + App.nameProfileT + ".txt";
-                                System.IO.File.Move(filePathMove, filePathDest);
+                                if (!System.IO.File.Exists(filePathDest))
+                                {
+                                    ScriptInterface.Program.RunShell(@"\Scrapers\SearchApi\twitter_scraper\TweetScraper", @"\Scrapers\SearchApi\twitter_scraper\TweetScraper\TweetSRun.sh", arg);
+                                    System.IO.File.Move(filePathMove, filePathDest);
+                                }
                             }
                             System.Windows.Forms.MessageBox.Show("Scraping Data Successfully Completed", "Scraper",
                             MessageBoxButtons.OK, MessageBoxIcon.Information);

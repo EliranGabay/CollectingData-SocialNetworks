@@ -4,11 +4,11 @@
   <head>
         <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-    <link rel="canonical" href="https://twitter.com/search?q=benjamin%20netanyahu">
-    <meta name="twitter-redirect-url" content="twitter://search?query=Benjamin%20Netanyahu"/>
+    <link rel="canonical" href="https://twitter.com/search?q=eliran%20gabay">
+    <meta name="twitter-redirect-url" content="twitter://search?query=eliran%20gabay"/>
     <meta name="twitter-redirect-srcs" content="{&quot;pwreset-iphone&quot;:true,&quot;android&quot;:true,&quot;email&quot;:true}"/>
     <link href="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/favicon.ico" rel="icon" type="image/x-icon" />
-    <title>Search Twitter - Benjamin Netanyahu</title>
+    <title>Search Twitter - eliran gabay</title>
       <link href="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/assets/a.css" inline="false" media="screen" rel="stylesheet" type="text/css" />
     <script src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/javascripts/framebust.js" type="text/javascript"></script>
     <script src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/javascripts/serviceworker.js" type="text/javascript" async defer></script>
@@ -59,7 +59,7 @@
         </td>
 
         <td class="r">
-            <a href="/search?q=Benjamin%20Netanyahu&amp;prev_cursor=thGAVUV0VFVBaGgLXV8teBqSMWhoC11fLXgakjEhi0ARJjwusAAAH0P4BiTdLxqfwAAAAUEaKS6IgXQAURqIcQzVfQARGnQYlxF9ABEaQlRtNWsAARp6cr5NeQAhGmtfOb1qAAEaVcgs5XQAARpi9689fQARGjLu29VHABEadBZHPX0AARpfA8ztaQABGpA1-VVqADEaMeh8VUMAMRpjvmSRaQABGn8li61gACEaK4EATWAAARp9qY5VeABxGktlU_V0ACEaKw7BnX0AARomYxyVeAABUAFQAVACUAVQAVAAA%3D"> Refresh </a>
+            <a href="/search?q=eliran%20gabay&amp;prev_cursor=thGAVUV0VFVBaAwLrZ18GZ0iAWgMC62dfBmdIgEhg0EmPC6wAAAfQ_gGJN0vGp_AAAAAQOqJRtrFTAARBSMwa9l1AABu6-S2QCMAAPNOLqhFUAABUAFQAVACUAVQAVAAA%3D"> Refresh </a>
         </td>
       </tr>
       </table>
@@ -69,7 +69,7 @@
     <form action="/search" class="search-input" method="get">
     <table>
       <tr>
-        <td class="value" id="search"><div><input id="q" name="q" type="text" value="Benjamin Netanyahu"/></div></td>
+        <td class="value" id="search"><div><input id="q" name="q" type="text" value="eliran gabay"/></div></td>
         <td class="button">
           <input type="hidden" name="s" value="typd" />
           <input type="image" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/magnifying_glass.gif" alt="Search"/>
@@ -83,20 +83,20 @@
 
     <div class="timeline">
           <table class="tweet  "
-       href="/chetach15011359/status/1271904002674958336?p=v">
+       href="/SabanLiron/status/1095750106228260864?p=v">
   
 <tr class="tweet-header ">
         <td class="avatar" rowspan="3">
-    <a href="/chetach15011359?p=i">
-      <img alt="Chetachi" src="https://pbs.twimg.com/profile_images/1267203878510047233/1zrgHore_normal.jpg" />
+    <a href="/SabanLiron?p=i">
+      <img alt="liron saban" src="https://pbs.twimg.com/profile_images/1206085956413071362/P_hUEzc8_normal.jpg" />
     </a>
   </td>
 
       <td class="user-info">
-  <a href="/chetach15011359?p=s">
-    <strong class="fullname">Chetachi</strong>
+  <a href="/SabanLiron?p=s">
+    <strong class="fullname">liron saban</strong>
     <div class="username">
-      <span>@</span>chetach15011359
+      <span>@</span>SabanLiron
     </div>
     
   </a>
@@ -104,7 +104,7 @@
 
 
   <td class="timestamp">
-    <a name="tweet_1271904002674958336" href="/chetach15011359/status/1271904002674958336?p=p">Jun 13</a>
+    <a name="tweet_1095750106228260864" href="/SabanLiron/status/1095750106228260864?p=p">13 Feb 19</a>
   </td>
 
 </tr>
@@ -113,8 +113,8 @@
   <td colspan="2" class="tweet-content">
 
 
-    <div class="tweet-text" data-id="1271904002674958336">
-      <div class="dir-ltr" dir="ltr">  Biafra referendum is the only solution! #Asorockisempty#support #Biafraexit#unhumanright#ukparliament#uscongress#right2self-determination#right2freedomofspeech, religion&amp; dignity. @donaldtrump@borisjohnson@<span class="twitter-hit-highlight">benjaminnetanyahu</span>@deptofstate@transparencyintl@ussecofstate.
+    <div class="tweet-text" data-id="1095750106228260864">
+      <div class="dir-ltr" dir="ltr">  aditadmor <span class="twitter-hit-highlight">eliran</span>.<span class="twitter-hit-highlight">gabay</span> <a href="https://t.co/l7laQSLUmj"rel="nofollow noopener"dir="ltr"data-expanded-url="https://www.instagram.com/p/Bt1Obw8g5Hj3K3IbcLF49K6vc0HAemF_Dw2Ny80/?utm_source=ig_twitter_share&amp;igshid=1feblin9ziufm"data-url="https://www.instagram.com/p/Bt1Obw8g5Hj3K3IbcLF49K6vc0HAemF_Dw2Ny80/?utm_source=ig_twitter_share&amp;igshid=1feblin9ziufm"class="twitter_external_link dir-ltr tco-link"target="_blank"title="https://www.instagram.com/p/Bt1Obw8g5Hj3K3IbcLF49K6vc0HAemF_Dw2Ny80/?utm_source=ig_twitter_share&amp;igshid=1feblin9ziufm">instagram.com/p/Bt1Obw8g5Hj3…</a>
 </div>
     </div>
 
@@ -126,24 +126,24 @@
     <td colspan="2" class="meta-and-actions">
 
         <span class="metadata">
-          <a href="/chetach15011359/status/1271904002674958336?p=v">View details</a>
+          <a href="/SabanLiron/status/1095750106228260864?p=v">View details</a>
           <span class="middot">&middot;</span>
         </span>
 
           <span class="tweet-actions">
-            <a href="/chetach15011359/reply/1271904002674958336?p=r" class="first">
+            <a href="/SabanLiron/reply/1095750106228260864?p=r" class="first">
                 <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
 
             </a>
-              <a href="/statuses/1271904002674958336/retweet?p=t">
+              <a href="/statuses/1095750106228260864/retweet?p=t">
                     <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
 
               </a>
-            <a href="/statuses/1271904002674958336/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
+            <a href="/statuses/1095750106228260864/favorite?p=f&amp;authenticity_token=42f2734b745aeced610ac71cf606d7a6fdec2327" class="favorite">
                   <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
 
             </a>
-            <a href="/chetach15011359/status/1271904002674958336/actions" class="last"></a>
+            <a href="/SabanLiron/status/1095750106228260864/actions" class="last"></a>
           </span>
     </td>
   </tr>
@@ -152,20 +152,20 @@
 
 
           <table class="tweet  "
-       href="/PoonamS18232206/status/1270911118467166209?p=v">
+       href="/VicoGuadarrama/status/499545839694393344?p=v">
   
 <tr class="tweet-header ">
         <td class="avatar" rowspan="3">
-    <a href="/PoonamS18232206?p=i">
-      <img alt="Poonam Sharma" src="https://pbs.twimg.com/profile_images/1037049363854319616/7wEsvj9A_normal.jpg" />
+    <a href="/VicoGuadarrama?p=i">
+      <img alt="Victor guadarrama" src="https://pbs.twimg.com/profile_images/1197535327872790529/S_YZbbLU_normal.jpg" />
     </a>
   </td>
 
       <td class="user-info">
-  <a href="/PoonamS18232206?p=s">
-    <strong class="fullname">Poonam Sharma</strong>
+  <a href="/VicoGuadarrama?p=s">
+    <strong class="fullname">Victor guadarrama</strong>
     <div class="username">
-      <span>@</span>PoonamS18232206
+      <span>@</span>VicoGuadarrama
     </div>
     
   </a>
@@ -173,7 +173,7 @@
 
 
   <td class="timestamp">
-    <a name="tweet_1270911118467166209" href="/PoonamS18232206/status/1270911118467166209?p=p">Jun 10</a>
+    <a name="tweet_499545839694393344" href="/VicoGuadarrama/status/499545839694393344?p=p">13 Aug 14</a>
   </td>
 
 </tr>
@@ -182,8 +182,155 @@
   <td colspan="2" class="tweet-content">
 
 
-    <div class="tweet-text" data-id="1270911118467166209">
-      <div class="dir-ltr" dir="ltr">  <a href="/hashtag/Scientific_Sanatan_Dharma?src=hash"data-query-source="hashtag_click"class="twitter-hashtag dir-ltr"dir="ltr">#Scientific_Sanatan_Dharma</a> &#10;Good to see that ...World is following...Hindu Dharma...&#10;From French President Emmanuel Macron ,Prince Charles, Israel Prime Minister <span class="twitter-hit-highlight">Benjamin Netanyahu</span> n US President Donald Trump by greeting others with a &#39;नमस्ते&#39; rather than handshakes.... <a href="/HJS_KJ"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="446255598"data-screenname="HJS_KJ">@HJS_KJ</a> <a href="https://t.co/473hOY4FV0"data-pre-embedded="true"rel="nofollow"data-entity-id="1270911109273251840"dir="ltr"data-url="https://twitter.com/PoonamS18232206/status/1270911118467166209/photo/1"data-tco-id="473hOY4FV0"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/PoonamS18232206/status/1270911118467166209/photo/1">pic.twitter.com/473hOY4FV0</a>
+    <div class="tweet-text" data-id="499545839694393344">
+      <div class="dir-ltr" dir="ltr">  regevalankry <span class="twitter-hit-highlight">eliran</span>_<span class="twitter-hit-highlight">gabay</span> listos para la playa <a href="http://t.co/wOwWgGfvhc"rel="nofollow noopener"dir="ltr"data-expanded-url="http://instagram.com/p/ro9At7FWZA/"data-url="http://instagram.com/p/ro9At7FWZA/"class="twitter_external_link dir-ltr tco-link"target="_blank"title="http://instagram.com/p/ro9At7FWZA/">instagram.com/p/ro9At7FWZA/</a>
+</div>
+    </div>
+
+
+  </td>
+</tr>
+
+  <tr>
+    <td colspan="2" class="meta-and-actions">
+
+        <span class="metadata">
+          <a href="/VicoGuadarrama/status/499545839694393344?p=v">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+
+          <span class="tweet-actions">
+            <a href="/VicoGuadarrama/reply/499545839694393344?p=r" class="first">
+                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
+
+            </a>
+              <a href="/statuses/499545839694393344/retweet?p=t">
+                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
+
+              </a>
+            <a href="/statuses/499545839694393344/favorite?p=f&amp;authenticity_token=42f2734b745aeced610ac71cf606d7a6fdec2327" class="favorite">
+                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
+
+            </a>
+            <a href="/VicoGuadarrama/status/499545839694393344/actions" class="last"></a>
+          </span>
+    </td>
+  </tr>
+
+</table>
+
+
+          <table class="tweet  "
+       href="/SabanLiron/status/1056257311381962753?p=v">
+  
+<tr class="tweet-header ">
+        <td class="avatar" rowspan="3">
+    <a href="/SabanLiron?p=i">
+      <img alt="liron saban" src="https://pbs.twimg.com/profile_images/1206085956413071362/P_hUEzc8_normal.jpg" />
+    </a>
+  </td>
+
+      <td class="user-info">
+  <a href="/SabanLiron?p=s">
+    <strong class="fullname">liron saban</strong>
+    <div class="username">
+      <span>@</span>SabanLiron
+    </div>
+    
+  </a>
+</td>
+
+
+  <td class="timestamp">
+    <a name="tweet_1056257311381962753" href="/SabanLiron/status/1056257311381962753?p=p">27 Oct 18</a>
+  </td>
+
+</tr>
+
+<tr class="tweet-container">
+  <td colspan="2" class="tweet-content">
+
+
+    <div class="tweet-text" data-id="1056257311381962753">
+      <div class="dir-rtl" dir="rtl">  גאה בכם ושמח שהעבודה הקשה שלכם באה לידי ביטוי במגרש!!!😍⚽️💪♥️😊 aditadmor  <span class="twitter-hit-highlight">eliran</span>.<span class="twitter-hit-highlight">gabay</span> <a href="https://t.co/ECXySx4ZmN"rel="nofollow noopener"dir="ltr"data-expanded-url="https://www.instagram.com/p/BpcoEcmHm60eOXf1dAnGLANekMcORAj6Gi89TQ0/?utm_source=ig_twitter_share&amp;igshid=1fus0ba22m918"data-url="https://www.instagram.com/p/BpcoEcmHm60eOXf1dAnGLANekMcORAj6Gi89TQ0/?utm_source=ig_twitter_share&amp;igshid=1fus0ba22m918"class="twitter_external_link dir-ltr tco-link"target="_blank"title="https://www.instagram.com/p/BpcoEcmHm60eOXf1dAnGLANekMcORAj6Gi89TQ0/?utm_source=ig_twitter_share&amp;igshid=1fus0ba22m918">instagram.com/p/BpcoEcmHm60e…</a>
+</div>
+    </div>
+
+
+  </td>
+</tr>
+
+  <tr>
+    <td colspan="2" class="meta-and-actions">
+
+        <span class="metadata">
+          <a href="/SabanLiron/status/1056257311381962753?p=v">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+
+          <span class="tweet-actions">
+            <a href="/SabanLiron/reply/1056257311381962753?p=r" class="first">
+                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
+
+            </a>
+              <a href="/statuses/1056257311381962753/retweet?p=t">
+                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
+
+              </a>
+            <a href="/statuses/1056257311381962753/favorite?p=f&amp;authenticity_token=42f2734b745aeced610ac71cf606d7a6fdec2327" class="favorite">
+                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
+
+            </a>
+            <a href="/SabanLiron/status/1056257311381962753/actions" class="last"></a>
+          </span>
+    </td>
+  </tr>
+
+</table>
+
+
+          <table class="tweet  "
+       href="/eliran_gabay/status/1176058556740751360?p=v">
+  
+<tr class="tweet-header ">
+        <td class="avatar" rowspan="3">
+    <a href="/eliran_gabay?p=i">
+      <img alt="eliran gabay" src="https://pbs.twimg.com/profile_images/1161290154289639429/Vi0Xcyv5_normal.jpg" />
+    </a>
+  </td>
+
+      <td class="user-info">
+  <a href="/eliran_gabay?p=s">
+    <strong class="fullname">eliran gabay</strong>
+    <div class="username">
+      <span>@</span>eliran_gabay
+    </div>
+    
+  </a>
+</td>
+
+
+  <td class="timestamp">
+    <a name="tweet_1176058556740751360" href="/eliran_gabay/status/1176058556740751360?p=p">Sep 23</a>
+  </td>
+
+</tr>
+
+<tr class="tweet-container">
+  <td colspan="2" class="tweet-content">
+
+      <div class="tweet-reply-context username">
+                Replying to
+          <a href="/aviiiv">@aviiiv</a>
+
+          <a href="/ErelSegal">@ErelSegal</a>
+
+        
+
+      </div>
+
+    <div class="tweet-text" data-id="1176058556740751360">
+      <div class="dir-ltr" dir="ltr">  ם <a href="https://t.co/T3vTS23s9Z"data-pre-embedded="true"rel="nofollow"data-entity-id="1176058547815243776"dir="ltr"data-url="https://twitter.com/eliran_gabay/status/1176058556740751360/photo/1"data-tco-id="T3vTS23s9Z"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/eliran_gabay/status/1176058556740751360/photo/1">pic.twitter.com/T3vTS23s9Z</a>
 </div>
     </div>
 
@@ -195,252 +342,31 @@
     <td colspan="2" class="meta-and-actions">
             <div class="card-photo">
     <div class="media">
-      <img src="https://pbs.twimg.com/media/EaMu65lUcAASHeS.jpg:small" width="185"  height="150"/>
+      <img src="https://pbs.twimg.com/tweet_video_thumb/EFIzBKmW4AAg9xA.jpg:small" width="150"  height="150"/>
     </div>
   <div class="description">   </div>
 </div>
 
 
         <span class="metadata">
-          <a href="/PoonamS18232206/status/1270911118467166209?p=v">View photo</a>
+          <a href="/eliran_gabay/status/1176058556740751360?p=v">View conversation</a>
           <span class="middot">&middot;</span>
         </span>
 
           <span class="tweet-actions">
-            <a href="/PoonamS18232206/reply/1270911118467166209?p=r" class="first">
+            <a href="/eliran_gabay/reply/1176058556740751360?p=r" class="first">
                 <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
 
             </a>
-              <a href="/statuses/1270911118467166209/retweet?p=t">
+              <a href="/statuses/1176058556740751360/retweet?p=t">
                     <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
 
               </a>
-            <a href="/statuses/1270911118467166209/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
+            <a href="/statuses/1176058556740751360/favorite?p=f&amp;authenticity_token=42f2734b745aeced610ac71cf606d7a6fdec2327" class="favorite">
                   <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
 
             </a>
-            <a href="/PoonamS18232206/status/1270911118467166209/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/PalSunBird/status/1272225769973055495?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/PalSunBird?p=i">
-      <img alt="Palestine SunBird" src="https://pbs.twimg.com/profile_images/1245392885366820864/cea9M_cO_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/PalSunBird?p=s">
-    <strong class="fullname">Palestine SunBird</strong>
-    <div class="username">
-      <span>@</span>PalSunBird
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1272225769973055495" href="/PalSunBird/status/1272225769973055495?p=p">22h</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1272225769973055495">
-      <div class="dir-ltr" dir="ltr">  Hailing President Trump&#39;s decision to impose sanctions against the ICC employees investigating abuses by Americans and Israelis, Israeli Prime Minister <span class="twitter-hit-highlight">Benjamin Netanyahu</span> wrote Today on Twitter that ICC is &quot;hostile towards Israel.&quot; <a href="https://t.co/h1KROuMpYy"data-pre-embedded="true"rel="nofollow"data-entity-id="1272223802227863552"dir="ltr"data-url="https://twitter.com/PalSunBird/status/1272225769973055495/video/1"data-tco-id="h1KROuMpYy"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/PalSunBird/status/1272225769973055495/video/1">pic.twitter.com/h1KROuMpYy</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/ext_tw_video_thumb/1272223802227863552/pu/img/ndoOrCE0W2xJNUte.jpg:small" width="200"  height="112"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/PalSunBird/status/1272225769973055495?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/PalSunBird/reply/1272225769973055495?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1272225769973055495/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1272225769973055495/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/PalSunBird/status/1272225769973055495/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/narendramodi/status/1270739572285194245?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/narendramodi?p=i">
-      <img alt="Narendra Modi" src="https://pbs.twimg.com/profile_images/1249934092994375680/xX66NSZP_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/narendramodi?p=s">
-    <strong class="fullname">Narendra Modi</strong>
-    <div class="username">
-      <span>@</span>narendramodi
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1270739572285194245" href="/narendramodi/status/1270739572285194245?p=p">Jun 10</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1270739572285194245">
-      <div class="dir-ltr" dir="ltr">  Had an excellent conversation with my friend PM <a href="/netanyahu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="17061263"data-screenname="netanyahu">@<span class="twitter-hit-highlight">netanyahu</span></a> about how India-Israel can collaborate in the post-COVID world. Also congratulated him for assuming the Prime Ministerial office for a record 5th time! India-Israel partnership will grow ever stronger in the days to come.
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-
-        <span class="metadata">
-          <a href="/narendramodi/status/1270739572285194245?p=v">View details</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/narendramodi/reply/1270739572285194245?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1270739572285194245/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1270739572285194245/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/narendramodi/status/1270739572285194245/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/IsraeliPM/status/1271181980948934656?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/IsraeliPM?p=i">
-      <img alt="PM of Israel" src="https://pbs.twimg.com/profile_images/1077936709709545472/X4TyAPzo_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/IsraeliPM?p=s">
-    <strong class="fullname">PM of Israel</strong>
-    <div class="username">
-      <span>@</span>IsraeliPM
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1271181980948934656" href="/IsraeliPM/status/1271181980948934656?p=p">Jun 11</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1271181980948934656">
-      <div class="dir-ltr" dir="ltr">  Prime Minister <span class="twitter-hit-highlight">Benjamin Netanyahu</span>: &quot;First, I want to congratulate President <a href="/realDonaldTrump"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="25073877"data-screenname="realDonaldTrump">@RealDonaldTrump</a> and <a href="/SecPompeo"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="988573326376427520"data-screenname="SecPompeo">@SecPompeo</a> for their bold leadership in sanctioning the corrupt and biased International Criminal Court. <a href="https://t.co/s0lcUUtbqU"data-pre-embedded="true"rel="nofollow"data-entity-id="1271177917586903043"dir="ltr"data-url="https://twitter.com/IsraeliPM/status/1271181980948934656/video/1"data-tco-id="s0lcUUtbqU"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/IsraeliPM/status/1271181980948934656/video/1">pic.twitter.com/s0lcUUtbqU</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/amplify_video_thumb/1271177917586903043/img/MJfzD1SS33ajFCPR.jpg:small" width="200"  height="112"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/IsraeliPM/status/1271181980948934656?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/IsraeliPM/reply/1271181980948934656?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1271181980948934656/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1271181980948934656/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/IsraeliPM/status/1271181980948934656/actions" class="last"></a>
+            <a href="/eliran_gabay/status/1176058556740751360/actions" class="last"></a>
           </span>
     </td>
   </tr>
@@ -453,97 +379,19 @@
 
   <tr>
       <td rowspan="2" class="avatar">
-        <img class="profile-image" src="https://pbs.twimg.com/profile_images/1096353845809238016/ds_-S78p_normal.jpg" alt="Benjamin Netanyahu" />
+        <img class="profile-image" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="eliran gabay" />
       </td>
     <td class="info fifty screenname">
-      <a name="netanyahu"/>
-        <a href="/netanyahu?p=s" data-scribe-action="profile_click"><strong class="fullname">Benjamin Netanyahu</strong></a>
-
-        <img src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/verified.gif" alt="Verified Account">
-  
-
-    </td>
-
-    <td class="follow-button-container right fifty" rowspan="2">
-          <form action="/i/guest/follow/netanyahu" method="post">
-      <span class="m2-auth-token">
-    <input name="authenticity_token" type="hidden" value="54ae8c8e7397e0248d9d65bc713ee1575998fe97"/>
-  </span>
-    
-      <span class="w-button-common w-button-follow">
-        <input alt="Follow" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/followplus.gif" type="image" />
-      </span>
-  </form>
-
-    </td>
-
-  </tr>
-
-  <tr>
-    <td class="info">
-        <a href="/netanyahu?p=s"><span class="username"><span>@</span>netanyahu</span></a>
-
-
-    </td>
-  </tr>
-</table>
-
-              <table class="user-item">
-
-  <tr>
-      <td rowspan="2" class="avatar">
-        <img class="profile-image" src="https://pbs.twimg.com/profile_images/1200430685560983553/xRebdCDg_normal.jpg" alt="Boris Johnson #StayAlert" />
-      </td>
-    <td class="info fifty screenname">
-      <a name="BorisJohnson"/>
-        <a href="/BorisJohnson?p=s" data-scribe-action="profile_click"><strong class="fullname">Boris Johnson #StayAlert</strong></a>
-
-        <img src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/verified.gif" alt="Verified Account">
-  
-
-    </td>
-
-    <td class="follow-button-container right fifty" rowspan="2">
-          <form action="/i/guest/follow/BorisJohnson" method="post">
-      <span class="m2-auth-token">
-    <input name="authenticity_token" type="hidden" value="54ae8c8e7397e0248d9d65bc713ee1575998fe97"/>
-  </span>
-    
-      <span class="w-button-common w-button-follow">
-        <input alt="Follow" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/followplus.gif" type="image" />
-      </span>
-  </form>
-
-    </td>
-
-  </tr>
-
-  <tr>
-    <td class="info">
-        <a href="/BorisJohnson?p=s"><span class="username"><span>@</span>BorisJohnson</span></a>
-
-
-    </td>
-  </tr>
-</table>
-
-              <table class="user-item">
-
-  <tr>
-      <td rowspan="2" class="avatar">
-        <img class="profile-image" src="https://pbs.twimg.com/profile_images/1034950024940204032/sWQaJ-SA_normal.jpg" alt="PA Ben Netanyahu" />
-      </td>
-    <td class="info fifty screenname">
-      <a name="Plaid_Netanyahu"/>
-        <a href="/Plaid_Netanyahu?p=s" data-scribe-action="profile_click"><strong class="fullname">PA Ben Netanyahu</strong></a>
+      <a name="elirangabay2"/>
+        <a href="/elirangabay2?p=s" data-scribe-action="profile_click"><strong class="fullname">eliran gabay</strong></a>
 
       
     </td>
 
     <td class="follow-button-container right fifty" rowspan="2">
-          <form action="/i/guest/follow/Plaid_Netanyahu" method="post">
+          <form action="/i/guest/follow/elirangabay2" method="post">
       <span class="m2-auth-token">
-    <input name="authenticity_token" type="hidden" value="54ae8c8e7397e0248d9d65bc713ee1575998fe97"/>
+    <input name="authenticity_token" type="hidden" value="42f2734b745aeced610ac71cf606d7a6fdec2327"/>
   </span>
     
       <span class="w-button-common w-button-follow">
@@ -557,7 +405,81 @@
 
   <tr>
     <td class="info">
-        <a href="/Plaid_Netanyahu?p=s"><span class="username"><span>@</span>Plaid_Netanyahu</span></a>
+        <a href="/elirangabay2?p=s"><span class="username"><span>@</span>elirangabay2</span></a>
+
+
+    </td>
+  </tr>
+</table>
+
+              <table class="user-item">
+
+  <tr>
+      <td rowspan="2" class="avatar">
+        <img class="profile-image" src="https://pbs.twimg.com/profile_images/452894860157390848/SMw11KNa_normal.jpeg" alt="אלירן גבאי" />
+      </td>
+    <td class="info fifty screenname">
+      <a name="elirangabay23"/>
+        <a href="/elirangabay23?p=s" data-scribe-action="profile_click"><strong class="fullname">אלירן גבאי</strong></a>
+
+      
+    </td>
+
+    <td class="follow-button-container right fifty" rowspan="2">
+          <form action="/i/guest/follow/elirangabay23" method="post">
+      <span class="m2-auth-token">
+    <input name="authenticity_token" type="hidden" value="42f2734b745aeced610ac71cf606d7a6fdec2327"/>
+  </span>
+    
+      <span class="w-button-common w-button-follow">
+        <input alt="Follow" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/followplus.gif" type="image" />
+      </span>
+  </form>
+
+    </td>
+
+  </tr>
+
+  <tr>
+    <td class="info">
+        <a href="/elirangabay23?p=s"><span class="username"><span>@</span>elirangabay23</span></a>
+
+
+    </td>
+  </tr>
+</table>
+
+              <table class="user-item">
+
+  <tr>
+      <td rowspan="2" class="avatar">
+        <img class="profile-image" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="Eliran Gabay" />
+      </td>
+    <td class="info fifty screenname">
+      <a name="EliranGabay3"/>
+        <a href="/EliranGabay3?p=s" data-scribe-action="profile_click"><strong class="fullname">Eliran Gabay</strong></a>
+
+      
+    </td>
+
+    <td class="follow-button-container right fifty" rowspan="2">
+          <form action="/i/guest/follow/EliranGabay3" method="post">
+      <span class="m2-auth-token">
+    <input name="authenticity_token" type="hidden" value="42f2734b745aeced610ac71cf606d7a6fdec2327"/>
+  </span>
+    
+      <span class="w-button-common w-button-follow">
+        <input alt="Follow" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/followplus.gif" type="image" />
+      </span>
+  </form>
+
+    </td>
+
+  </tr>
+
+  <tr>
+    <td class="info">
+        <a href="/EliranGabay3?p=s"><span class="username"><span>@</span>EliranGabay3</span></a>
 
 
     </td>
@@ -566,1151 +488,11 @@
 
           </div>
           <div class='user-list-more'>
-            <a href="/search/users?q=Benjamin%20Netanyahu"> View more people </a>
+            <a href="/search/users?q=eliran%20gabay"> View more people </a>
           </div>
-          <table class="tweet  "
-       href="/Victor35517418/status/1272057478319165441?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/Victor35517418?p=i">
-      <img alt="Victormunachi" src="https://pbs.twimg.com/profile_images/1259076796529684483/n3IZvqWJ_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/Victor35517418?p=s">
-    <strong class="fullname">Victormunachi</strong>
-    <div class="username">
-      <span>@</span>Victor35517418
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1272057478319165441" href="/Victor35517418/status/1272057478319165441?p=p">Jun 13</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1272057478319165441">
-      <div class="dir-ltr" dir="ltr">  This is happening in Nigeria <a href="/realDonaldTrump"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="25073877"data-screenname="realDonaldTrump">@realDonaldTrump</a> <a href="/BorisJohnson"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="3131144855"data-screenname="BorisJohnson">@BorisJohnson</a> <a href="/netanyahu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="17061263"data-screenname="netanyahu">@<span class="twitter-hit-highlight">netanyahu</span></a> <a href="/UNHumanRights"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="69231187"data-screenname="UNHumanRights">@UNHumanRights</a> <a href="/antonioguterres"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="811229675758505984"data-screenname="antonioguterres">@antonioguterres</a> for how long will this continue everything is in the open the whole world is watching what is happening in Nigeria and the silent <a href="https://t.co/H7LaIjDMwv"data-pre-embedded="true"rel="nofollow"data-entity-id="1272056475192561664"dir="ltr"data-url="https://twitter.com/Victor35517418/status/1272057478319165441/video/1"data-tco-id="H7LaIjDMwv"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/Victor35517418/status/1272057478319165441/video/1">pic.twitter.com/H7LaIjDMwv</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/ext_tw_video_thumb/1272056475192561664/pu/img/LPnGjEkEimjYLVif.jpg:small" width="79"  height="150"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/Victor35517418/status/1272057478319165441?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/Victor35517418/reply/1272057478319165441?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1272057478319165441/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1272057478319165441/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/Victor35517418/status/1272057478319165441/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/Victor35517418/status/1271769805033476096?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/Victor35517418?p=i">
-      <img alt="Victormunachi" src="https://pbs.twimg.com/profile_images/1259076796529684483/n3IZvqWJ_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/Victor35517418?p=s">
-    <strong class="fullname">Victormunachi</strong>
-    <div class="username">
-      <span>@</span>Victor35517418
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1271769805033476096" href="/Victor35517418/status/1271769805033476096?p=p">Jun 13</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1271769805033476096">
-      <div class="dir-ltr" dir="ltr">  Fulanis terrorists attack in umuekpu agwa in Oguta local government imo state biafra land imo state is under siege,mazi Nnamdi kanu should give us order this is happening this morning in biafra land <a href="/realDonaldTrump"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="25073877"data-screenname="realDonaldTrump">@realDonaldTrump</a> @<a href="/antonioguterres"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="811229675758505984"data-screenname="antonioguterres">@antonioguterres</a> <a href="/UNHumanRights"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="69231187"data-screenname="UNHumanRights">@UNHumanRights</a> <a href="/FoxNews"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="1367531"data-screenname="FoxNews">@FoxNews</a> <a href="/netanyahu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="17061263"data-screenname="netanyahu">@<span class="twitter-hit-highlight">netanyahu</span></a> <a href="/StateDept"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="9624742"data-screenname="StateDept">@StateDept</a> <a href="https://t.co/2GilM6VPBv"data-pre-embedded="true"rel="nofollow"data-entity-id="1271769696992481281"dir="ltr"data-url="https://twitter.com/Victor35517418/status/1271769805033476096/video/1"data-tco-id="2GilM6VPBv"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/Victor35517418/status/1271769805033476096/video/1">pic.twitter.com/2GilM6VPBv</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/ext_tw_video_thumb/1271769696992481281/pu/img/Ti7ApDdY_nYsEhpo.jpg:small" width="85"  height="150"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/Victor35517418/status/1271769805033476096?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/Victor35517418/reply/1271769805033476096?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1271769805033476096/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1271769805033476096/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/Victor35517418/status/1271769805033476096/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/ericgarland/status/1270780423812022272?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/ericgarland?p=i">
-      <img alt="Eric Garland" src="https://pbs.twimg.com/profile_images/990905364588544006/bV8OemO9_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/ericgarland?p=s">
-    <strong class="fullname">Eric Garland</strong>
-    <div class="username">
-      <span>@</span>ericgarland
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1270780423812022272" href="/ericgarland/status/1270780423812022272?p=p">Jun 10</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-      <div class="tweet-reply-context username">
-                Replying to
-          <a href="/ericgarland">@ericgarland</a>
-
-        
-        
-
-      </div>
-
-    <div class="tweet-text" data-id="1270780423812022272">
-      <div class="dir-ltr" dir="ltr">  &quot;While on the phone with Russian Ambassador Kislyak, he also tried to fuck up Obama&#39;s policies at the U.N. on behalf of <span class="twitter-hit-highlight">Benjamin Netanyahu</span>. Nasty!&quot; <a href="https://t.co/3yTx7Sn62V"data-pre-embedded="true"rel="nofollow"data-entity-id="1270780313187356674"dir="ltr"data-url="https://twitter.com/ericgarland/status/1270780423812022272/photo/1"data-tco-id="3yTx7Sn62V"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/ericgarland/status/1270780423812022272/photo/1">pic.twitter.com/3yTx7Sn62V</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/media/EaK39kMXkAIY9O5.png:small" width="200"  height="40"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/ericgarland/status/1270780423812022272?p=v">View conversation</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/ericgarland/reply/1270780423812022272?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1270780423812022272/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1270780423812022272/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/ericgarland/status/1270780423812022272/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/IsraeliPM/status/1270772572964245504?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/IsraeliPM?p=i">
-      <img alt="PM of Israel" src="https://pbs.twimg.com/profile_images/1077936709709545472/X4TyAPzo_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/IsraeliPM?p=s">
-    <strong class="fullname">PM of Israel</strong>
-    <div class="username">
-      <span>@</span>IsraeliPM
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1270772572964245504" href="/IsraeliPM/status/1270772572964245504?p=p">Jun 10</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1270772572964245504">
-      <div class="dir-ltr" dir="ltr">  Prime Minister <span class="twitter-hit-highlight">Benjamin Netanyahu</span> telephoned Indian Prime Minister Narendra Modi and expressed the solidarity of the Israeli people with the Indian people as the latter deals with the coronavirus. <a href="https://t.co/Ue1CSTQP2u"data-pre-embedded="true"rel="nofollow"data-entity-id="1270772484833492995"dir="ltr"data-url="https://twitter.com/IsraeliPM/status/1270772572964245504/photo/1"data-tco-id="Ue1CSTQP2u"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/IsraeliPM/status/1270772572964245504/photo/1">pic.twitter.com/Ue1CSTQP2u</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/media/EaKw15TXQAMHMIB.jpg:small" width="200"  height="133"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/IsraeliPM/status/1270772572964245504?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/IsraeliPM/reply/1270772572964245504?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1270772572964245504/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1270772572964245504/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/IsraeliPM/status/1270772572964245504/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/AmaukwuZ/status/1271686613760905216?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/AmaukwuZ?p=i">
-      <img alt="Amaukwu zone3" src="https://pbs.twimg.com/profile_images/1262301288991207424/L-PPaIoR_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/AmaukwuZ?p=s">
-    <strong class="fullname">Amaukwu zone3</strong>
-    <div class="username">
-      <span>@</span>AmaukwuZ
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1271686613760905216" href="/AmaukwuZ/status/1271686613760905216?p=p">Jun 12</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1271686613760905216">
-      <div class="dir-ltr" dir="ltr">  In his last recorded live broadcast to his pellow Nigerians. Someone should tell me if this is 79yrs old man. <a href="/hashtag/FreeBiafra?src=hash"data-query-source="hashtag_click"class="twitter-hashtag dir-ltr"dir="ltr">#FreeBiafra</a> <a href="/realDonaldTrump"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="25073877"data-screenname="realDonaldTrump">@realDonaldTrump</a> <a href="/UN"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="14159148"data-screenname="UN">@UN</a> <a href="/netanyahu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="17061263"data-screenname="netanyahu">@<span class="twitter-hit-highlight">netanyahu</span></a> <a href="/Mike_Pence"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="22203756"data-screenname="Mike_Pence">@Mike_Pence</a> <a href="/StateDept"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="9624742"data-screenname="StateDept">@StateDept</a> <a href="/amnesty"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="18213483"data-screenname="amnesty">@amnesty</a> <a href="/UNHumanRights"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="69231187"data-screenname="UNHumanRights">@UNHumanRights</a> <a href="/hrw"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="14700316"data-screenname="hrw">@hrw</a> <a href="/EU_Commission"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="157981564"data-screenname="EU_Commission">@EU_Commission</a> <a href="/Europarl_EN"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="36329597"data-screenname="Europarl_EN">@Europarl_EN</a> is this Buhari.. <a href="https://t.co/9BZSZLROGa"data-pre-embedded="true"rel="nofollow"data-entity-id="1271686606915809286"dir="ltr"data-url="https://twitter.com/AmaukwuZ/status/1271686613760905216/photo/1"data-tco-id="9BZSZLROGa"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/AmaukwuZ/status/1271686613760905216/photo/1">pic.twitter.com/9BZSZLROGa</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/media/EaXwOzbWsAYlAau.jpg:small" width="200"  height="123"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/AmaukwuZ/status/1271686613760905216?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/AmaukwuZ/reply/1271686613760905216?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1271686613760905216/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1271686613760905216/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/AmaukwuZ/status/1271686613760905216/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/MaziEmmaOgbonna/status/1272251882661085186?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/MaziEmmaOgbonna?p=i">
-      <img alt="🔥Mazi Emmanuel Ogbonna🔥" src="https://pbs.twimg.com/profile_images/1265068801651027968/j24-I3b5_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/MaziEmmaOgbonna?p=s">
-    <strong class="fullname">🔥Mazi Emmanuel Ogbonna🔥</strong>
-    <div class="username">
-      <span>@</span>MaziEmmaOgbonna
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1272251882661085186" href="/MaziEmmaOgbonna/status/1272251882661085186?p=p">20h</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1272251882661085186">
-      <div class="dir-ltr" dir="ltr">  I said Osibanjo <a href="/ProfOsinbajo"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="2914442873"data-screenname="ProfOsinbajo">@ProfOsinbajo</a> is dead Because He was Missing. So i Presumed Dead.&#10;&#10;<a href="/MaziNnamdiKanu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="1056922520199270401"data-screenname="MaziNnamdiKanu">@MaziNnamdiKanu</a> Live Broadcast On 14th Of June 2020.&#10;&#10;<a href="/cedoziemm"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="2236752439"data-screenname="cedoziemm">@cedoziemm</a> <a href="/AloyEjimakor"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="200921896"data-screenname="AloyEjimakor">@AloyEjimakor</a> <a href="/Amaka_Ekwo"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="2716396878"data-screenname="Amaka_Ekwo">@Amaka_Ekwo</a> <a href="/EjioforBar"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="845175186"data-screenname="EjioforBar">@EjioforBar</a> <a href="/OkwukKanu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="2862263425"data-screenname="OkwukKanu">@OkwukKanu</a> <a href="/OObienu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="2327552221"data-screenname="OObienu">@OObienu</a> <a href="/NkirukaNistoran"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="4690856839"data-screenname="NkirukaNistoran">@NkirukaNistoran</a> <a href="/realDonaldTrump"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="25073877"data-screenname="realDonaldTrump">@realDonaldTrump</a> <a href="/netanyahu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="17061263"data-screenname="netanyahu">@<span class="twitter-hit-highlight">netanyahu</span></a> <a href="/BorisJohnson"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="3131144855"data-screenname="BorisJohnson">@BorisJohnson</a> <a href="/WhiteHouse"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="822215673812119553"data-screenname="WhiteHouse">@WhiteHouse</a> <a href="/UN"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="14159148"data-screenname="UN">@UN</a> <a href="https://t.co/aCIrPBP8Ss"data-pre-embedded="true"rel="nofollow"data-entity-id="1272251876562604034"dir="ltr"data-url="https://twitter.com/MaziEmmaOgbonna/status/1272251882661085186/photo/1"data-tco-id="aCIrPBP8Ss"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/MaziEmmaOgbonna/status/1272251882661085186/photo/1">pic.twitter.com/aCIrPBP8Ss</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/media/EafyV09WkAIEr-3.jpg:small" width="112"  height="150"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/MaziEmmaOgbonna/status/1272251882661085186?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/MaziEmmaOgbonna/reply/1272251882661085186?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1272251882661085186/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1272251882661085186/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/MaziEmmaOgbonna/status/1272251882661085186/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/Victor35517418/status/1272057319451512832?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/Victor35517418?p=i">
-      <img alt="Victormunachi" src="https://pbs.twimg.com/profile_images/1259076796529684483/n3IZvqWJ_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/Victor35517418?p=s">
-    <strong class="fullname">Victormunachi</strong>
-    <div class="username">
-      <span>@</span>Victor35517418
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1272057319451512832" href="/Victor35517418/status/1272057319451512832?p=p">Jun 13</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1272057319451512832">
-      <div class="dir-ltr" dir="ltr">  End Nigeria now and save lives <a href="/realDonaldTrump"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="25073877"data-screenname="realDonaldTrump">@realDonaldTrump</a> <a href="/BorisJohnson"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="3131144855"data-screenname="BorisJohnson">@BorisJohnson</a> <a href="/netanyahu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="17061263"data-screenname="netanyahu">@<span class="twitter-hit-highlight">netanyahu</span></a> <a href="/UNHumanRights"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="69231187"data-screenname="UNHumanRights">@UNHumanRights</a> <a href="/antonioguterres"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="811229675758505984"data-screenname="antonioguterres">@antonioguterres</a> why the silent <a href="https://t.co/XS1twu4fby"data-pre-embedded="true"rel="nofollow"data-entity-id="1272056880299417601"dir="ltr"data-url="https://twitter.com/Victor35517418/status/1272057319451512832/video/1"data-tco-id="XS1twu4fby"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/Victor35517418/status/1272057319451512832/video/1">pic.twitter.com/XS1twu4fby</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/ext_tw_video_thumb/1272056880299417601/pu/img/Djp_X8j6zEJN-Vl5.jpg:small" width="150"  height="150"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/Victor35517418/status/1272057319451512832?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/Victor35517418/reply/1272057319451512832?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1272057319451512832/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1272057319451512832/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/Victor35517418/status/1272057319451512832/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/NnamdiFans/status/1272169226720219138?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/NnamdiFans?p=i">
-      <img alt="NnamdiKanu&#39;s_FanClub" src="https://pbs.twimg.com/profile_images/1196741739593240576/yaTJLn9y_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/NnamdiFans?p=s">
-    <strong class="fullname">NnamdiKanu&#39;s_FanClub</strong>
-    <div class="username">
-      <span>@</span>NnamdiFans
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1272169226720219138" href="/NnamdiFans/status/1272169226720219138?p=p">Jun 14</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1272169226720219138">
-      <div class="dir-ltr" dir="ltr">  The fraud and evil happenings in Aso Rock Nigeria! <a href="/MaziNnamdiKanu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="1056922520199270401"data-screenname="MaziNnamdiKanu">@MaziNnamdiKanu</a> <a href="/Amaka_Ekwo"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="2716396878"data-screenname="Amaka_Ekwo">@Amaka_Ekwo</a> <a href="/UN"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="14159148"data-screenname="UN">@UN</a> <a href="/Europarl_EN"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="36329597"data-screenname="Europarl_EN">@Europarl_EN</a> <a href="/realDonaldTrump"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="25073877"data-screenname="realDonaldTrump">@realDonaldTrump</a> <a href="/netanyahu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="17061263"data-screenname="netanyahu">@<span class="twitter-hit-highlight">netanyahu</span></a> <a href="/PMOIndia"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="471741741"data-screenname="PMOIndia">@PMOIndia</a> <a href="/SecPompeo"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="988573326376427520"data-screenname="SecPompeo">@SecPompeo</a> <a href="/StateDept"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="9624742"data-screenname="StateDept">@StateDept</a> <a href="/JapanGov"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="2428796856"data-screenname="JapanGov">@JapanGov</a> <a href="/EmmanuelMacron"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="1976143068"data-screenname="EmmanuelMacron">@EmmanuelMacron</a> <a href="/Queen_Europe"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="407347022"data-screenname="Queen_Europe">@Queen_Europe</a> <a href="/FinGovernment"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="292291704"data-screenname="FinGovernment">@FinGovernment</a> <a href="/UKinNigeria"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="325512390"data-screenname="UKinNigeria">@UKinNigeria</a> <a href="/JustinTrudeau"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="14260960"data-screenname="JustinTrudeau">@JustinTrudeau</a> <a href="/EmekaGift"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="354778701"data-screenname="EmekaGift">@EmekaGift</a> <a href="/MazimosesAgbo"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="949170712329248768"data-screenname="MazimosesAgbo">@MazimosesAgbo</a> <a href="/UKParliament"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="6467332"data-screenname="UKParliament">@UKParliament</a> <a href="https://t.co/mRJSxFkZcG"data-pre-embedded="true"rel="nofollow"data-entity-id="1272169218302189570"dir="ltr"data-url="https://twitter.com/NnamdiFans/status/1272169226720219138/photo/1"data-tco-id="mRJSxFkZcG"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/NnamdiFans/status/1272169226720219138/photo/1">pic.twitter.com/mRJSxFkZcG</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/media/EaenKe8WoAIZxH4.jpg:small" width="150"  height="150"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/NnamdiFans/status/1272169226720219138?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/NnamdiFans/reply/1272169226720219138?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1272169226720219138/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1272169226720219138/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/NnamdiFans/status/1272169226720219138/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-        <div class="suggestions">
-    <h4>  Related searches  </h4>
-      <a href="/search?q=%40realdonaldtrump&amp;s=rela">@realdonaldtrump</a>
-        <span class="middot">&middot;</span>
-      <a href="/search?q=%40borisjohnson&amp;s=rela">@borisjohnson</a>
-</div>
-          <table class="tweet  "
-       href="/NnamdiFans/status/1270690408889286656?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/NnamdiFans?p=i">
-      <img alt="NnamdiKanu&#39;s_FanClub" src="https://pbs.twimg.com/profile_images/1196741739593240576/yaTJLn9y_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/NnamdiFans?p=s">
-    <strong class="fullname">NnamdiKanu&#39;s_FanClub</strong>
-    <div class="username">
-      <span>@</span>NnamdiFans
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1270690408889286656" href="/NnamdiFans/status/1270690408889286656?p=p">Jun 10</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1270690408889286656">
-      <div class="dir-ltr" dir="ltr">  Massacre today in Borno by the Fulani terrorists.We now ask <a href="/GarShehu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="3198193409"data-screenname="GarShehu">@GarShehu</a> &amp; his <a href="/NGRPresident"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="2964950313"data-screenname="NGRPresident">@NGRPresident</a> who is waging war with who! <a href="/hashtag/TheZooCalledNigeria?src=hash"data-query-source="hashtag_click"class="twitter-hashtag dir-ltr"dir="ltr">#TheZooCalledNigeria</a> must fall! <a href="/MaziNnamdiKanu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="1056922520199270401"data-screenname="MaziNnamdiKanu">@MaziNnamdiKanu</a> <a href="/Amaka_Ekwo"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="2716396878"data-screenname="Amaka_Ekwo">@Amaka_Ekwo</a> <a href="/UN"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="14159148"data-screenname="UN">@UN</a> <a href="/Europarl_EN"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="36329597"data-screenname="Europarl_EN">@Europarl_EN</a> <a href="/realDonaldTrump"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="25073877"data-screenname="realDonaldTrump">@realDonaldTrump</a> <a href="/netanyahu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="17061263"data-screenname="netanyahu">@<span class="twitter-hit-highlight">netanyahu</span></a> <a href="/PMOIndia"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="471741741"data-screenname="PMOIndia">@PMOIndia</a> <a href="/StateDept"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="9624742"data-screenname="StateDept">@StateDept</a> <a href="/JapanGov"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="2428796856"data-screenname="JapanGov">@JapanGov</a> <a href="/EmmanuelMacron"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="1976143068"data-screenname="EmmanuelMacron">@EmmanuelMacron</a> <a href="/EmekaGift"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="354778701"data-screenname="EmekaGift">@EmekaGift</a> <a href="https://t.co/cgkelbydJy"data-pre-embedded="true"rel="nofollow"data-entity-id="1270690081922265089"dir="ltr"data-url="https://twitter.com/NnamdiFans/status/1270690408889286656/video/1"data-tco-id="cgkelbydJy"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/NnamdiFans/status/1270690408889286656/video/1">pic.twitter.com/cgkelbydJy</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/ext_tw_video_thumb/1270690081922265089/pu/img/hIp0eN9f6X0unHOh.jpg:small" width="84"  height="150"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/NnamdiFans/status/1270690408889286656?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/NnamdiFans/reply/1270690408889286656?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1270690408889286656/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1270690408889286656/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/NnamdiFans/status/1270690408889286656/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/Role5331212/status/1272552078771134467?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/Role5331212?p=i">
-      <img alt="aboud" src="https://pbs.twimg.com/profile_images/1096884932050325504/Dy5zb2Wd_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/Role5331212?p=s">
-    <strong class="fullname">aboud</strong>
-    <div class="username">
-      <span>@</span>Role5331212
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1272552078771134467" href="/Role5331212/status/1272552078771134467?p=p">3m</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1272552078771134467">
-      <div class="dir-ltr" dir="ltr">  King of drama refused a call from <span class="twitter-hit-highlight">Benjamin Netanyahu</span>&#10;No please king of drama a accept his call , we know that ur acting 😂😂😂 <a href="https://t.co/S87R9BaJ9S"data-pre-embedded="true"rel="nofollow"data-entity-id="1272552070386679809"dir="ltr"data-url="https://twitter.com/Role5331212/status/1272552078771134467/photo/1"data-tco-id="S87R9BaJ9S"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/Role5331212/status/1272552078771134467/photo/1">pic.twitter.com/S87R9BaJ9S</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/media/EakDXaGWAAE7Wo4.jpg:small" width="84"  height="150"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/Role5331212/status/1272552078771134467?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/Role5331212/reply/1272552078771134467?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1272552078771134467/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1272552078771134467/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/Role5331212/status/1272552078771134467/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/Real_NnamdiKanu/status/1271756149902266369?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/Real_NnamdiKanu?p=i">
-      <img alt="Mazi Nnamdi Kanu" src="https://pbs.twimg.com/profile_images/1268133460943790080/GVhOwkcA_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/Real_NnamdiKanu?p=s">
-    <strong class="fullname">Mazi Nnamdi Kanu</strong>
-    <div class="username">
-      <span>@</span>Real_NnamdiKanu
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1271756149902266369" href="/Real_NnamdiKanu/status/1271756149902266369?p=p">Jun 13</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1271756149902266369">
-      <div class="dir-ltr" dir="ltr">  We shall continue to appeal to the conscience of humanity to see reasons why Nigeria should be dismembered.  We are Biafrans forced to bear false identity which  is &quot;Nigeria&quot;. We want to return to who we were. <a href="/hashtag/Biafra?src=hash"data-query-source="hashtag_click"class="twitter-hashtag dir-ltr"dir="ltr">#Biafra</a> is our real identity.&#10;<a href="/NAkufoAddo"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="247217109"data-screenname="NAkufoAddo">@NAkufoAddo</a> &#10;<a href="/BorisJohnson"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="3131144855"data-screenname="BorisJohnson">@BorisJohnson</a> &#10;<a href="/netanyahu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="17061263"data-screenname="netanyahu">@<span class="twitter-hit-highlight">netanyahu</span></a> <a href="https://t.co/pXif4aBSAT"data-pre-embedded="true"rel="nofollow"data-entity-id="1271756143736610816"dir="ltr"data-url="https://twitter.com/Real_NnamdiKanu/status/1271756149902266369/photo/1"data-tco-id="pXif4aBSAT"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/Real_NnamdiKanu/status/1271756149902266369/photo/1">pic.twitter.com/pXif4aBSAT</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/media/EaYveYRXYAAZYcW.jpg:small" width="200"  height="117"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/Real_NnamdiKanu/status/1271756149902266369?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/Real_NnamdiKanu/reply/1271756149902266369?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1271756149902266369/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1271756149902266369/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/Real_NnamdiKanu/status/1271756149902266369/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/APMiddleEast/status/1272415400966475777?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/APMiddleEast?p=i">
-      <img alt="AP Middle East" src="https://pbs.twimg.com/profile_images/1044170902345306112/28gtfffy_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/APMiddleEast?p=s">
-    <strong class="fullname">AP Middle East</strong>
-    <div class="username">
-      <span>@</span>APMiddleEast
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1272415400966475777" href="/APMiddleEast/status/1272415400966475777?p=p">9h</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1272415400966475777">
-      <div class="dir-ltr" dir="ltr">  Friends bearing gifts: Israel&#39;s <span class="twitter-hit-highlight">Benjamin Netanyahu</span> is turning to a wealthy Michigan-based magnate to help pay for his multimillion-dollar defense in a corruption case that sheds light on the intersection of money and Israeli politics. By <a href="/tgoldenberg"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="309251954"data-screenname="tgoldenberg">@tgoldenberg</a>. <a href="https://t.co/LNa1ncGWO7"rel="nofollow noopener"dir="ltr"data-expanded-url="http://apne.ws/dpxoOgN"data-url="http://apne.ws/dpxoOgN"class="twitter_external_link dir-ltr tco-link"target="_blank"title="http://apne.ws/dpxoOgN">apne.ws/dpxoOgN</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-
-        <span class="metadata">
-          <a href="/APMiddleEast/status/1272415400966475777?p=v">View summary</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/APMiddleEast/reply/1272415400966475777?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1272415400966475777/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1272415400966475777/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/APMiddleEast/status/1272415400966475777/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/sanjayjaiswalMP/status/1270893088328658947?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/sanjayjaiswalMP?p=i">
-      <img alt="Dr. Sanjay Jaiswal" src="https://pbs.twimg.com/profile_images/1177423287137079296/lS7mY3uI_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/sanjayjaiswalMP?p=s">
-    <strong class="fullname">Dr. Sanjay Jaiswal</strong>
-    <div class="username">
-      <span>@</span>sanjayjaiswalMP
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1270893088328658947" href="/sanjayjaiswalMP/status/1270893088328658947?p=p">Jun 10</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1270893088328658947">
-      <div class="dir-ltr" dir="ltr">  Telephone conversation between Prime Minister and His Excellency <span class="twitter-hit-highlight">Benjamin Netanyahu</span>, Prime Minister of Israel &#10;<a href="https://t.co/LJYGpbVVLl"rel="nofollow noopener"dir="ltr"data-expanded-url="http://nm-4.com/5kg9"data-url="http://nm-4.com/5kg9"class="twitter_external_link dir-ltr tco-link"target="_blank"title="http://nm-4.com/5kg9">nm-4.com/5kg9</a> via NaMo App <a href="https://t.co/Xku9cc6p7l"data-pre-embedded="true"rel="nofollow"data-entity-id="1270893075104063488"dir="ltr"data-url="https://twitter.com/sanjayjaiswalMP/status/1270893088328658947/photo/1"data-tco-id="Xku9cc6p7l"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/sanjayjaiswalMP/status/1270893088328658947/photo/1">pic.twitter.com/Xku9cc6p7l</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/media/EaMehLEU4AAFDKR.jpg:small" width="161"  height="150"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/sanjayjaiswalMP/status/1270893088328658947?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/sanjayjaiswalMP/reply/1270893088328658947?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1270893088328658947/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1270893088328658947/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/sanjayjaiswalMP/status/1270893088328658947/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/Victor35517418/status/1271341472076480514?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/Victor35517418?p=i">
-      <img alt="Victormunachi" src="https://pbs.twimg.com/profile_images/1259076796529684483/n3IZvqWJ_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/Victor35517418?p=s">
-    <strong class="fullname">Victormunachi</strong>
-    <div class="username">
-      <span>@</span>Victor35517418
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1271341472076480514" href="/Victor35517418/status/1271341472076480514?p=p">Jun 12</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1271341472076480514">
-      <div class="dir-ltr" dir="ltr">  This is Nigeria situation now no one is safe there is a limit of what we can endure as a people <a href="/realDonaldTrump"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="25073877"data-screenname="realDonaldTrump">@realDonaldTrump</a> <a href="/BorisJohnson"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="3131144855"data-screenname="BorisJohnson">@BorisJohnson</a> <a href="/netanyahu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="17061263"data-screenname="netanyahu">@<span class="twitter-hit-highlight">netanyahu</span></a> <a href="/UNHumanRights"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="69231187"data-screenname="UNHumanRights">@UNHumanRights</a> <a href="/antonioguterres"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="811229675758505984"data-screenname="antonioguterres">@antonioguterres</a> <a href="/amnestyusa"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="16153562"data-screenname="amnestyusa">@amnestyusa</a> <a href="/amnesty"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="18213483"data-screenname="amnesty">@amnesty</a> <a href="/UNHumanRights"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="69231187"data-screenname="UNHumanRights">@UNHumanRights</a> allow the people in Nigeria decide where they want to belong and save live <a href="https://t.co/DcKMdDpxpC"data-pre-embedded="true"rel="nofollow"data-entity-id="1271341455957729281"dir="ltr"data-url="https://twitter.com/Victor35517418/status/1271341472076480514/photo/1"data-tco-id="DcKMdDpxpC"class="twitter_external_link dir-ltr tco-link has-expanded-path"target="_top"data-expanded-path="/Victor35517418/status/1271341472076480514/photo/1">pic.twitter.com/DcKMdDpxpC</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-            <div class="card-photo">
-    <div class="media">
-      <img src="https://pbs.twimg.com/media/EaS2UX6WoAEZ_lm.jpg:small" width="141"  height="150"/>
-    </div>
-  <div class="description">   </div>
-</div>
-
-
-        <span class="metadata">
-          <a href="/Victor35517418/status/1271341472076480514?p=v">View photo</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/Victor35517418/reply/1271341472076480514?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1271341472076480514/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1271341472076480514/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/Victor35517418/status/1271341472076480514/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
-          <table class="tweet  "
-       href="/KenechukwuKenn7/status/1271524186679361536?p=v">
-  
-<tr class="tweet-header ">
-        <td class="avatar" rowspan="3">
-    <a href="/KenechukwuKenn7?p=i">
-      <img alt="Kenechukwu🇮🇱🇮🇱🇺🇸🇺🇸" src="https://pbs.twimg.com/profile_images/1272127034916065282/gJobpGSm_normal.jpg" />
-    </a>
-  </td>
-
-      <td class="user-info">
-  <a href="/KenechukwuKenn7?p=s">
-    <strong class="fullname">Kenechukwu🇮🇱🇮🇱🇺🇸🇺🇸</strong>
-    <div class="username">
-      <span>@</span>KenechukwuKenn7
-    </div>
-    
-  </a>
-</td>
-
-
-  <td class="timestamp">
-    <a name="tweet_1271524186679361536" href="/KenechukwuKenn7/status/1271524186679361536?p=p">Jun 12</a>
-  </td>
-
-</tr>
-
-<tr class="tweet-container">
-  <td colspan="2" class="tweet-content">
-
-
-    <div class="tweet-text" data-id="1271524186679361536">
-      <div class="dir-ltr" dir="ltr">  We must continue! All hands must be on desk,in every of our tweets,be it videos,pictures or massages,you must tag <a href="/realDonaldTrump"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="25073877"data-screenname="realDonaldTrump">@realDonaldTrump</a> <a href="/StateDept"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="9624742"data-screenname="StateDept">@StateDept</a> <a href="/USEmbassyAbuja"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="69281027"data-screenname="USEmbassyAbuja">@USEmbassyAbuja</a> <a href="/UKinNigeria"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="325512390"data-screenname="UKinNigeria">@UKinNigeria</a> <a href="/SecPompeo"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="988573326376427520"data-screenname="SecPompeo">@SecPompeo</a> <a href="/netanyahu"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="17061263"data-screenname="netanyahu">@<span class="twitter-hit-highlight">netanyahu</span></a> <a href="/Israel_MOD"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="750665429731999744"data-screenname="Israel_MOD">@Israel_MOD</a> <a href="/UN"class="twitter-atreply dir-ltr"dir="ltr"data-mentioned-user-id="14159148"data-screenname="UN">@UN</a> let them know what is happening in <a href="/hashtag/Nigeria?src=hash"data-query-source="hashtag_click"class="twitter-hashtag dir-ltr"dir="ltr">#Nigeria</a>,no propaganda no fake news! <a href="https://t.co/EzKu0TBCYO"rel="nofollow noopener"dir="ltr"data-expanded-url="https://twitter.com/MaziNnamdiKanu/status/1271513166909001731"data-url="https://twitter.com/MaziNnamdiKanu/status/1271513166909001731"class="twitter_external_link dir-ltr tco-link"target="_blank"title="https://twitter.com/MaziNnamdiKanu/status/1271513166909001731">twitter.com/MaziNnamdiKanu…</a>
-</div>
-    </div>
-
-
-  </td>
-</tr>
-
-  <tr>
-    <td colspan="2" class="meta-and-actions">
-
-        <span class="metadata">
-          <a href="/KenechukwuKenn7/status/1271524186679361536?p=v">View details</a>
-          <span class="middot">&middot;</span>
-        </span>
-
-          <span class="tweet-actions">
-            <a href="/KenechukwuKenn7/reply/1271524186679361536?p=r" class="first">
-                <img alt="Reply"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_reply.gif">
-
-            </a>
-              <a href="/statuses/1271524186679361536/retweet?p=t">
-                    <img alt="Retweet"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_rt.gif">
-
-              </a>
-            <a href="/statuses/1271524186679361536/favorite?p=f&amp;authenticity_token=54ae8c8e7397e0248d9d65bc713ee1575998fe97" class="favorite">
-                  <img alt="Like"   src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/tweet_heart.gif">
-
-            </a>
-            <a href="/KenechukwuKenn7/status/1271524186679361536/actions" class="last"></a>
-          </span>
-    </td>
-  </tr>
-
-</table>
-
-
     </div>
       <div class="w-button-more">
-        <a href="/search?q=Benjamin%20Netanyahu&amp;next_cursor=thGAVUV0VFVBaGgLXV8teBqSMWhoC11fLXgakjEhi0ARJjwusAAAH0P4BiTdLxqfwAAAAUEaKS6IgXQAURqIcQzVfQARGnQYlxF9ABEaQlRtNWsAARp6cr5NeQAhGmtfOb1qAAEaVcgs5XQAARpi9689fQARGjLu29VHABEadBZHPX0AARpfA8ztaQABGpA1-VVqADEaMeh8VUMAMRpjvmSRaQABGn8li61gACEaK4EATWAAARp9qY5VeABxGktlU_V0ACEaKw7BnX0AARomYxyVeAABUAFQAVACUAVQAVAAA%3D"> Load older Tweets </a>
+        <a href="/search?q=eliran%20gabay&amp;next_cursor=thGAVUV0VFVBaAwLrZ18GZ0iAWgMC62dfBmdIgEhg0EmPC6wAAAfQ_gGJN0vGp_AAAAAQOqJRtrFTAARBSMwa9l1AABu6-S2QCMAAPNOLqhFUAABUAFQAVACUAVQAVAAA%3D"> Load older Tweets </a>
       </div>
 </div>
 

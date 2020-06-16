@@ -26,7 +26,7 @@ def GoogleSerch(Name):
 
 def FacebookSerch(Name):
     fb = facebook_snooper.init_session()
-    fb.log_in('daxip24881@hubopss.com', '19eliran19')
+    fb.log_in('xoxesa5592@lercjy.com', '19eliran19')
     results = fb.search(Name)
     #dump_info(results, pretty=True)
     ID=dump_search(results, pretty=True)
